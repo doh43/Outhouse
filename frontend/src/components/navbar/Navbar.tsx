@@ -1,7 +1,16 @@
+"use client";
 import React from "react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
-const Header = () => {
+const Navbar = () => {
+
+  const router = useRouter();
+
+  const handleClick = () => {
+    router.push("/login")
+  }
+
   return (
     <header className="text-gray-600 body-font">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -23,7 +32,8 @@ const Header = () => {
           <a className="mr-5 hover:text-gray-900">Your Lists</a>
           <a className="mr-5 hover:text-gray-900">Favourites</a>
         </nav>
-        <button className="inline-flex text-white bg-gradient-to-r from-red-500 to-yellow-500 border-0 py-1 px-4 focus:outline-none hover:from-twilightOrange hover:to-twilightBlue rounded">
+        <button className="inline-flex text-white bg-gradient-to-r from-red-500 to-yellow-500 border-0 py-1 px-4 focus:outline-none hover:from-twilightOrange hover:to-twilightBlue rounded"
+        onClick={handleClick}>
           Sign In
         </button>
       </div>
@@ -31,4 +41,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;
