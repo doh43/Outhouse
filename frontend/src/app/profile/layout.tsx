@@ -1,9 +1,5 @@
-const ProfileLayout = ({children}) => {
-    return (
-        <div>
-            {children}
-        </div>
-    )
-}
+const ProfileLayout = () => {
+  return <div></div>;
+};
 
-export default ProfileLayout
+export default ProfileLayout;
