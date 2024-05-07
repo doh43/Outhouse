@@ -21,11 +21,12 @@ const LoginPage = () => {
             <div className={styles.loginContainer}>
                 <div className={styles.loginBase}>
                     <div className={styles.loginSection}>
-                        <h2 className={styles.loginHeader}>Login to StudyNook</h2>
+                        <h2 className={styles.titleHeader}>StudyNook</h2>
+                        <h3 className={styles.loginHeader}>- Login -</h3>
                         <form className={styles.login}>
                             <input type="username" className={styles.input} placeholder="Username" onChange={handleChange} />
                             <input type="password" className={styles.input} placeholder="Password" onChange={handleChange} />
-                            <button className={styles.loginButton}>Log In</button>
+                            <button className={styles.loginButton}>Log in</button>
                         </form>
                         <div className={styles.forgotPasswordLink}>
                             <a>Forgot password?</a>

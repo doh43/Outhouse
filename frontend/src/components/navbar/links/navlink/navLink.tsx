@@ -14,7 +14,9 @@ const NavLink = ({ link }) => {
         ${link.title === "Admin" && styles.adminLink} 
         ${link.title === "Login" && styles.loginLink}
         `}> { pathName === "/login" && link.title === "Login" ? (
-                <li className={styles.loginActive}>Sign up</li>               
+                <Link href="/signup">
+                    <li className={styles.loginActive}>Sign up</li>
+                </Link>
             ) : (
                 <li>{link.title}</li>
             )
