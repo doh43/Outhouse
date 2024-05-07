@@ -2,16 +2,12 @@
 import React from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import Links from "./links/NavLinks";
+import Links from "./links/Links";
 import Link from "next/link"
 
 const Navbar = () => {
 
   const router = useRouter();
-
-  const handleLoginClick = () => {
-    router.push("/login")
-  }
 
   return (
     <header className="text-gray-600 body-font">
@@ -34,10 +30,6 @@ const Navbar = () => {
         
           <Links />
         
-        <button className="inline-flex text-white bg-gradient-to-r from-red-500 to-yellow-500 border-0 py-1 px-4 focus:outline-none hover:from-twilightOrange hover:to-twilightBlue rounded"
-          onClick={handleLoginClick}>
-          Sign In
-        </button>
       </div>
     </header>
   );

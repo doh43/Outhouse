@@ -1,29 +1,26 @@
 .linkList {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     text-align: center;
     align-items: center;
     flex-grow: 1;
-    margin: 0 250px 0 0;
     height: 40px;
 }
 
-.profileLink,
-.mylistLink,
-.favouritesLink {
+.sessionStatus {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    padding: 0 30px 0 30px;
+    flex-direction: row;
+    justify-content: space-evenly;
     width: 25%;
-    height: 40px;
+    margin-left: 15rem;
 }
 
-.profileLink:hover,
-.mylistLink:hover,
-.favouritesLink:hover  {
+.logoutButton {
+    width: 40%;
+    border-radius: 5px;
+    font-weight: 500;
     color: white;
-    background-color: #070033;
+    background-color: #333;
 }
+
