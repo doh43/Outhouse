@@ -5,15 +5,15 @@ const Gallery = () => {
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-            Tired of studying in crowded libraries and noisy cafes?
+          <h1 className="font-rufina sm:text-4xl text-2xl font-medium title-font mb-4 text-gray-900">
+            Your Trusted Guide to the City's Hidden Comforts
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            StudyNook lets you find, rate, and review study spaces just like
-            yours. Whether you’re looking for quiet corners, inspiring
-            environments, or just a place with great coffee, our
-            community-driven ratings and detailed reviews help you find the
-            perfect spot to study, work, and achieve your best.
+            Discover, rate, and review the city's best-kept secrets. Our
+            community-driven platform leads you to pristine, hidden, and private
+            washrooms, reviewed and rated by users like you. Need to take care
+            of urgent business? Step outside your home with confidence—your next
+            clean, safe restroom is just a tap away.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
