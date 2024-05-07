@@ -1,0 +1,80 @@
+.loginContainer {
+    text-align: center;
+    margin: auto;
+    max-width: 400px;
+    display: flex;
+    place-items: center;
+    min-height: 700px;
+}
+
+.loginBase {
+    width: 100%;
+}
+
+.loginSection {
+    border: 1px solid #aaa;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.titleHeader {
+    font-size: 24px;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+}
+
+.loginHeader {
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.input {
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+    font-size: 12px;
+    border: 1px solid #aaa;
+    background-color: #eee;
+    width: 80%;
+    height: 2rem;
+}
+
+.input:focus {
+    border-color: #333;
+}
+
+.loginButton {
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    background-color: hsl(0, 100%, 75%);
+    border-radius: 5px;
+    width: 80%;
+    margin: 10px 10px 25px 10px;
+    padding: 5px;
+    height: 2rem;
+}
+
+.forgotPasswordLink {
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid #aaa;
+    padding: 0 10px 25px 10px;
+}
+
+.registerLink {
+    color: #333;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 0 10px 25px 10px;
+}

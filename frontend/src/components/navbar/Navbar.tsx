@@ -1,11 +1,18 @@
+"use client";
 import React from "react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
+import Links from "./links/Links";
+import Link from "next/link"
 
-const Header = () => {
+const Navbar = () => {
+
+  const router = useRouter();
+
   return (
     <header className="text-gray-600 body-font">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <Link href="/" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
           <svg
             className="w-16 h-16 mt-2"
             xmlns="http://www.w3.org/2000/svg"
@@ -17,18 +24,15 @@ const Header = () => {
             <path d="M19.498,25.029c-0.216-0.07-0.446-0.052-0.646,0.053c-0.199,0.106-0.345,0.288-0.405,0.504   c-0.385,1.383-0.276,4.392,0.834,7.998c0.642,2.083,1.938,4.36,2.863,5.666c0.151,0.212,0.392,0.34,0.652,0.346   c0.006,0,0.012,0,0.018,0c0.253,0,0.492-0.117,0.649-0.318l5.858-7.434c0.25-0.323,0.224-0.78-0.06-1.073   C26.967,28.408,23.311,26.312,19.498,25.029z" />
           </svg>
           <span className="ml-3 text-xl">StudyNook</span>
-        </a>
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-          <a className="mr-5 hover:text-gray-900">Profile</a>
-          <a className="mr-5 hover:text-gray-900">Your Lists</a>
-          <a className="mr-5 hover:text-gray-900">Favourites</a>
-        </nav>
-        <button className="inline-flex text-white bg-gradient-to-r from-red-500 to-yellow-500 border-0 py-1 px-4 focus:outline-none hover:from-twilightOrange hover:to-twilightBlue rounded">
-          Sign In
-        </button>
+
+        </Link>
+        <a className="border-r border-gray-400 w-8 h-10"></a>
+        
+          <Links />
+        
       </div>
     </header>
   );
 };
 
-export default Header;
+export default Navbar;
