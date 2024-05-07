@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 30px 0 30px;
+    padding: 0 0 0 0;
     margin: 0 10px 0 10px;
     width: 25%;
     height: 40px;
@@ -19,4 +19,15 @@
     justify-content: center;
     border-radius: 5px;
     border: 1px solid #333;
+}
+
+.loginLink {
+    width: 40%;
+    color: white;
+    border-radius: 5px;
+    background-color: #333;
+}
+
+.loginActive {
+    font-weight: normal;
 }
