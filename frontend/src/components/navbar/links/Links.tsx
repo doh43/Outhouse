@@ -22,7 +22,7 @@ const Links = () => {
     ]
 
     // TEMPORARY
-    const session = true
+    const session = false
     const isAdmin = true
 
     return (
