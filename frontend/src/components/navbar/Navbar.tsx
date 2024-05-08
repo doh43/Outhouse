@@ -19,15 +19,21 @@ const Navbar = () => {
       >
         <span className="mb-3 mt-3 ml-8 text-4xl">Soulage</span>
       </Link>
-      <a className="md:mr-auto md:ml-4 gap-5 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-        <h2>Profile</h2>
-        <h2>Your List</h2>
-        <h2>Favourites</h2>
-      </a>
+      <ul className="md:mr-auto md:ml-4 gap-5 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+        <li>
+          <Link href="/profile">Profile</Link>
+        </li>
+        <li>
+          <Link href="/mylist">Your List</Link>
+        </li>
+        <li>
+          <Link href="/favourites">Favourites</Link>
+        </li>
+      </ul>
       {/* Search bar below */}
       <div
         className=" bg-gray-100 p-[6px] rounded-md
-      flex md:w-[40%] gap-3 md:flex"
+      flex w-[40%] md:w-[40%] gap-3 md:flex"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -49,6 +55,9 @@ const Navbar = () => {
           className="bg-transparent 
         outline-none w-full"
         />
+      </div>
+      <div className="ml-5">
+        <Link href="/login">Sign In</Link>
       </div>
       {/* <div>
         {session?.user ? (
