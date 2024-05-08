@@ -52,7 +52,7 @@ const Navbar = () => {
         {status === "authenticated" ? (
           <Card user={session.user} pagetype={"Navbar"} />
         ) : (
-          <Link href="/login">Sign In</Link>
+          <Link href="/login" className="hover:bg-gray-200 border-2 border-solid flex items-center justify-center text-center py-1 px-2 w-32 h-12">Sign In</Link>
         )}
       </div>
     </div>
