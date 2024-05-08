@@ -1,5 +1,9 @@
-const RegisterLayout = () => {
-  return <div></div>;
-};
+const RegisterLayout = ({children}) => {
+    return (
+        <div>
+            {children}
+        </div>
+    )
+}
 
-export default RegisterLayout;
+export default RegisterLayout
