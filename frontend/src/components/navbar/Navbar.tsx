@@ -2,7 +2,6 @@
 import React from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import Links from "./links/Links";
 import Link from "next/link";
 
 const Navbar = () => {
@@ -30,8 +29,6 @@ const Navbar = () => {
           </span>
         </Link>
         <a className="border-r border-gray-400 w-8 h-10"></a>
-
-        <Links />
       </div>
     </header>
   );

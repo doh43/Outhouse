@@ -1,10 +1,5 @@
+const LoginLayout = () => {
+  return <div></div>;
+};
 
-const LoginLayout = ({children}) => {
-    return (
-        <div>
-            {children}
-        </div>
-    )
-}
-
-export default LoginLayout
+export default LoginLayout;

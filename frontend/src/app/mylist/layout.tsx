@@ -1,9 +1,5 @@
-const MyListLayout = ({children}) => {
-    return (
-        <div>
-            {children}
-        </div>
-    )
-}
+const MyListLayout = () => {
+  return <div></div>;
+};
 
-export default MyListLayout
+export default MyListLayout;
