@@ -9,11 +9,11 @@ const Gallery = () => {
             Your Trusted Guide to the City's Hidden Comforts
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Discover, rate, and review the city's best-kept secrets. Our
-            community-driven platform leads you to pristine, hidden, and private
-            washrooms, reviewed and rated by users like you. Need to take care
-            of urgent business? Step outside your home with confidence—your next
-            clean, safe restroom is just a tap away.
+            Need to take care of urgent business? Discover, rate, and review the
+            city's best-kept secrets. Our community-driven platform leads you to
+            pristine, hidden, and private washrooms, reviewed and rated by users
+            like you. Step outside your home with confidence—your next clean,
+            safe restroom is just a tap away.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

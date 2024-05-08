@@ -16,11 +16,11 @@ const Footer = () => {
             <path d="M19.498,25.029c-0.216-0.07-0.446-0.052-0.646,0.053c-0.199,0.106-0.345,0.288-0.405,0.504   c-0.385,1.383-0.276,4.392,0.834,7.998c0.642,2.083,1.938,4.36,2.863,5.666c0.151,0.212,0.392,0.34,0.652,0.346   c0.006,0,0.012,0,0.018,0c0.253,0,0.492-0.117,0.649-0.318l5.858-7.434c0.25-0.323,0.224-0.78-0.06-1.073   C26.967,28.408,23.311,26.312,19.498,25.029z" />
           </svg>
           <span className="font-rufina text-sky-900 md:font-bold mb-3 mt-3 ml-2 text-4xl">
-            Avidoir
+            Soulage
           </span>
         </a>
         <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-          © 2024 Avedoir
+          © 2024 Soulage
           <a
             href=""
             className="text-gray-600 ml-1"
