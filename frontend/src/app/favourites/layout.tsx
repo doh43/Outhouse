@@ -1,9 +1,5 @@
-const FavouritesLayout = ({children}) => {
-    return (
-        <div>
-            {children}
-        </div>
-    )
-}
+const FavouritesLayout = () => {
+  return <div></div>;
+};
 
-export default FavouritesLayout
+export default FavouritesLayout;
