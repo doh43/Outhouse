@@ -9,24 +9,25 @@ const Navbar = () => {
 
   return (
     <div className="container mx-auto flex flex-wrap gap-5 p-5 flex-col md:flex-row items-center">
-      <Link
-        href="/"
-        className="font-rufina font-bold title-font font-medium items-center text-sky-900"
-      >
+      <Link href="/" className="font-rufina font-bold title-font font-medium items-center text-sky-900">
         <span className="mb-3 mt-3 ml-8 text-4xl">Soulage</span>
       </Link>
-      <ul className="md:mr-auto md:ml-4 gap-5 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex flex-wrap items-center text-base justify-center">
-        <li>
-          <Link href="/profile">Profile</Link>
-        </li>
-        <li>
-          <Link href="/mylist">Your List</Link>
-        </li>
-        <li>
-          <Link href="/favourites">Favourites</Link>
-        </li>
-      </ul>
-      <div className="bg-gray-100 p-[6px] rounded-md flex w-[40%] md:w-[40%] gap-3 md:flex">
+      <div className="md:mr-auto md:ml-4 gap-5 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+        <Link href="/profile" className="hover:text-lg hover:font-bold flex items-center justify-center text-center py-1 px-2 w-32 h-12">
+          <h2>Profile</h2>
+        </Link>
+        <Link href="/mylist" className="hover:text-lg hover:font-bold flex items-center justify-center text-center py-1 px-2 w-32 h-12">
+          <h2>Your List</h2>
+        </Link>
+        <Link href="/favourites" className="hover:text-lg hover:font-bold flex items-center justify-center text-center py-1 px-2 w-32 h-12">
+          <h2>Favourites</h2>
+        </Link>
+      </div>
+      {/* Search bar below */}
+      <div
+        className=" bg-gray-100 p-[6px] rounded-md
+      flex w-[40%] md:w-[40%] gap-3 md:flex"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -51,7 +52,7 @@ const Navbar = () => {
         {status === "authenticated" ? (
           <Card user={session.user} pagetype={"Navbar"} />
         ) : (
-          <Link href="/login">Sign In</Link>
+          <Link href="/login" className="hover:bg-gray-200 border-2 border-solid flex items-center justify-center text-center py-1 px-2 w-32 h-12">Sign In</Link>
         )}
       </div>
     </div>
