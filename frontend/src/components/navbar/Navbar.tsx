@@ -9,7 +9,6 @@ const Navbar = () => {
 
   return (
     <div className="container mx-auto flex flex-wrap gap-5 p-5 flex-col md:flex-row items-center">
-<<<<<<< HEAD
       <Link href="/" className="font-rufina font-bold title-font font-medium items-center text-sky-900">
         <span className="mb-3 mt-3 ml-8 text-4xl">Soulage</span>
       </Link>
@@ -29,26 +28,6 @@ const Navbar = () => {
         className=" bg-gray-100 p-[6px] rounded-md
       flex w-[40%] md:w-[40%] gap-3 md:flex"
       >
-=======
-      <Link
-        href="/"
-        className="font-rufina font-bold title-font font-medium items-center text-sky-900"
-      >
-        <span className="mb-3 mt-3 ml-8 text-4xl">Soulage</span>
-      </Link>
-      <ul className="md:mr-auto md:ml-4 gap-5 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex flex-wrap items-center text-base justify-center">
-        <li>
-          <Link href="/profile">Profile</Link>
-        </li>
-        <li>
-          <Link href="/mylist">Your List</Link>
-        </li>
-        <li>
-          <Link href="/favourites">Favourites</Link>
-        </li>
-      </ul>
-      <div className="bg-gray-100 p-[6px] rounded-md flex w-[40%] md:w-[40%] gap-3 md:flex">
->>>>>>> 1d734d3c2ce69458826615da4428bf5c503cee40
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
