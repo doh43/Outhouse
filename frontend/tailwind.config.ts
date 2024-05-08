@@ -7,6 +7,9 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      rufina: ['"Rufina"', "serif"],
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -18,7 +21,13 @@ const config: Config = {
         twilightOrange: "#e85c25",
       },
     },
+    // Presuming you need to explicitly define these for clarity or override
+    fontWeight: {
+      normal: "400", // Maps to font-normal
+      bold: "700", // Maps to font-bold
+    },
   },
   plugins: [],
 };
+
 export default config;

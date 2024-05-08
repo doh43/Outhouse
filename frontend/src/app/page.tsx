@@ -1,11 +1,23 @@
+"use client";
 import Image from "next/image";
 import Gallery from "@/components/Gallery";
-import SearchBar from "@/components/SearchBar";
+import { signOut, useSession } from "next-auth/react";
+import Map from "@/components/Map";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 
 export default function Home() {
+  // const { data: session } = useSession();
+  // const router = useRouter();
+  // useEffect(() => {
+  //   if (!session?.user) {
+  //     router.push("/Login");
+  //   }
+  // }, [session]);
   return (
     <main className="overflow-hidden">
-      <SearchBar />
+      <Map />
+      {/* <button onClick={() => signOut()}></button> */}
       <Gallery />
     </main>
   );
