@@ -7,15 +7,8 @@ const Map: React.FC = () => {
   const [map, setMap] = useState<mapboxgl.Map | null>(null);
 
   useEffect(() => {
-    const accessToken = process.env.NEXT_PUBLIC_MAPBOX_API_KEY;
+    mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_API_KEY as string; // insertion as string
 
-    /* Ensure that the environment variable is not undefined */
-    if (typeof accessToken !== "string") {
-      console.error("Mapbox access token is not set!");
-      return;
-    }
-
-    mapboxgl.accessToken = accessToken;
     const newMap = new mapboxgl.Map({
       container: mapContainerRef.current as HTMLElement,
       style: "mapbox://styles/mapbox/streets-v12",
