@@ -1,25 +1,21 @@
 "use client";
-import React, { useEffect, useState } from "react";
-import Image from "next/image";
-import { useRouter } from "next/navigation";
+import React from "react";
 import Link from "next/link";
-import { signOut, useSession } from "next-auth/react";
+import { useSession } from "next-auth/react";
+import Card from "../UserCard";
 
 const Navbar = () => {
-  // const { data: session } = useSession();
-  // const [profileClick,setProfileClick]=useState(false);
+  const { data: session, status } = useSession();
 
   return (
     <div className="container mx-auto flex flex-wrap gap-5 p-5 flex-col md:flex-row items-center">
-      {" "}
-      {/*  */}
       <Link
         href="/"
         className="font-rufina font-bold title-font font-medium items-center text-sky-900"
       >
         <span className="mb-3 mt-3 ml-8 text-4xl">Soulage</span>
       </Link>
-      <ul className="md:mr-auto md:ml-4 gap-5 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+      <ul className="md:mr-auto md:ml-4 gap-5 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex flex-wrap items-center text-base justify-center">
         <li>
           <Link href="/profile">Profile</Link>
         </li>
@@ -30,11 +26,7 @@ const Navbar = () => {
           <Link href="/favourites">Favourites</Link>
         </li>
       </ul>
-      {/* Search bar below */}
-      <div
-        className=" bg-gray-100 p-[6px] rounded-md
-      flex w-[40%] md:w-[40%] gap-3 md:flex"
-      >
+      <div className="bg-gray-100 p-[6px] rounded-md flex w-[40%] md:w-[40%] gap-3 md:flex">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -52,35 +44,16 @@ const Navbar = () => {
         <input
           type="text"
           placeholder="Find restrooms near you"
-          className="bg-transparent 
-        outline-none w-full"
+          className="bg-transparent outline-none w-full"
         />
       </div>
       <div className="ml-5">
-        <Link href="/login">Sign In</Link>
+        {status === "authenticated" ? (
+          <Card user={session.user} pagetype={"Navbar"} />
+        ) : (
+          <Link href="/login">Sign In</Link>
+        )}
       </div>
-      {/* <div>
-        {session?.user ? (
-          <>
-            <Image
-              src={session.user.image}
-              alt="user"
-              width={40}
-              height={40}
-              onClick={()=>setProfileClick(!profileClick)}
-              className="rounded-full cursor-pointer 
-              hover:border-[2px] border-blue-500"
-            />
-           {profileClick? <div className="absolute bg-white p-3
-            shadow-md border-[1px] mt-2 z-30
-            right-4 ">
-              <h2 className="cursor-pointer
-               hover:text-blue-500 hover:font-bold"
-               onClick={()=>signOut()}>Logout</h2>
-            </div>:null}
-          </>
-        ) : null}
-      </div> */}
     </div>
   );
 };
