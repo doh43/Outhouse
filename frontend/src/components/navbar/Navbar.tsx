@@ -14,6 +14,7 @@ const Navbar = () => {
       <Link href="/" className="font-rufina font-bold title-font font-medium items-center text-sky-900">
         <span className="mb-3 mt-3 ml-8 text-4xl">Soulage</span>
       </Link>
+<<<<<<< HEAD
       <div className="md:mr-auto md:ml-4 gap-5 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
         <Link href="/profile" className="hover:text-lg hover:font-bold flex items-center justify-center text-center py-1 px-2 w-32 h-12">
           <h2>Profile</h2>
@@ -25,10 +26,23 @@ const Navbar = () => {
           <h2>Favourites</h2>
         </Link>
       </div>
+=======
+      <ul className="md:mr-auto md:ml-4 gap-5 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+        <li>
+          <Link href="/profile">Profile</Link>
+        </li>
+        <li>
+          <Link href="/mylist">Your List</Link>
+        </li>
+        <li>
+          <Link href="/favourites">Favourites</Link>
+        </li>
+      </ul>
+>>>>>>> 216bb220b3a4683a0b169ac46bee5886f1a17b2b
       {/* Search bar below */}
       <div
         className=" bg-gray-100 p-[6px] rounded-md
-      flex md:w-[40%] gap-3 md:flex"
+      flex w-[40%] md:w-[40%] gap-3 md:flex"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -50,6 +64,9 @@ const Navbar = () => {
           className="bg-transparent 
         outline-none w-full"
         />
+      </div>
+      <div className="ml-5">
+        <Link href="/login">Sign In</Link>
       </div>
       {/* <div>
         {session?.user ? (

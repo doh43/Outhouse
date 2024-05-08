@@ -1,5 +1,5 @@
 const FavouritesLayout = () => {
-  return <div></div>;
+  return <div>This is your favourites section</div>;
 };
 
 export default FavouritesLayout;
