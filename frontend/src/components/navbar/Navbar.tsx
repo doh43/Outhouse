@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { useSession } from "next-auth/react";
 import Card from "../UserCard";
@@ -9,17 +10,29 @@ const Navbar = () => {
 
   return (
     <div className="container mx-auto flex flex-wrap gap-5 p-5 flex-col md:flex-row items-center">
-      <Link href="/" className="font-rufina font-bold title-font font-medium items-center text-sky-900">
+      <Link
+        href="/"
+        className="font-rufina font-bold title-font font-medium items-center text-sky-900"
+      >
         <span className="mb-3 mt-3 ml-8 text-4xl">Soulage</span>
       </Link>
       <div className="md:mr-auto md:ml-4 gap-5 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-        <Link href="/profile" className="hover:text-lg hover:font-bold flex items-center justify-center text-center py-1 px-2 w-32 h-12">
+        <Link
+          href="/profile"
+          className="hover:text-gray-400 flex items-center justify-center text-center pl-6"
+        >
           <h2>Profile</h2>
         </Link>
-        <Link href="/mylist" className="hover:text-lg hover:font-bold flex items-center justify-center text-center py-1 px-2 w-32 h-12">
+        <Link
+          href="/mylist"
+          className="hover:text-gray-400 flex items-center justify-center text-center"
+        >
           <h2>Your List</h2>
         </Link>
-        <Link href="/favourites" className="hover:text-lg hover:font-bold flex items-center justify-center text-center py-1 px-2 w-32 h-12">
+        <Link
+          href="/favourites"
+          className="hover:text-gray-400 flex items-center justify-center text-center"
+        >
           <h2>Favourites</h2>
         </Link>
       </div>
@@ -48,12 +61,36 @@ const Navbar = () => {
           className="bg-transparent outline-none w-full"
         />
       </div>
-      <div className="ml-5">
+      <div className="ml-5 hover:bg-gray-200 border-2 border-solid flex items-center justify-center text-center py-0.5 w-24 h-13 rounded-full relative">
         {status === "authenticated" ? (
           <Card user={session.user} pagetype={"Navbar"} />
         ) : (
-          <Link href="/login" className="hover:bg-gray-200 border-2 border-solid flex items-center justify-center text-center py-1 px-2 w-32 h-12">Sign In</Link>
+          <Link href="/login">
+            <div className="p-1 rounded-full relative left-[-17.5px]">
+              <Image
+                src="/placeholder-icon.png"
+                height={40}
+                width={40}
+                alt="user image"
+                className="rounded-full"
+              />
+            </div>
+          </Link>
         )}
+        <svg
+          className="w-5 h-5 absolute right-3"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M19 9l-7 7-7-7"
+          />
+        </svg>
       </div>
     </div>
   );

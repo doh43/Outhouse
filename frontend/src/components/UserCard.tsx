@@ -30,10 +30,10 @@ export default function Card({ user, pagetype }: Props) {
 
   const userImage = user?.image ? (
     <Image
-      className="border-2  dark:border-slate-500 drop-shadow-xl shadow-black rounded-full mx-auto"
+      className="p-1 rounded-full relative left-[-17.5px]"
       src={user?.image}
-      width={50}
-      height={50}
+      width={40}
+      height={40}
       alt={user?.name ?? "Profile Picture"}
       priority={true}
     />
