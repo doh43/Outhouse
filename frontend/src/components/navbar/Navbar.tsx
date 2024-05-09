@@ -56,7 +56,7 @@ const Navbar = () => {
           <input
             type="text"
             placeholder="Find restrooms near you"
-            className="bg-transparent outline-none w-full"
+            className="bg-transparent outline-none ml-2 w-full"
           />
         </div>
         <UserMenu />

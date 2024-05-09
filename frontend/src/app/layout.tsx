@@ -4,6 +4,7 @@ import "../styles/globals.css";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/Footer";
 import Provider from "./(auth)/SessionProvider";
+import Modal from "@/components/modals/Modal";
 
 const raleway = Raleway({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={raleway.className}>
         <Provider>
+          <Modal actionLabel="Submit" isOpen />
           <Navbar />
           {children}
           <Footer />
