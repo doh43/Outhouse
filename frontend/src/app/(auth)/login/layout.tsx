@@ -1,6 +1,6 @@
 import { authOptions } from "../../../../pages/api/auth/[...nextauth]";
 import { getServerSession } from "next-auth";
-import SessionProvider from "../SessionProvider";
+import SessionProvider from "../../providers/SessionProvider";
 import Login from "./Login";
 import Home from "./page";
 

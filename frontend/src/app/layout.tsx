@@ -3,9 +3,10 @@ import { Raleway } from "next/font/google";
 import "../styles/globals.css";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/Footer";
-import Provider from "./(auth)/SessionProvider";
+import Provider from "./providers/SessionProvider";
 import Modal from "@/components/modals/Modal";
 import RegisterModal from "@/components/modals/RegisterModal";
+import ToasterProvider from "./providers/ToasterProvider";
 
 const raleway = Raleway({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={raleway.className}>
         <Provider>
+          <ToasterProvider />
           <RegisterModal />
           <Navbar />
           {children}
