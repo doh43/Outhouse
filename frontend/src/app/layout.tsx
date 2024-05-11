@@ -7,6 +7,7 @@ import Provider from "./providers/SessionProvider";
 import Modal from "@/components/modals/Modal";
 import RegisterModal from "@/components/modals/RegisterModal";
 import ToasterProvider from "./providers/ToasterProvider";
+import LoginModal from "@/components/modals/LoginModal";
 
 const raleway = Raleway({ subsets: ["latin"] });
 
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className={raleway.className}>
         <Provider>
           <ToasterProvider />
+          <LoginModal />
           <RegisterModal />
           <Navbar />
           {children}
