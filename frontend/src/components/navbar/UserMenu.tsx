@@ -1,6 +1,4 @@
 "use client";
-import Image from "next/image";
-import Link from "next/link";
 import { useSession } from "next-auth/react";
 import Card from "./UserCard";
 import { useCallback, useState } from "react";
