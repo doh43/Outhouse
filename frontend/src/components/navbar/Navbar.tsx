@@ -6,8 +6,12 @@ import { useSession } from "next-auth/react";
 import Card from "./UserCard";
 import UserMenu from "./UserMenu";
 import Container from "../Container";
+import UserComponent from "../UserComponent";
 
-const Navbar = () => {
+// for typing inside layout.tsx
+
+const Navbar: React.FC = () => {
+  <UserComponent />;
   return (
     <div className="container mx-auto flex flex-wrap gap-5 p-5 flex-col md:flex-row items-center">
       <Link

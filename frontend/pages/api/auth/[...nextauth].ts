@@ -2,8 +2,8 @@ import NextAuth, { AuthOptions } from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 import CredentialsProvider from "next-auth/providers/credentials";
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { FirestoreAdapter } from "@auth/firebase-adapter";
-import { auth } from "@/app/firebase";
+import { FirestoreAdapter, initFirestore } from "@auth/firebase-adapter";
+import { auth } from "@/app/firebase/firebase";
 import { cert } from "firebase-admin/app";
 
 import { Adapter } from "next-auth/adapters";
@@ -20,6 +20,7 @@ export const authOptions: AuthOptions = {
         email: { label: "email", type: "text" },
         password: { label: "password", type: "password" },
       },
+
       async authorize(credentials): Promise<any> {
         return await signInWithEmailAndPassword(
           auth,
@@ -38,7 +39,7 @@ export const authOptions: AuthOptions = {
       },
     }),
   ],
-  adapter: FirestoreAdapter({
+  adapter: initFirestore({
     credential: cert({
       projectId: process.env.AUTH_FIREBASE_PROJECT_ID,
       clientEmail: process.env.AUTH_FIREBASE_CLIENT_EMAIL,

@@ -1,6 +1,4 @@
 "use client";
-
-import axios from "axios";
 import { FcGoogle } from "react-icons/fc";
 import { useCallback, useState } from "react";
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
@@ -13,16 +11,13 @@ import Button from "./Button";
 import { signIn } from "next-auth/react";
 import useLoginModal from "@/app/hooks/useLoginModal";
 import { useRouter } from "next/navigation";
+import { signInWithEmailAndPassword } from "firebase/auth";
 
 const LoginModal = () => {
   const router = useRouter();
   const registerModal = useRegisterModal();
   const loginModal = useLoginModal();
   const [isLoading, setIsLoading] = useState(false);
-
-  /* rifik auth */
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
 
   const {
     register,
