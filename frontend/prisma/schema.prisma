@@ -1,0 +1,90 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  name String?
+  email String? @unique
+  emailVerified DateTime?
+  image String?
+  hashedPassword String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  favouriteIds String[] @db.ObjectId
+
+  accounts Account[]
+  ratings Rating[]
+}
+
+model Account {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  userId String @db.ObjectId
+  type String
+  provider String
+  providerAccountId String
+  refresh_token String? @db.String
+  access_token String? @db.String
+  expires_at Int?
+  token_type String?
+  scope String?
+  id_token String? @db.String
+  session_state String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Rating {
+  id          String @id @default(auto()) @map("_id") @db.ObjectId
+  userId      String @db.ObjectId
+  washroomId  String @db.ObjectId
+  clean       Int
+  easyToFind  Int
+  privacy     Int
+  averageRating Float
+
+  user     User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  washroom Washroom @relation(fields: [washroomId], references: [id], onDelete: Cascade)
+}
+
+model Washroom {
+  id         String    @id @default(auto()) @map("_id") @db.ObjectId
+  name       String
+  descripton String
+  imageSrc String
+  locationId String    @db.ObjectId @unique
+  ratings    Rating[]
+
+  location Location @relation(fields: [locationId], references: [id])
+}
+
+model Location {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  address   String?  @unique // Optionally index address if important for queries
+  geometry  Geometry?
+
+  washroom Washroom?
+}
+
+model Geometry {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  locationId  String   @db.ObjectId @unique
+  type        String   @default("Point")
+  coordinates Float[]
+
+  location Location @relation(fields: [locationId], references: [id], onDelete: Cascade)
+}
+
