@@ -1,16 +1,18 @@
 "use client";
-import Image from "next/image";
-import Link from "next/link";
-import { useSession } from "next-auth/react";
+import { useSession, signOut } from "next-auth/react";
 import Card from "./UserCard";
 import { useCallback, useState } from "react";
 import MenuItem from "./MenuItem";
 import Avatar from "./Avatar";
 import { PiCaretDownThin } from "react-icons/pi";
+import useRegisterModal from "@/app/hooks/useRegisterModal";
+import useLoginModal from "@/app/hooks/useLoginModal";
 
 const UserMenu = () => {
   const { data: session, status } = useSession();
   const [isOpen, setIsOpen] = useState(false);
+  const registerModal = useRegisterModal();
+  const loginModal = useLoginModal();
 
   const toggleOpen = useCallback(() => {
     setIsOpen((value) => !value);
@@ -38,10 +40,11 @@ const UserMenu = () => {
         <div className="absolute rounded-xl shadow-md w-[300px] bg-white overflow-hidden right-0 top-12 text-sm">
           <div className="flex flex-col cursor-pointer">
             <>
-              <MenuItem onClick={() => {}} label="Login" />
-              <MenuItem onClick={() => {}} label="Sign Up" />
+              <MenuItem onClick={loginModal.onOpen} label="Login" />
+              <MenuItem onClick={registerModal.onOpen} label="Sign Up" />
               <MenuItem onClick={() => {}} label="Profile" />
               <MenuItem onClick={() => {}} label="Help Centre" />
+              <MenuItem onClick={() => signOut()} label="Sign Out" />
             </>
           </div>
         </div>
