@@ -7,11 +7,11 @@ import Card from "./UserCard";
 import UserMenu from "./UserMenu";
 import Container from "../Container";
 import UserComponent from "../UserComponent";
-import { User } from "@prisma/client";
+import { SafeUser } from "@/app/types";
 
 // for typing inside layout.tsx
 interface NavbarProps {
-  currentUser?: User | null;
+  currentUser?: SafeUser | null;
 }
 
 const Navbar: React.FC<NavbarProps> = ({ currentUser }) => {
