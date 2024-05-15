@@ -11,7 +11,6 @@ import Button from "./Button";
 import { signIn } from "next-auth/react";
 import useLoginModal from "@/app/hooks/useLoginModal";
 import { useRouter } from "next/navigation";
-import { signInWithEmailAndPassword } from "firebase/auth";
 
 const LoginModal = () => {
   const router = useRouter();
@@ -42,7 +41,7 @@ const LoginModal = () => {
       setIsLoading(false);
 
       if (callback?.ok) {
-        toast.success("Successfuly logged in.");
+        toast.success("You have successfully logged in.");
         router.refresh();
         loginModal.onClose();
       }
