@@ -16,7 +16,7 @@ interface NavbarProps {
 
 const Navbar: React.FC<NavbarProps> = ({ currentUser }) => {
   const router = useRouter();
-  const [inputValue, setInputValue] = useState(""); // Notice the correct naming
+  const [inputValue, setInputValue] = useState("");
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setInputValue(event.target.value);
