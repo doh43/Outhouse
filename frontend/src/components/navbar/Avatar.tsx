@@ -3,10 +3,14 @@ import Image from "next/image";
 
 // maybe implement random avatar generator here later
 
-const Avatar = () => {
+interface AvatarProps {
+  src?: string | null | undefined;
+}
+
+const Avatar: React.FC<AvatarProps> = ({ src }) => {
   return (
     <Image
-      src="/placeholder-icon.png"
+      src={src || "/placeholder-icon.png"}
       height={35}
       width={35}
       alt="Avatar"

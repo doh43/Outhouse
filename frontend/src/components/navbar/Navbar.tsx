@@ -3,9 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useSession } from "next-auth/react";
-import Card from "./UserCard";
 import UserMenu from "./UserMenu";
-import Container from "../Container";
 import UserComponent from "../UserComponent";
 import { SafeUser } from "@/app/types";
 

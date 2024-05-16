@@ -1,6 +1,5 @@
 "use client";
 import { useSession, signOut } from "next-auth/react";
-import Card from "./UserCard";
 import { useCallback, useState } from "react";
 import MenuItem from "./MenuItem";
 import Avatar from "./Avatar";
@@ -33,11 +32,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
           <PiCaretDownThin />{" "}
           {/* react icons slow loading time so much like what */}
           <div className="hidden md:block">
-            {status === "authenticated" ? (
-              <Card user={session.user} pagetype={"Navbar"} />
-            ) : (
-              <Avatar />
-            )}
+            <Avatar src={currentUser?.image} />
           </div>
         </div>
       </div>
