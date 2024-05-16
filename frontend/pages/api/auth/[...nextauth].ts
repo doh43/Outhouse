@@ -1,8 +1,12 @@
-import NextAuth from "next-auth";
+import NextAuth, { AuthOptions } from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 import CredentialsProvider from "next-auth/providers/credentials";
+import prisma from "@/app/libs/prismadb";
+import { PrismaAdapter } from "@auth/prisma-adapter";
+import bcrypt from "bcrypt";
 
-export const authOptions = {
+export const authOptions: AuthOptions = {
+  adapter: PrismaAdapter(prisma) as any,
   providers: [
     GoogleProvider({
       clientId: process.env.GOOGLE_CLIENT_ID as string,
@@ -11,32 +15,39 @@ export const authOptions = {
     CredentialsProvider({
       name: "Credentials",
       credentials: {
-        username: {
-          label: "Username:",
-          type: "text",
-          placeholder: "just-a-placeholder",
-        },
-        password: {
-          label: "Password:",
-          type: "password",
-          placeholder: "just-a-placeholder",
-        },
+        email: { label: "Email", type: "text" },
+        password: { label: "Password", type: "password" },
       },
       async authorize(credentials) {
-        // retrieving user data to verify credentials
-        // hard coded for now...
-        const user = { id: "42", name: "Daniel", password: "cs2212" };
-
-        if (
-          credentials?.username === user.name &&
-          credentials?.password === user.password
-        ) {
-          return user;
-        } else {
-          return null;
+        if (!credentials?.email || !credentials?.password) {
+          throw new Error("Email or password not provided.");
         }
+        const user = await prisma.user.findUnique({
+          where: {
+            email: credentials.email,
+          },
+        });
+        if (!user || !user.hashedPassword) {
+          throw new Error("No user found with this email.");
+        }
+        const isCorrectPassword = await bcrypt.compare(
+          credentials.password,
+          user.hashedPassword
+        );
+        if (!isCorrectPassword) {
+          throw new Error("Password does not match.");
+        }
+        return user;
       },
     }),
   ],
+  pages: {
+    signIn: "/",
+  },
+  debug: process.env.NODE_ENV === "development",
+  session: {
+    strategy: "jwt",
+  },
+  secret: process.env.NEXTAUTH_SECRET,
 };
 export default NextAuth(authOptions);

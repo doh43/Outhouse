@@ -1,36 +1,40 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useSession } from "next-auth/react";
-import Card from "./UserCard";
 import UserMenu from "./UserMenu";
-import Container from "../Container";
-import { useState } from "react";
-import { useRouter } from "next/navigation";
 
-const Navbar = () => {
-  const router = useRouter()
-  const [inputValue, newInputValue] = useState("")
+import UserComponent from "../UserComponent";
+import { SafeUser } from "@/app/types";
+import { useRouter } from "next/router";
 
-  const handleChange = (event) => {
-    newInputValue(event.target.value)
-  }
+// for typing inside layout.tsx
+interface NavbarProps {
+  currentUser?: SafeUser | null;
+}
+
+const Navbar: React.FC<NavbarProps> = ({ currentUser }) => {
+  const router = useRouter();
+  const [inputValue, setInputValue] = useState(""); // Notice the correct naming
+
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setInputValue(event.target.value);
+  };
 
   const handleClick = () => {
-    if (inputValue !== "") {
-      router.push(`/search/${inputValue}`)
-      newInputValue("")
+    if (inputValue.trim() !== "") {
+      router.push(`/search/${inputValue}`);
+      setInputValue(""); // Correct usage
     }
-  }
+  };
 
-  const handleKeyDown = (event) => {
-    if (event.key === "Enter" && event.target.value !== "") {
-      router.push(`/search/${inputValue}`)
-      newInputValue("")
+  const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+    if (event.key === "Enter" && inputValue.trim() !== "") {
+      router.push(`/search/${inputValue}`);
+      setInputValue(""); // Correct usage
     }
-  }
-
+  };
   return (
     <div className="container mx-auto flex flex-wrap gap-5 p-5 flex-col md:flex-row items-center">
       <Link
@@ -86,7 +90,7 @@ const Navbar = () => {
             onKeyDown={handleKeyDown}
           />
         </div>
-        <UserMenu />
+        <UserMenu currentUser={currentUser} />
       </div>
     </div>
   );
