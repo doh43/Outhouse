@@ -1,6 +1,6 @@
 
 
-const MyList = () => {
+const MyListPage = () => {
     return (
         <div>
 
@@ -8,4 +8,4 @@ const MyList = () => {
     )
 }
 
-export default MyList
+export default MyListPage

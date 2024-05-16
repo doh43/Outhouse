@@ -1,11 +1,13 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useSession } from "next-auth/react";
 import UserMenu from "./UserMenu";
+
 import UserComponent from "../UserComponent";
 import { SafeUser } from "@/app/types";
+import { useRouter } from "next/router";
 
 // for typing inside layout.tsx
 interface NavbarProps {
@@ -13,6 +15,26 @@ interface NavbarProps {
 }
 
 const Navbar: React.FC<NavbarProps> = ({ currentUser }) => {
+  const router = useRouter();
+  const [inputValue, setInputValue] = useState("");
+
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setInputValue(event.target.value);
+  };
+
+  const handleClick = () => {
+    if (inputValue.trim() !== "") {
+      router.push(`/search/${inputValue}`);
+      setInputValue(""); // Correct usage
+    }
+  };
+
+  const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+    if (event.key === "Enter" && inputValue.trim() !== "") {
+      router.push(`/search/${inputValue}`);
+      setInputValue(""); // Correct usage
+    }
+  };
   return (
     <div className="container mx-auto flex flex-wrap gap-5 p-5 flex-col md:flex-row items-center">
       <Link
@@ -51,6 +73,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentUser }) => {
             strokeWidth={1.5}
             stroke="currentColor"
             className="w-6 h-6"
+            onClick={handleClick}
           >
             <path
               strokeLinecap="round"
@@ -61,7 +84,10 @@ const Navbar: React.FC<NavbarProps> = ({ currentUser }) => {
           <input
             type="text"
             placeholder="Find restrooms near you"
-            className="bg-transparent outline-none ml-2 w-full"
+            className="bg-transparent outline-none w-full"
+            value={inputValue}
+            onChange={handleChange}
+            onKeyDown={handleKeyDown}
           />
         </div>
         <UserMenu currentUser={currentUser} />
