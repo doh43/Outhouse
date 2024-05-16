@@ -1,14 +1,12 @@
 import NextAuth, { AuthOptions } from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 import CredentialsProvider from "next-auth/providers/credentials";
-import { signInWithEmailAndPassword } from "firebase/auth";
-import { FirestoreAdapter, initFirestore } from "@auth/firebase-adapter";
-import { auth } from "@/app/firebase/firebase";
-import { cert } from "firebase-admin/app";
-
-import { Adapter } from "next-auth/adapters";
+import prisma from "@/app/libs/prismadb";
+import { PrismaAdapter } from "@auth/prisma-adapter";
+import bcrypt from "bcrypt";
 
 export const authOptions: AuthOptions = {
+  adapter: PrismaAdapter(prisma) as any,
   providers: [
     GoogleProvider({
       clientId: process.env.GOOGLE_CLIENT_ID as string,
@@ -17,35 +15,32 @@ export const authOptions: AuthOptions = {
     CredentialsProvider({
       name: "Credentials",
       credentials: {
-        email: { label: "email", type: "text" },
-        password: { label: "password", type: "password" },
+        email: { label: "Email", type: "text" },
+        password: { label: "Password", type: "password" },
       },
-
-      async authorize(credentials): Promise<any> {
-        return await signInWithEmailAndPassword(
-          auth,
-          (credentials as any).email || "",
-          (credentials as any).password || ""
-        )
-          .then((userCredential) => {
-            if (userCredential.user) {
-              return userCredential.user;
-            }
-            return null;
-          })
-          .catch((error) => {
-            console.log(error);
-          });
+      async authorize(credentials) {
+        if (!credentials?.email || !credentials?.password) {
+          throw new Error("Email or password not provided.");
+        }
+        const user = await prisma.user.findUnique({
+          where: {
+            email: credentials.email,
+          },
+        });
+        if (!user || !user.hashedPassword) {
+          throw new Error("No user found with this email.");
+        }
+        const isCorrectPassword = await bcrypt.compare(
+          credentials.password,
+          user.hashedPassword
+        );
+        if (!isCorrectPassword) {
+          throw new Error("Password does not match.");
+        }
+        return user;
       },
     }),
   ],
-  adapter: initFirestore({
-    credential: cert({
-      projectId: process.env.AUTH_FIREBASE_PROJECT_ID,
-      clientEmail: process.env.AUTH_FIREBASE_CLIENT_EMAIL,
-      privateKey: process.env.AUTH_FIREBASE_PRIVATE_KEY!.replace(/\\n/g, `\n`),
-    }),
-  }) as Adapter,
   pages: {
     signIn: "/",
   },

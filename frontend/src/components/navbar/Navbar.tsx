@@ -3,15 +3,16 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useSession } from "next-auth/react";
-import Card from "./UserCard";
 import UserMenu from "./UserMenu";
-import Container from "../Container";
 import UserComponent from "../UserComponent";
+import { SafeUser } from "@/app/types";
 
 // for typing inside layout.tsx
+interface NavbarProps {
+  currentUser?: SafeUser | null;
+}
 
-const Navbar: React.FC = () => {
-  <UserComponent />;
+const Navbar: React.FC<NavbarProps> = ({ currentUser }) => {
   return (
     <div className="container mx-auto flex flex-wrap gap-5 p-5 flex-col md:flex-row items-center">
       <Link
@@ -63,7 +64,7 @@ const Navbar: React.FC = () => {
             className="bg-transparent outline-none ml-2 w-full"
           />
         </div>
-        <UserMenu />
+        <UserMenu currentUser={currentUser} />
       </div>
     </div>
   );
