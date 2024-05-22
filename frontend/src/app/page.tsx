@@ -1,14 +1,14 @@
-import Gallery from "@/components/Gallery";
-import Map from "@/components/Map";
+import Gallery from "@/components/home/Gallery";
+import { MapView } from "@/components/home/MapView";
 
 const HomePage = () => {
   return (
     <main className="overflow-hidden">
-      <Map />
+      <MapView />
 
       <Gallery />
     </main>
   );
-}
+};
 
-export default HomePage
+export default HomePage;

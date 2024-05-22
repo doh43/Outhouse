@@ -1,12 +1,12 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import { usePathname } from "next/navigation"
+import { usePathname } from "next/navigation";
 import mapboxgl from "mapbox-gl";
 
 const Map: React.FC = () => {
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const [map, setMap] = useState<mapboxgl.Map | null>(null);
-  const pathname = usePathname()
+  const pathname = usePathname();
 
   useEffect(() => {
     mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_API_KEY as string; // insertion as string
@@ -28,13 +28,10 @@ const Map: React.FC = () => {
     return () => newMap.remove(); // Cleanup function
   }, []);
 
-  const handleSearchSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    // Add logic to handle search here
-    alert("Search functionality needs to be implemented.");
-  };
-
-  const mapHeight = pathname === "/search" || pathname?.startsWith("/search") ? "full" : "[800px]"
+  const mapHeight =
+    pathname === "/search" || pathname?.startsWith("/search")
+      ? "full"
+      : "[800px]";
 
   return (
     <div className="flex w-full h-full">

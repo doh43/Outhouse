@@ -20,8 +20,22 @@ const config: Config = {
         twilightBlue: "#030352",
         twilightOrange: "#e85c25",
       },
+      zIndex: {
+        0: "0",
+        10: "10",
+        20: "20",
+        30: "30",
+        40: "40",
+        50: "50",
+        60: "60",
+        70: "70",
+        80: "80",
+        90: "90",
+        100: "100",
+        "modal-overlay": "999", // Custom z-index for modal overlay
+        modal: "1000", // Custom z-index for modal
+      },
     },
-    // Presuming you need to explicitly define these for clarity or override
     fontWeight: {
       normal: "400", // Maps to font-normal
       bold: "700", // Maps to font-bold

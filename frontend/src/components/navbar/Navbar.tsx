@@ -7,7 +7,7 @@ import UserMenu from "./UserMenu";
 
 import UserComponent from "../UserComponent";
 import { SafeUser } from "@/app/types";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 // for typing inside layout.tsx
 interface NavbarProps {
@@ -84,7 +84,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentUser }) => {
           <input
             type="text"
             placeholder="Find restrooms near you"
-            className="bg-transparent outline-none w-full"
+            className="bg-transparent ml-2 outline-none w-full"
             value={inputValue}
             onChange={handleChange}
             onKeyDown={handleKeyDown}
