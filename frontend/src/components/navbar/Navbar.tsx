@@ -5,7 +5,6 @@ import Link from "next/link";
 import { useSession } from "next-auth/react";
 import UserMenu from "./UserMenu";
 
-import UserComponent from "../UserComponent";
 import { SafeUser } from "@/app/types";
 import { useRouter } from "next/navigation";
 
@@ -25,14 +24,14 @@ const Navbar: React.FC<NavbarProps> = ({ currentUser }) => {
   const handleClick = () => {
     if (inputValue.trim() !== "") {
       router.push(`/search/${inputValue}`);
-      setInputValue(""); // Correct usage
+      setInputValue("");
     }
   };
 
   const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
     if (event.key === "Enter" && inputValue.trim() !== "") {
       router.push(`/search/${inputValue}`);
-      setInputValue(""); // Correct usage
+      setInputValue("");
     }
   };
   return (
