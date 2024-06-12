@@ -31,7 +31,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
         >
           <PiCaretDownThin />{" "}
           <div className="hidden md:block">
-            <Avatar src={currentUser?.image} />
+            <Avatar src={currentUser?.image} size={35} />
           </div>
         </div>
       </div>

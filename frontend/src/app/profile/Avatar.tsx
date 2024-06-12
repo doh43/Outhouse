@@ -6,6 +6,7 @@ interface AvatarProps {
   src?: string;
   selectedImage?: string;
   onSelect?: (image: string) => void;
+  size?: number; // added size prop so different sizes can be used
 }
 
 const imageOptions: string[] = [
@@ -21,7 +22,7 @@ const imageOptions: string[] = [
   "/male5.png",
 ];
 
-const Avatar: React.FC<AvatarProps> = ({ src, selectedImage, onSelect }) => {
+const Avatar: React.FC<AvatarProps> = ({ src, selectedImage, onSelect, size=100 }) => {
   if (onSelect) {
     // if onSelect is provided, render the image options for selection
     return (
@@ -34,8 +35,8 @@ const Avatar: React.FC<AvatarProps> = ({ src, selectedImage, onSelect }) => {
           >
             <Image
               src={imgSrc}
-              height={35} 
-              width={35} 
+              height={size} 
+              width={size} 
               alt="Avatar"
               className="rounded-full"
             />
@@ -50,8 +51,8 @@ const Avatar: React.FC<AvatarProps> = ({ src, selectedImage, onSelect }) => {
     <div>
       <Image
         src={src || "/female1.png"}
-        height={100} 
-        width={100} 
+        height={size} 
+        width={size} 
         alt="Avatar"
         className="rounded-full"
       />
