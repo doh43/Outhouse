@@ -2,7 +2,7 @@
 import { useSession, signOut } from "next-auth/react";
 import { useCallback, useState } from "react";
 import MenuItem from "./MenuItem";
-import Avatar from "./Avatar";
+import Avatar from "../../app/profile/Avatar";
 import { PiCaretDownThin } from "react-icons/pi";
 import useRegisterModal from "@/app/hooks/useRegisterModal";
 import useLoginModal from "@/app/hooks/useLoginModal";
