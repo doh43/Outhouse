@@ -5,6 +5,8 @@ import { SafeUser } from "@/app/types";
 import { format } from "date-fns";
 import EditProfileModal from "../profile/editProfileModal";
 import Avatar from "../profile/Avatar";
+import useLoginModal from "@/app/hooks/useLoginModal";
+import useRegisterModal from "@/app/hooks/useRegisterModal";
 
 interface ProfileMenuProps {
   initialUser: SafeUser | null;
@@ -15,12 +17,16 @@ const ProfileLayout: React.FC<ProfileMenuProps> = ({ initialUser }) => {
   const [isEditModalOpen, setIsEditModalOpen] = useState(false); // manages the edit profile modal visibility
   const [user, setUser] = useState<SafeUser | null>(initialUser); // manages user data
   const [selectedImage, setSelectedImage] = useState<string | undefined>(user?.image); // manages the selected profile picture
+  const registerModal = useRegisterModal();
+  const loginModal = useLoginModal();
 
   // updates user state when the session data changes
   useEffect(() => {
     if (session?.user) {
       setUser(session.user as SafeUser);
       console.log('Session user updated:', session.user);
+    } else {
+      loginModal.onOpen();
     }
   }, [session]);
 
@@ -73,6 +79,7 @@ const ProfileLayout: React.FC<ProfileMenuProps> = ({ initialUser }) => {
   const formattedDate = user?.createdAt ? format(new Date(user.createdAt), "MMMM dd, yyyy") : '';
 
   return (
+    // user sees this when signed in
     <>
       {user ? (
         <div className="flex flex-col items-center justify-center">
@@ -94,8 +101,14 @@ const ProfileLayout: React.FC<ProfileMenuProps> = ({ initialUser }) => {
             </div>
           </div>
         </div>
-      ) : (
-        <div>Sign in to see stats! *this is a placeholder*</div>
+      ) : ( 
+        // this is the message the user sees if they're not signed in
+        <div className="flex flex-col items-center justify-center min-h-screen py-10 bg-gray-100">
+          <div className="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg w-3/4 max-w-md text-center">
+            <h2 className="text-2xl font-bold text-gray-800">Sign in to view your profile!</h2>
+            <p className="mt-4 text-gray-600">You need to be signed in to access your profile.</p>
+          </div>
+        </div>
       )}
       {user && (
         <EditProfileModal
