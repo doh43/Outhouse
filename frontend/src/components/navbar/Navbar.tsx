@@ -50,12 +50,6 @@ const Navbar: React.FC<NavbarProps> = ({ currentUser }) => {
           <h2>Profile</h2>
         </Link>
         <Link
-          href="/mylist"
-          className="hover:text-gray-400 flex items-center justify-center text-center"
-        >
-          <h2>Your List</h2>
-        </Link>
-        <Link
           href="/favourites"
           className="hover:text-gray-400 flex items-center justify-center text-center"
         >
