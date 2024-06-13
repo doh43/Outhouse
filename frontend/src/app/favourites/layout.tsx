@@ -10,18 +10,28 @@ interface LayoutProps {
 }
 
 const FavouriteLayout: React.FC<LayoutProps> = ({ initialUser }) => {
-  const { data: session } = useSession();
+  const { data: session, status } = useSession();
   const [user, setUser] = useState<SafeUser | null>(initialUser);
   const loginModal = useLoginModal(); 
 
+  // checks if user is logged in
   useEffect(() => {
-    if (session?.user) {
+    if (status === "authenticated" && session?.user) {
       setUser(session.user as SafeUser);
-    } else {
+    // login modal opens if user isn't logged in
+    } else if (status === "unauthenticated") { 
       loginModal.onOpen();
     }
-  }, [session]);
+  }, [session, status, loginModal]);
 
+  // loading animation when the information hasn't been processed yet
+  if (status === "loading") {
+    return (
+      <div className="flex items-center justify-center min-h-screen bg-gray-100">
+        <div className="animate-spin rounded-full h-20 w-20 border-t-2 border-b-2 border-blue-800"></div>
+      </div>
+    );
+  }
   const favouriteIds = user?.favouriteId || []; 
 
   return (

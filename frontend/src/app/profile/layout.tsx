@@ -13,27 +13,36 @@ interface ProfileMenuProps {
 }
 
 const ProfileLayout: React.FC<ProfileMenuProps> = ({ initialUser }) => {
-  const { data: session, update } = useSession();
+  const { data: session, update, status } = useSession();
   const [isEditModalOpen, setIsEditModalOpen] = useState(false); // manages the edit profile modal visibility
   const [user, setUser] = useState<SafeUser | null>(initialUser); // manages user data
-  const [selectedImage, setSelectedImage] = useState<string | undefined>(user?.image); // manages the selected profile picture
+  const [selectedImage, setSelectedImage] = useState<string | undefined>(initialUser?.image); // manages the selected profile picture
   const registerModal = useRegisterModal();
   const loginModal = useLoginModal();
 
   // updates user state when the session data changes
   useEffect(() => {
-    if (session?.user) {
+    if (status === "authenticated" && session?.user) {
       setUser(session.user as SafeUser);
       console.log('Session user updated:', session.user);
-    } else {
+    } else if (status === "unauthenticated") {
       loginModal.onOpen();
     }
-  }, [session]);
+  }, [session, status, loginModal]);
 
   const handleEditProfile = useCallback(() => {
     setIsEditModalOpen(true);
-    setSelectedImage(user?.image); 
+    setSelectedImage(user?.image);
   }, [user]);
+
+  // loading animation when the information hasn't been processed yet
+  if (status === "loading") {
+    return (
+      <div className="flex items-center justify-center min-h-screen bg-gray-100">
+        <div className="animate-spin rounded-full h-20 w-20 border-t-2 border-b-2 border-blue-800"></div>
+      </div>
+    );
+  }
 
   // handles saving profile changes
   const handleSaveProfile = async (updatedUser: Partial<SafeUser>) => {
@@ -85,7 +94,7 @@ const ProfileLayout: React.FC<ProfileMenuProps> = ({ initialUser }) => {
         <div className="flex flex-col items-center justify-center">
           <div className="flex items-center">
             <div className="flex flex-col items-center mr-8">
-            <Avatar src={user.image} onSelect={isEditModalOpen ? setSelectedImage : undefined} selectedImage={selectedImage} />
+              <Avatar src={user.image} onSelect={isEditModalOpen ? setSelectedImage : undefined} selectedImage={selectedImage} />
               <h2 className="mt-4 font-semibold text-lg">{user?.name}</h2>
               <button
                 className="mt-2 px-4 py-2 text-sm text-white bg-blue-500 rounded hover:bg-blue-600 shadow-xl"
