@@ -1,12 +1,13 @@
 "use client";
 import { useSession, signOut } from "next-auth/react";
-import { useCallback, useState } from "react";
+import { useCallback, useState, useEffect, useRef } from "react";
 import MenuItem from "./MenuItem";
 import Avatar from "../../app/profile/Avatar";
 import { PiCaretDownThin } from "react-icons/pi";
 import useRegisterModal from "@/app/hooks/useRegisterModal";
 import useLoginModal from "@/app/hooks/useLoginModal";
 import { SafeUser } from "@/app/types";
+import { useRouter } from "next/navigation";
 
 interface UserMenuProps {
   currentUser?: SafeUser | null;
@@ -17,10 +18,24 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
   const [isOpen, setIsOpen] = useState(false);
   const registerModal = useRegisterModal();
   const loginModal = useLoginModal();
+  const router = useRouter();
+  const menuRef = useRef<HTMLDivElement>(null);
 
   const toggleOpen = useCallback(() => {
     setIsOpen((value) => !value);
   }, []);
+
+  const avatarSrc = session?.user?.image ?? "/path/to/default/avatar.png"; // Provide a default avatar path
+  
+  // handles profile click in the menu bar
+  const handleProfileClick = () => {
+    router.push('/profile');
+  };
+
+  // handles favourites click in menu bar
+  const handleFavoritesClick = () => {
+    router.push('/favourites');
+  };
 
   return (
     <div className="relative z-10">
@@ -31,7 +46,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
         >
           <PiCaretDownThin />{" "}
           <div className="hidden md:block">
-            <Avatar src={currentUser?.image} size={35} />
+            <Avatar src={avatarSrc} size={35} />
           </div>
         </div>
       </div>
@@ -40,9 +55,8 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
           <div className="flex flex-col cursor-pointer">
             {currentUser ? (
               <>
-                <MenuItem onClick={() => {}} label="Profile" />
-                <MenuItem onClick={() => {}} label="Your List" />
-                <MenuItem onClick={() => {}} label="Favourites" />
+                <MenuItem onClick={handleProfileClick} label="Profile" />
+                <MenuItem onClick={handleFavoritesClick} label="Favourites" />
                 <hr />
                 <MenuItem onClick={() => {}} label="Help Centre" />
                 <MenuItem onClick={() => signOut()} label="Logout" />
