@@ -1,0 +1,5054 @@
+[
+  {
+    "name": "Adams Park Portable Toilet ",
+    "properties": {
+      "id": 1,
+      "type": "Portable Toilet",
+      "location_details": "Located in the parking lot by the trail.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/522/index.html",
+      "address": "2 Rozell Rd  ",
+      "x_coordinate": -79.1449501339709,
+      "y_coordinate": 43.7923937317967
+    }
+  },
+  {
+    "name": "Albert Campbell Square Outdoor Rink Washroom",
+    "properties": {
+      "id": 2,
+      "type": "Washroom Building",
+      "location_details": "Located at the west end of the outdoor ice rink.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2155/index.html",
+      "address": "150 Borough Dr  ",
+      "x_coordinate": -79.2578191514373,
+      "y_coordinate": 43.7734305840419
+    }
+  },
+  {
+    "name": "Alexandra Park Outdoor Pool Washroom",
+    "properties": {
+      "id": 3,
+      "type": "Washroom Building",
+      "location_details": "Entrance is located on the outside of the outdoor pool building on the southwest side.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/31/index.html",
+      "address": "275 Bathurst St  ",
+      "x_coordinate": -79.4044187064323,
+      "y_coordinate": 43.6509886655484
+    }
+  },
+  {
+    "name": "Beaches Recreation Centre Washroom",
+    "properties": {
+      "id": 4,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/24/index.html",
+      "address": "6 Williamson Rd  ",
+      "x_coordinate": -79.2987815935782,
+      "y_coordinate": 43.6739918657914
+    }
+  },
+  {
+    "name": "Bluffer's Park Washroom",
+    "properties": {
+      "id": 5,
+      "type": "Washroom Building",
+      "location_details": "Located on the west side of the park, next to the boat launch.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2/index.html",
+      "address": "1 Brimley Rd  S ",
+      "x_coordinate": -79.2349085595445,
+      "y_coordinate": 43.7061568747185
+    }
+  },
+  {
+    "name": "Budapest Park Washroom",
+    "properties": {
+      "id": 6,
+      "type": "Washroom Building",
+      "location_details": "Located at the east end of the parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/335/index.html",
+      "address": "1575 Lake Shore Blvd  W ",
+      "x_coordinate": -79.4492987253011,
+      "y_coordinate": 43.6370297165197
+    }
+  },
+  {
+    "name": "Campbell Avenue Park Outdoor Rink Washroom",
+    "properties": {
+      "id": 7,
+      "type": "Washroom Building",
+      "location_details": "Entrance is located on the outside of the outdoor ice rink building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1053/index.html",
+      "address": "225 Campbell Ave  ",
+      "x_coordinate": -79.4485192485026,
+      "y_coordinate": 43.662942616346
+    }
+  },
+  {
+    "name": "Phil White Arena Washroom",
+    "properties": {
+      "id": 8,
+      "type": "Washroom Building",
+      "location_details": "Entrance is located on the outside of Phil White Arena.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/629/index.html",
+      "address": "443 Arlington Ave  ",
+      "x_coordinate": -79.431446144468,
+      "y_coordinate": 43.6912877354199
+    }
+  },
+  {
+    "name": "Centennial Park Etobicoke Stadium Accessible Washrooms",
+    "properties": {
+      "id": 9,
+      "type": "Washroom Building",
+      "location_details": "Located on the west side of Centennial Park Stadium at the south end.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/798/index.html",
+      "address": "256 Centennial Park Rd  ",
+      "x_coordinate": -79.5851389661776,
+      "y_coordinate": 43.653379056334
+    }
+  },
+  {
+    "name": "Christie Pits Park Sid Smith Outdoor Rink Washroom",
+    "properties": {
+      "id": 10,
+      "type": "Washroom Building",
+      "location_details": "Located in the Sid Smith rink building located south of the ice rink",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/196/index.html",
+      "address": "750 Bloor St  W ",
+      "x_coordinate": -79.4223730169191,
+      "y_coordinate": 43.665150197289
+    }
+  },
+  {
+    "name": "Nathan Phillips Square Outdoor Rink Washroom",
+    "properties": {
+      "id": 11,
+      "type": "Washroom Building",
+      "location_details": "Located in the skating pavilion west of the outdoor ice rink.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1089/index.html",
+      "address": "100 Queen St  W ",
+      "x_coordinate": -79.3839454471234,
+      "y_coordinate": 43.6522039089387
+    }
+  },
+  {
+    "name": "Barbara Ann Scott Outdoor Rink Washroom",
+    "properties": {
+      "id": 12,
+      "type": "Washroom Building",
+      "location_details": "Located in the Barbara Ann Scott skating pavilion.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/223/index.html",
+      "address": "420 Yonge St  ",
+      "x_coordinate": -79.3838079346985,
+      "y_coordinate": 43.6596591616802
+    }
+  },
+  {
+    "name": "Colonel Samuel Smith Park Portable Toilet",
+    "properties": {
+      "id": 13,
+      "type": "Portable Toilet",
+      "location_details": "Located west of Power House Recreation Centre, north of the skating trail.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/466/index.html",
+      "address": "3145 Lake Shore Blvd  W ",
+      "x_coordinate": -79.5156698327389,
+      "y_coordinate": 43.5933964298349
+    }
+  },
+  {
+    "name": "Coronation Park Toronto Washroom",
+    "properties": {
+      "id": 14,
+      "type": "Washroom Building",
+      "location_details": "Located east of the south baseball diamond.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/467/index.html",
+      "address": "711 Lake Shore Blvd  W ",
+      "x_coordinate": -79.404908630126,
+      "y_coordinate": 43.6343913965369
+    }
+  },
+  {
+    "name": "Dennis R. Timbrell Resource Centre Washroom",
+    "properties": {
+      "id": 15,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1056/index.html",
+      "address": "29 St Dennis Dr  ",
+      "x_coordinate": -79.3317979398115,
+      "y_coordinate": 43.71788436387
+    }
+  },
+  {
+    "name": "Dentonia Park Washroom",
+    "properties": {
+      "id": 16,
+      "type": "Washroom Building",
+      "location_details": "Located on the west basketball court, north of the baseball diamond.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1057/index.html",
+      "address": "80 Thyra Ave  ",
+      "x_coordinate": -79.2927940640923,
+      "y_coordinate": 43.6941249843203
+    }
+  },
+  {
+    "name": "Dieppe Park Outdoor Rink Washroom",
+    "properties": {
+      "id": 17,
+      "type": "Washroom Building",
+      "location_details": "Located at the outdoor ice rink.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/327/index.html",
+      "address": "455 Cosburn Ave  ",
+      "x_coordinate": -79.3360686341573,
+      "y_coordinate": 43.6921036380234
+    }
+  },
+  {
+    "name": "Don Montgomery Community Centre Washroom",
+    "properties": {
+      "id": 18,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/712/index.html",
+      "address": "2467 Eglinton Ave  E ",
+      "x_coordinate": -79.2617027743078,
+      "y_coordinate": 43.7326376303698
+    }
+  },
+  {
+    "name": "Don Valley Brick Works Washroom ",
+    "properties": {
+      "id": 19,
+      "type": "Washroom Building",
+      "location_details": "Located in the western building along the pathway into the park.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1449/index.html",
+      "address": "550 Bayview Ave  ",
+      "x_coordinate": -79.3664257580379,
+      "y_coordinate": 43.6843864377828
+    }
+  },
+  {
+    "name": "Dovercourt Park Washroom",
+    "properties": {
+      "id": 20,
+      "type": "Washroom Building",
+      "location_details": "Located in the Dovercourt Boys and Girls Club.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/86/index.html",
+      "address": "155 Bartlett Ave  ",
+      "x_coordinate": -79.432574052299,
+      "y_coordinate": 43.6655945123568
+    }
+  },
+  {
+    "name": "East York Community Centre Washroom",
+    "properties": {
+      "id": 21,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/329/index.html",
+      "address": "1081 Pape Ave  ",
+      "x_coordinate": -79.3492592819462,
+      "y_coordinate": 43.6917748198521
+    }
+  },
+  {
+    "name": "Edwards Gardens Washroom",
+    "properties": {
+      "id": 22,
+      "type": "Washroom Building",
+      "location_details": "Located at the back of the outdoor caf\u00c3\u00a9 building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/473/index.html",
+      "address": "755 Lawrence Ave  E ",
+      "x_coordinate": -79.3593649864772,
+      "y_coordinate": 43.7341150916381
+    }
+  },
+  {
+    "name": "Esther Shiner Stadium Washroom",
+    "properties": {
+      "id": 23,
+      "type": "Washroom Building",
+      "location_details": "Located at the main entrance to the stadium.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/320/index.html",
+      "address": "5720 Bathurst St  ",
+      "x_coordinate": -79.4454665802082,
+      "y_coordinate": 43.7760515612141
+    }
+  },
+  {
+    "name": "G. Ross Lord Park Sport Pavillion Washroom",
+    "properties": {
+      "id": 24,
+      "type": "Washroom Building",
+      "location_details": "Located in the sports pavilion east of main parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/11/index.html",
+      "address": "4801 Dufferin St  ",
+      "x_coordinate": -79.4622263525863,
+      "y_coordinate": 43.7792471126541
+    }
+  },
+  {
+    "name": "Grange Park South Washroom",
+    "properties": {
+      "id": 25,
+      "type": "Washroom Building",
+      "location_details": "Located at the south-end of the park on Grange Road, opposite University Settlement.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1431/index.html",
+      "address": "26 Grange Rd  W ",
+      "x_coordinate": -79.3913508795439,
+      "y_coordinate": 43.6525658415158
+    }
+  },
+  {
+    "name": "Greenwood Park Fieldhouse Washroom",
+    "properties": {
+      "id": 26,
+      "type": "Washroom Building",
+      "location_details": "Located in the fieldhouse east of the skate trail, south of the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/70/index.html",
+      "address": "150 Greenwood Ave  ",
+      "x_coordinate": -79.3286834850084,
+      "y_coordinate": 43.6694491136341
+    }
+  },
+  {
+    "name": "High Park Parkside Drive Washroom",
+    "properties": {
+      "id": 27,
+      "type": "Washroom Building",
+      "location_details": "Located near the Parkside Drive entrance.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/77/index.html",
+      "address": "1873 Bloor St  W ",
+      "x_coordinate": -79.4572249103502,
+      "y_coordinate": 43.6444224258499
+    }
+  },
+  {
+    "name": "High Park Chess House Washroom",
+    "properties": {
+      "id": 28,
+      "type": "Washroom Building",
+      "location_details": "Located in the Chess House building near Bloor Street West.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/77/index.html",
+      "address": "1873 Bloor St  W ",
+      "x_coordinate": -79.4662827287604,
+      "y_coordinate": 43.6527261870184
+    }
+  },
+  {
+    "name": "High Park Zoo Portable Toilet",
+    "properties": {
+      "id": 29,
+      "type": "Portable Toilet",
+      "location_details": "Located inside south zoo gates.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/77/index.html",
+      "address": "1873 Bloor St  W ",
+      "x_coordinate": -79.4606983717756,
+      "y_coordinate": 43.642730862712
+    }
+  },
+  {
+    "name": "James Gardens Washroom",
+    "properties": {
+      "id": 30,
+      "type": "Washroom Building",
+      "location_details": "Located on the west side of parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/3/index.html",
+      "address": "99 Edenbridge Dr  ",
+      "x_coordinate": -79.5147659657209,
+      "y_coordinate": 43.6716076028119
+    }
+  },
+  {
+    "name": "Jean Sibelius Square Fieldhouse Washroom",
+    "properties": {
+      "id": 31,
+      "type": "Washroom Building",
+      "location_details": "Located in the fieldhouse building at the northwest corner of the park.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/151/index.html",
+      "address": "50 Kendal Ave  ",
+      "x_coordinate": -79.4092222095948,
+      "y_coordinate": 43.6716117595581
+    }
+  },
+  {
+    "name": "Kew Gardens Outdoor Rink Washroom",
+    "properties": {
+      "id": 32,
+      "type": "Washroom Building",
+      "location_details": "Located in the fieldhouse along the boardwalk next to the outdoor ice rink.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/107/index.html",
+      "address": "2075 Queen St  E ",
+      "x_coordinate": -79.2982027855432,
+      "y_coordinate": 43.6665440965766
+    }
+  },
+  {
+    "name": "Ledbury Park Outdoor Pool / Rink Washroom",
+    "properties": {
+      "id": 33,
+      "type": "Washroom Building",
+      "location_details": "Located in the outdoor pool and  rink building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/678/index.html",
+      "address": "160 Ledbury St  ",
+      "x_coordinate": -79.4251102606431,
+      "y_coordinate": 43.7270937683585
+    }
+  },
+  {
+    "name": "Leslie Grove Park Washroom",
+    "properties": {
+      "id": 34,
+      "type": "Washroom Building",
+      "location_details": "Located in the fieldhouse.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/123/index.html",
+      "address": "1158 Queen St  E ",
+      "x_coordinate": -79.333654761986,
+      "y_coordinate": 43.6626931604617
+    }
+  },
+  {
+    "name": "MacGregor Playground Washroom",
+    "properties": {
+      "id": 35,
+      "type": "Washroom Building",
+      "location_details": "Located in the fieldhouse.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/378/index.html",
+      "address": "346 Lansdowne Ave  ",
+      "x_coordinate": -79.4418087399311,
+      "y_coordinate": 43.6531317895619
+    }
+  },
+  {
+    "name": "Mel Lastman Square Washroom",
+    "properties": {
+      "id": 36,
+      "type": "Washroom Building",
+      "location_details": "Located in the Civic Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/956/index.html",
+      "address": "5100 Yonge St  ",
+      "x_coordinate": -79.4143527353882,
+      "y_coordinate": 43.7673433668837
+    }
+  },
+  {
+    "name": "Monarch Park Outdoor Pool / Rink Washroom",
+    "properties": {
+      "id": 37,
+      "type": "Washroom Building",
+      "location_details": "Located in the outdoor pool and rink building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/145/index.html",
+      "address": "115 Felstead Ave  ",
+      "x_coordinate": -79.325690539636,
+      "y_coordinate": 43.6773369810041
+    }
+  },
+  {
+    "name": "Morningside Park Washroom",
+    "properties": {
+      "id": 38,
+      "type": "Washroom Building",
+      "location_details": "Located west of the parking lot, east of the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1470/index.html",
+      "address": "390 Morningside Ave  ",
+      "x_coordinate": -79.1939632438081,
+      "y_coordinate": 43.7790720447928
+    }
+  },
+  {
+    "name": "Bellevue Square Park Washroom",
+    "properties": {
+      "id": 39,
+      "type": "Washroom Building",
+      "location_details": "Located at the east end of the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/263/index.html",
+      "address": "5 Bellevue Ave",
+      "x_coordinate": -79.4021185843126,
+      "y_coordinate": 43.6536042083219
+    }
+  },
+  {
+    "name": "Port Union Community Recreation Centre Washroom",
+    "properties": {
+      "id": 40,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/883/index.html",
+      "address": "5450 Lawrence Ave  E ",
+      "x_coordinate": -79.1402841246779,
+      "y_coordinate": 43.7796745138993
+    }
+  },
+  {
+    "name": "Ramsden Park Outdoor Rink Washroom",
+    "properties": {
+      "id": 41,
+      "type": "Washroom Building",
+      "location_details": "Located at the west end of the outdoor ice rink.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/167/index.html",
+      "address": "1020 Yonge St  ",
+      "x_coordinate": -79.3922394716624,
+      "y_coordinate": 43.6761976241959
+    }
+  },
+  {
+    "name": "Regent Park Athletic Grounds Outdoor Rink Washroom",
+    "properties": {
+      "id": 42,
+      "type": "Washroom Building",
+      "location_details": "Located in the rink building west of the outdoor ice rink.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/419/index.html",
+      "address": "480 Shuter St  ",
+      "x_coordinate": -79.3594540675083,
+      "y_coordinate": 43.6586776691492
+    }
+  },
+  {
+    "name": "Rennie Park David H. Williams Washroom",
+    "properties": {
+      "id": 43,
+      "type": "Washroom Building",
+      "location_details": "Located in the rink building west of the outdoor ice rink.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/181/index.html",
+      "address": "1 Rennie Terr  ",
+      "x_coordinate": -79.4737971617825,
+      "y_coordinate": 43.6441789595971
+    }
+  },
+  {
+    "name": "Riverdale Park East Outdoor Rink / Pool Washroom ",
+    "properties": {
+      "id": 44,
+      "type": "Washroom Building",
+      "location_details": "Located in the outdoor pool and rink building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/343/index.html",
+      "address": "550 Broadview Ave  ",
+      "x_coordinate": -79.3570209690722,
+      "y_coordinate": 43.6725268326487
+    }
+  },
+  {
+    "name": "Rosedale Park Washroom",
+    "properties": {
+      "id": 45,
+      "type": "Washroom Building",
+      "location_details": "Located in the rink building west of the outdoor ice rink.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/210/index.html",
+      "address": "20 Scholfield Ave  ",
+      "x_coordinate": -79.379211917246,
+      "y_coordinate": 43.6832752010301
+    }
+  },
+  {
+    "name": "Scarborough Village Recreation Centre Washroom",
+    "properties": {
+      "id": 46,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/743/index.html",
+      "address": "3600 Kingston Rd  ",
+      "x_coordinate": -79.2166001987902,
+      "y_coordinate": 43.7401807660545
+    }
+  },
+  {
+    "name": "Sherbourne Common Outdoor Rink Washroom",
+    "properties": {
+      "id": 47,
+      "type": "Washroom Building",
+      "location_details": "Entrance is located on the outside of the outdoor ice rink building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1860/index.html",
+      "address": "5 Lower Sherbourne St  ",
+      "x_coordinate": -79.3645289403109,
+      "y_coordinate": 43.6445598379067
+    }
+  },
+  {
+    "name": "Sir Winston Churchill Park Washroom",
+    "properties": {
+      "id": 48,
+      "type": "Washroom Building",
+      "location_details": "Located in the clubhouse/washroom building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/200/index.html",
+      "address": "301 St. Clair Ave  W ",
+      "x_coordinate": -79.4091500117139,
+      "y_coordinate": 43.6832761720121
+    }
+  },
+  {
+    "name": "Sunnybrook Park Washroom",
+    "properties": {
+      "id": 49,
+      "type": "Washroom Building",
+      "location_details": "Located in the washroom building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/28/index.html",
+      "address": "1132 Leslie St  ",
+      "x_coordinate": -79.3627571051784,
+      "y_coordinate": 43.7229311879898
+    }
+  },
+  {
+    "name": "Swansea Community Recreation Centre Washroom",
+    "properties": {
+      "id": 50,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/282/index.html",
+      "address": "15 Waller Ave  ",
+      "x_coordinate": -79.4771040399019,
+      "y_coordinate": 43.6439885165396
+    }
+  },
+  {
+    "name": "Thomson Memorial Park North Washroom",
+    "properties": {
+      "id": 51,
+      "type": "Washroom Building",
+      "location_details": "Located in the north washroom building of the park.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/543/index.html",
+      "address": "1005 Brimley Rd  ",
+      "x_coordinate": -79.2550640293662,
+      "y_coordinate": 43.7590828007797
+    }
+  },
+  {
+    "name": "Thomson Memorial Park South Washroom",
+    "properties": {
+      "id": 52,
+      "type": "Washroom Building",
+      "location_details": "Located in the south washroom building of the park. ",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/543/index.html",
+      "address": "1005 Brimley Rd  ",
+      "x_coordinate": -79.2552356944897,
+      "y_coordinate": 43.7576027313462
+    }
+  },
+  {
+    "name": "Trinity Bellwoods Playground Washroom",
+    "properties": {
+      "id": 53,
+      "type": "Washroom Building",
+      "location_details": "Entrance is located on the outside of the Community Center next to the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/241/index.html",
+      "address": "790 Queen St  W ",
+      "x_coordinate": -79.4147522409895,
+      "y_coordinate": 43.646614262852
+    }
+  },
+  {
+    "name": "Valleyfield Park Outdoor Rink Washroom",
+    "properties": {
+      "id": 54,
+      "type": "Washroom Building",
+      "location_details": "Located in the rink building next to the ice rink.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/812/index.html",
+      "address": "35 The Westway ",
+      "x_coordinate": -79.5343898495523,
+      "y_coordinate": 43.6946702977489
+    }
+  },
+  {
+    "name": "Viewmount Community Centre Washroom",
+    "properties": {
+      "id": 55,
+      "type": "Washroom Building",
+      "location_details": "Entrance is located on the outside of the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/772/index.html",
+      "address": "169 Viewmount Ave  ",
+      "x_coordinate": -79.4372148846784,
+      "y_coordinate": 43.7074970955835
+    }
+  },
+  {
+    "name": "Wedgewood Park Outdoor Rink Washroom",
+    "properties": {
+      "id": 56,
+      "type": "Washroom Building",
+      "location_details": "Located in the rink building next to the outdoor ice rink.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/773/index.html",
+      "address": "15 Swan Ave  ",
+      "x_coordinate": -79.547551885753,
+      "y_coordinate": 43.6445432169052
+    }
+  },
+  {
+    "name": "Wellesley Community Centre Washroom",
+    "properties": {
+      "id": 57,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/451/index.html",
+      "address": "495 Sherbourne St  ",
+      "x_coordinate": -79.3745592657097,
+      "y_coordinate": 43.6677094432915
+    }
+  },
+  {
+    "name": "West Deane Park Outdoor Rink Washroom",
+    "properties": {
+      "id": 58,
+      "type": "Washroom Building",
+      "location_details": "Located in the outdoor rink building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/873/index.html",
+      "address": "19 Sedgebrook Cres  ",
+      "x_coordinate": -79.5590276650424,
+      "y_coordinate": 43.663590685491
+    }
+  },
+  {
+    "name": "Wilket Creek Park Washroom",
+    "properties": {
+      "id": 59,
+      "type": "Washroom Building",
+      "location_details": "Located in the washroom building along main park road 0.5 km from Leslie Street.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/492/index.html",
+      "address": "1100 Leslie St  ",
+      "x_coordinate": -79.3530057962726,
+      "y_coordinate": 43.7214179860331
+    }
+  },
+  {
+    "name": "Withrow Park North Washroom",
+    "properties": {
+      "id": 60,
+      "type": "Washroom Building",
+      "location_details": "Located in the fieldhouse north of the firepit.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/306/index.html",
+      "address": "725 Logan Ave  ",
+      "x_coordinate": -79.3475479738944,
+      "y_coordinate": 43.6755968663628
+    }
+  },
+  {
+    "name": "Ethennonnhawahstihnen Park Outdoor Rink Washroom",
+    "properties": {
+      "id": 61,
+      "type": "Washroom Building",
+      "location_details": "Located next to the changeroom in the skating pavilion.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2597/index.html",
+      "address": "80 Mcmahon Dr  E ",
+      "x_coordinate": -79.3720392245532,
+      "y_coordinate": 43.7677026976735
+    }
+  },
+  {
+    "name": "Don Valley Golf Course Washroom",
+    "properties": {
+      "id": 62,
+      "type": "Washroom Building",
+      "location_details": "Located at the north entrance of the building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/918/index.html",
+      "address": "4200 Yonge St  ",
+      "x_coordinate": -79.4084020060346,
+      "y_coordinate": 43.7488605981146
+    }
+  },
+  {
+    "name": "Oakridge Community Recreation Centre Washroom",
+    "properties": {
+      "id": 63,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/731/index.html",
+      "address": "63 Pharmacy Ave  ",
+      "x_coordinate": -79.2835374005922,
+      "y_coordinate": 43.6950027752114
+    }
+  },
+  {
+    "name": "Warden Hilltop Community Centre Washroom",
+    "properties": {
+      "id": 64,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1865/index.html",
+      "address": "25 Mendelssohn St  ",
+      "x_coordinate": -79.2803649953629,
+      "y_coordinate": 43.7147561719941
+    }
+  },
+  {
+    "name": "Antibes Community Centre Washroom",
+    "properties": {
+      "id": 65,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/42/index.html",
+      "address": "140 Antibes Dr  ",
+      "x_coordinate": -79.4469991781889,
+      "y_coordinate": 43.7811469828441
+    }
+  },
+  {
+    "name": "Centennial Recreation Centre Scarborough Washroom",
+    "properties": {
+      "id": 66,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/537/index.html",
+      "address": "1967 Ellesmere Rd  ",
+      "x_coordinate": -79.2370320480401,
+      "y_coordinate": 43.7745423792274
+    }
+  },
+  {
+    "name": "Dentonia Park Golf Course Washroom",
+    "properties": {
+      "id": 67,
+      "type": "Washroom Building",
+      "location_details": "Located at the north side of the TTC station (Victoria Park), 50 metres east of the main entrance.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/402/index.html",
+      "address": "781 Victoria Park Ave  ",
+      "x_coordinate": -79.2888201538754,
+      "y_coordinate": 43.6955196464545
+    }
+  },
+  {
+    "name": "Ellesmere Community Centre Washroom",
+    "properties": {
+      "id": 68,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/617/index.html",
+      "address": "20 Canadian Rd  ",
+      "x_coordinate": -79.2993516624195,
+      "y_coordinate": 43.7607057308933
+    }
+  },
+  {
+    "name": "Etobicoke Olympium Washroom",
+    "properties": {
+      "id": 69,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/892/index.html",
+      "address": "590 Rathburn Rd  ",
+      "x_coordinate": -79.5844361941319,
+      "y_coordinate": 43.650238628568
+    }
+  },
+  {
+    "name": "Flemingdon Community Centre Washroom",
+    "properties": {
+      "id": 70,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/583/index.html",
+      "address": "150 Grenoble Dr  ",
+      "x_coordinate": -79.3263847291977,
+      "y_coordinate": 43.7135759299844
+    }
+  },
+  {
+    "name": "Gus Ryder Pool and Health Club Washroom",
+    "properties": {
+      "id": 71,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/896/index.html",
+      "address": "1 Faustina Dr  ",
+      "x_coordinate": -79.5219504332516,
+      "y_coordinate": 43.6012240545628
+    }
+  },
+  {
+    "name": "Harrison Pool Washroom",
+    "properties": {
+      "id": 72,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/45/index.html",
+      "address": "15 Stephanie St  ",
+      "x_coordinate": -79.3908399064081,
+      "y_coordinate": 43.6510968431876
+    }
+  },
+  {
+    "name": "Humber Valley Golf Course Washroom",
+    "properties": {
+      "id": 73,
+      "type": "Washroom Building",
+      "location_details": "Located near the entrance at south side of building/lower level.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/400/index.html",
+      "address": "40 Beattie Ave  ",
+      "x_coordinate": -79.5456031106779,
+      "y_coordinate": 43.7270785778504
+    }
+  },
+  {
+    "name": "Jimmie Simpson Recreation Centre Washroom",
+    "properties": {
+      "id": 74,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/58/index.html",
+      "address": "870 Queen St  E ",
+      "x_coordinate": -79.3453167172591,
+      "y_coordinate": 43.6604561662094
+    }
+  },
+  {
+    "name": "John Innes Community Recreation Centre Washroom",
+    "properties": {
+      "id": 75,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/63/index.html",
+      "address": "150 Sherbourne St  ",
+      "x_coordinate": -79.3703471606629,
+      "y_coordinate": 43.6554317151437
+    }
+  },
+  {
+    "name": "Joseph J. Piccininni Community Centre Washroom",
+    "properties": {
+      "id": 76,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/509/index.html",
+      "address": "1369 St. Clair Ave  W ",
+      "x_coordinate": -79.4514533348232,
+      "y_coordinate": 43.6753293140043
+    }
+  },
+  {
+    "name": "Matty Eckler Recreation Centre Washroom",
+    "properties": {
+      "id": 77,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/234/index.html",
+      "address": "953 Gerrard St  E ",
+      "x_coordinate": -79.3395868927523,
+      "y_coordinate": 43.6679126066793
+    }
+  },
+  {
+    "name": "McCowan District Park Outdoor Rink Washroom",
+    "properties": {
+      "id": 78,
+      "type": "Washroom Building",
+      "location_details": "Entrance is located on the outside of the outdoor ice rink building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1500/index.html",
+      "address": "150 Mccowan Rd  ",
+      "x_coordinate": -79.2374578515169,
+      "y_coordinate": 43.7344757374373
+    }
+  },
+  {
+    "name": "Memorial Pool and Health Club Washroom",
+    "properties": {
+      "id": 79,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/891/index.html",
+      "address": "44 Montgomery Rd  ",
+      "x_coordinate": -79.5196209220802,
+      "y_coordinate": 43.6483876693039
+    }
+  },
+  {
+    "name": "Milliken Park Community Recreation Centre Washroom",
+    "properties": {
+      "id": 80,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/405/index.html",
+      "address": "4325 Mccowan Rd  ",
+      "x_coordinate": -79.2741587142418,
+      "y_coordinate": 43.8297596243158
+    }
+  },
+  {
+    "name": "North Toronto Memorial Community Centre Washroom",
+    "properties": {
+      "id": 81,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/189/index.html",
+      "address": "200 Eglinton Ave  W ",
+      "x_coordinate": -79.4045977787855,
+      "y_coordinate": 43.7060688942291
+    }
+  },
+  {
+    "name": "Riverdale Farm Simpson House Washroom",
+    "properties": {
+      "id": 82,
+      "type": "Washroom Building",
+      "location_details": "Located in the Simpson House, at the farm entrance.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/345/index.html",
+      "address": "201 Winchester St  ",
+      "x_coordinate": -79.3616289191927,
+      "y_coordinate": 43.6671663148461
+    }
+  },
+  {
+    "name": "Scarlett Woods Golf Course Washroom",
+    "properties": {
+      "id": 83,
+      "type": "Washroom Building",
+      "location_details": "Located on the south side of clubhouse building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/401/index.html",
+      "address": "1000 Jane St  ",
+      "x_coordinate": -79.5001358581014,
+      "y_coordinate": 43.6835361714838
+    }
+  },
+  {
+    "name": "Tam O'Shanter Golf Course Washroom",
+    "properties": {
+      "id": 84,
+      "type": "Washroom Building",
+      "location_details": "Located at east side of the washroom building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/398/index.html",
+      "address": "2481 Birchmount Rd  ",
+      "x_coordinate": -79.2993502649702,
+      "y_coordinate": 43.7864178076007
+    }
+  },
+  {
+    "name": "Trinity Community Recreation Centre Washroom",
+    "properties": {
+      "id": 85,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/287/index.html",
+      "address": "155 Crawford St  ",
+      "x_coordinate": -79.4148812000088,
+      "y_coordinate": 43.6462590380175
+    }
+  },
+  {
+    "name": "Wallace Emerson Community Centre Washroom",
+    "properties": {
+      "id": 86,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre. ",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/294/index.html",
+      "address": "1260 Dufferin St  ",
+      "x_coordinate": -79.4393178880704,
+      "y_coordinate": 43.6673454722487
+    }
+  },
+  {
+    "name": "Birchmount Community Centre Washroom",
+    "properties": {
+      "id": 87,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/507/index.html",
+      "address": "93 Birchmount Rd  ",
+      "x_coordinate": -79.2621838750648,
+      "y_coordinate": 43.695494031363
+    }
+  },
+  {
+    "name": "Bob Abate Community Recreation Centre Washroom",
+    "properties": {
+      "id": 88,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/30/index.html",
+      "address": "485 Montrose Ave  ",
+      "x_coordinate": -79.4203134855572,
+      "y_coordinate": 43.6623990459451
+    }
+  },
+  {
+    "name": "Broadlands Community Centre Washroom",
+    "properties": {
+      "id": 89,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/7/index.html",
+      "address": "19 Castlegrove Blvd  ",
+      "x_coordinate": -79.3227635978155,
+      "y_coordinate": 43.7459269237554
+    }
+  },
+  {
+    "name": "Cedarbrook Community Centre Washroom ",
+    "properties": {
+      "id": 90,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/600/index.html",
+      "address": "91 Eastpark Blvd  ",
+      "x_coordinate": -79.2273986769647,
+      "y_coordinate": 43.7556325177018
+    }
+  },
+  {
+    "name": "Cummer Park Community Centre Washroom",
+    "properties": {
+      "id": 91,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/499/index.html",
+      "address": "6000 Leslie St  ",
+      "x_coordinate": -79.3712768021262,
+      "y_coordinate": 43.8001100610795
+    }
+  },
+  {
+    "name": "Driftwood Community Recreation Centre Washroom",
+    "properties": {
+      "id": 92,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/575/index.html",
+      "address": "4401 Jane St  ",
+      "x_coordinate": -79.5187469055849,
+      "y_coordinate": 43.7654285438688
+    }
+  },
+  {
+    "name": "Fairfield Seniors' Centre Washroom",
+    "properties": {
+      "id": 93,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/822/index.html",
+      "address": "80 Lothian Ave  ",
+      "x_coordinate": -79.5192468946026,
+      "y_coordinate": 43.6395405749797
+    }
+  },
+  {
+    "name": "Falstaff Community Centre Washroom",
+    "properties": {
+      "id": 94,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1063/index.html",
+      "address": "50 Falstaff Ave  ",
+      "x_coordinate": -79.5038001264385,
+      "y_coordinate": 43.7166285030076
+    }
+  },
+  {
+    "name": "Glen Long Community Centre Washroom",
+    "properties": {
+      "id": 95,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/638/index.html",
+      "address": "35 Glen Long Ave  ",
+      "x_coordinate": -79.4558709161666,
+      "y_coordinate": 43.7087869638728
+    }
+  },
+  {
+    "name": "Heron Park Community Centre Washroom",
+    "properties": {
+      "id": 96,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/633/index.html",
+      "address": "292 Manse Rd  ",
+      "x_coordinate": -79.1772581544948,
+      "y_coordinate": 43.7688450082487
+    }
+  },
+  {
+    "name": "Irving W. Chapley Community Centre Washroom",
+    "properties": {
+      "id": 97,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/664/index.html",
+      "address": "205 Wilmington Ave  ",
+      "x_coordinate": -79.4558708338894,
+      "y_coordinate": 43.7616280080493
+    }
+  },
+  {
+    "name": "Jenner Jean-Marie Community Centre Washroom",
+    "properties": {
+      "id": 98,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1076/index.html",
+      "address": "48 Thorncliffe Park Dr  ",
+      "x_coordinate": -79.3428007227627,
+      "y_coordinate": 43.7030808380548
+    }
+  },
+  {
+    "name": "Main Square Community Centre Washroom",
+    "properties": {
+      "id": 99,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/85/index.html",
+      "address": "245 Main St  ",
+      "x_coordinate": -79.2997918515666,
+      "y_coordinate": 43.6871809621621
+    }
+  },
+  {
+    "name": "O'Connor Community Centre Washroom",
+    "properties": {
+      "id": 100,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1093/index.html",
+      "address": "1386 Victoria Park Ave  ",
+      "x_coordinate": -79.3018032607417,
+      "y_coordinate": 43.7176681111587
+    }
+  },
+  {
+    "name": "Oriole Community Centre Washroom",
+    "properties": {
+      "id": 101,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/714/index.html",
+      "address": "2975 Don Mills Rd  W ",
+      "x_coordinate": -79.3514128046815,
+      "y_coordinate": 43.781769478576
+    }
+  },
+  {
+    "name": "Pleasantview Community Centre Washroom",
+    "properties": {
+      "id": 102,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/732/index.html",
+      "address": "545 Van Horne Ave  ",
+      "x_coordinate": -79.3368343841118,
+      "y_coordinate": 43.7870022972575
+    }
+  },
+  {
+    "name": "St. Lawrence Community Recreation Centre Washroom",
+    "properties": {
+      "id": 103,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/272/index.html",
+      "address": "230 The Esplanade  ",
+      "x_coordinate": -79.3649512470884,
+      "y_coordinate": 43.6497677002693
+    }
+  },
+  {
+    "name": "Stephen Leacock Community Recreation Centre Washroom",
+    "properties": {
+      "id": 104,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1105/index.html",
+      "address": "2500 Birchmount Rd  ",
+      "x_coordinate": -79.3015701760453,
+      "y_coordinate": 43.787612438343
+    }
+  },
+  {
+    "name": "Thistledown Communty Centre Washroom",
+    "properties": {
+      "id": 105,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/354/index.html",
+      "address": "925 Albion Rd  ",
+      "x_coordinate": -79.5624050020057,
+      "y_coordinate": 43.7353985232236
+    }
+  },
+  {
+    "name": "West Rouge Community Centre Washroom",
+    "properties": {
+      "id": 106,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/584/index.html",
+      "address": "270 Rouge Hills Dr  ",
+      "x_coordinate": -79.1251579040416,
+      "y_coordinate": 43.7921217956095
+    }
+  },
+  {
+    "name": "Earl Bales Community Centre Washroom",
+    "properties": {
+      "id": 107,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/171/index.html",
+      "address": "4169 Bathurst St  ",
+      "x_coordinate": -79.433982087692,
+      "y_coordinate": 43.7546038196439
+    }
+  },
+  {
+    "name": "Ken Cox Community Centre Washroom",
+    "properties": {
+      "id": 108,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1078/index.html",
+      "address": "28 Colonel Samuel Smith Park Dr  ",
+      "x_coordinate": -79.5165385561378,
+      "y_coordinate": 43.5951076454316
+    }
+  },
+  {
+    "name": "Malvern Recreation Centre Washroom",
+    "properties": {
+      "id": 109,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/702/index.html",
+      "address": "30 Sewells Rd  ",
+      "x_coordinate": -79.216387792949,
+      "y_coordinate": 43.8085753658168
+    }
+  },
+  {
+    "name": "Masaryk-Cowan Community Recreation Centre\u00c2\u00a0Washroom",
+    "properties": {
+      "id": 110,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/89/index.html",
+      "address": "220 Cowan Ave  ",
+      "x_coordinate": -79.4332607722799,
+      "y_coordinate": 43.6406521650276
+    }
+  },
+  {
+    "name": "McGregor Park Community Centre Washroom",
+    "properties": {
+      "id": 111,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/506/index.html",
+      "address": "2231 Lawrence Ave  E ",
+      "x_coordinate": -79.2803246028574,
+      "y_coordinate": 43.747647983527
+    }
+  },
+  {
+    "name": "North Kipling Community Centre Washroom",
+    "properties": {
+      "id": 112,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/749/index.html",
+      "address": "2 Rowntree Rd  ",
+      "x_coordinate": -79.5845025437265,
+      "y_coordinate": 43.7522063693988
+    }
+  },
+  {
+    "name": "Power House Recreation Centre Washroom",
+    "properties": {
+      "id": 113,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1429/index.html",
+      "address": "65 Colonel Samuel Smith Park Dr  ",
+      "x_coordinate": -79.5153469956673,
+      "y_coordinate": 43.5935330139716
+    }
+  },
+  {
+    "name": "Fairbank Memorial Community Centre Washroom",
+    "properties": {
+      "id": 114,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/482/index.html",
+      "address": "2213 Dufferin St  ",
+      "x_coordinate": -79.447990134047,
+      "y_coordinate": 43.6913080327831
+    }
+  },
+  {
+    "name": "Giovanni Caboto Outdoor Pool / Rink Washroom",
+    "properties": {
+      "id": 115,
+      "type": "Washroom Building",
+      "location_details": "Located between the outdoor pool and ice rink.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1068/index.html",
+      "address": "1367 St. Clair Ave  W ",
+      "x_coordinate": -79.4521854972555,
+      "y_coordinate": 43.6755756926594
+    }
+  },
+  {
+    "name": "L'Amoreaux Community Recreation Centre Washroom",
+    "properties": {
+      "id": 116,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/788/index.html",
+      "address": "2000 Mcnicoll Ave  ",
+      "x_coordinate": -79.3050595754378,
+      "y_coordinate": 43.8126200954216
+    }
+  },
+  {
+    "name": "Otter Creek Centre Outdoor Rink Washroom",
+    "properties": {
+      "id": 117,
+      "type": "Washroom Building",
+      "location_details": "Located in the rink building east of the outdoor ice rink.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/251/index.html",
+      "address": "140 Cheritan Ave  ",
+      "x_coordinate": -79.4095114839673,
+      "y_coordinate": 43.7212959666683
+    }
+  },
+  {
+    "name": "West Mall Outdoor Rink Washroom",
+    "properties": {
+      "id": 118,
+      "type": "Washroom Building",
+      "location_details": "Located in the rink building next to the outdoor ice rink.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/808/index.html",
+      "address": "370 The West Mall ",
+      "x_coordinate": -79.5662725979907,
+      "y_coordinate": 43.6415385578375
+    }
+  },
+  {
+    "name": "Humber Valley Outdoor Rink Washroom",
+    "properties": {
+      "id": 119,
+      "type": "Washroom Building",
+      "location_details": "Located in the outdoor rink building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/816/index.html",
+      "address": "50 Anglesey Blvd  ",
+      "x_coordinate": -79.5249196300552,
+      "y_coordinate": 43.6641990257647
+    }
+  },
+  {
+    "name": "Prince of Wales Outdoor Rink Washroom",
+    "properties": {
+      "id": 120,
+      "type": "Washroom Building",
+      "location_details": "Located on the west side of the ice outdoor rink.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/819/index.html",
+      "address": "1 Third St  ",
+      "x_coordinate": -79.4992695754135,
+      "y_coordinate": 43.5987971970945
+    }
+  },
+  {
+    "name": "Queensway Outdoor Rink Washroom",
+    "properties": {
+      "id": 121,
+      "type": "Washroom Building",
+      "location_details": "Entrance is located on the outside of the outdoor ice rink building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/817/index.html",
+      "address": "1 Third St  ",
+      "x_coordinate": -79.5063301422639,
+      "y_coordinate": 43.6264433282675
+    }
+  },
+  {
+    "name": "Royal Crest Park Outdoor Rink Washroom",
+    "properties": {
+      "id": 122,
+      "type": "Washroom Building",
+      "location_details": "Located in the outdoor ice rink building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/805/index.html",
+      "address": "50 Cabernet Cir  ",
+      "x_coordinate": -79.6047393369362,
+      "y_coordinate": 43.752720732966
+    }
+  },
+  {
+    "name": "Sir Adam Beck Park Outdoor Rink Washroom",
+    "properties": {
+      "id": 123,
+      "type": "Washroom Building",
+      "location_details": "Located in the rink building next to the outdoor ice rink.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/814/index.html",
+      "address": "55 Eltham Dr  ",
+      "x_coordinate": -79.5474628116641,
+      "y_coordinate": 43.6024119631027
+    }
+  },
+  {
+    "name": "Sunnydale Acres Park Outdoor Rink Washroom",
+    "properties": {
+      "id": 124,
+      "type": "Washroom Building",
+      "location_details": "Located in the outdoor ice rink building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/809/index.html",
+      "address": "50 Amoro Dr  ",
+      "x_coordinate": -79.5779239795761,
+      "y_coordinate": 43.7244679399916
+    }
+  },
+  {
+    "name": "Westway Outdoor Rink Washroom",
+    "properties": {
+      "id": 125,
+      "type": "Washroom Building",
+      "location_details": "Located in the rink building next to the outdoor ice rink.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/804/index.html",
+      "address": "175 The Westway ",
+      "x_coordinate": -79.5421363182288,
+      "y_coordinate": 43.6884617860024
+    }
+  },
+  {
+    "name": "Mitchell Field Community Centre Washroom",
+    "properties": {
+      "id": 126,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/693/index.html",
+      "address": "89 Church Ave  ",
+      "x_coordinate": -79.4086667253806,
+      "y_coordinate": 43.7745175459937
+    }
+  },
+  {
+    "name": "Hodgson Public School Grounds Outdoor Rink Washroom",
+    "properties": {
+      "id": 127,
+      "type": "Washroom Building",
+      "location_details": "Located on the north side on the outdoor ice rink.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1220/index.html",
+      "address": "276 Davisville Ave  ",
+      "x_coordinate": -79.386007198418,
+      "y_coordinate": 43.7014302884151
+    }
+  },
+  {
+    "name": "Parkway Forest Community Centre Washroom",
+    "properties": {
+      "id": 128,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2791/index.html",
+      "address": "55 Forest Manor Rd  ",
+      "x_coordinate": -79.3436104173862,
+      "y_coordinate": 43.7725752140569
+    }
+  },
+  {
+    "name": "York Recreation Centre Washroom",
+    "properties": {
+      "id": 129,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/3501/index.html",
+      "address": "115 Black Creek Dr   ",
+      "x_coordinate": -79.4820378305782,
+      "y_coordinate": 43.6878814899798
+    }
+  },
+  {
+    "name": "Canoe Landing Community Recreation Centre Washroom",
+    "properties": {
+      "id": 130,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/3643/index.html",
+      "address": "95 Fort York Blvd  ",
+      "x_coordinate": -79.3947404417531,
+      "y_coordinate": 43.6397135511861
+    }
+  },
+  {
+    "name": "Regent Park Community Centre Washroom",
+    "properties": {
+      "id": 131,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/3502/index.html",
+      "address": "402 Shuter St   ",
+      "x_coordinate": -79.3616956271316,
+      "y_coordinate": 43.658283109642
+    }
+  },
+  {
+    "name": "Jack Layton Ferry Terminal Washroom",
+    "properties": {
+      "id": 132,
+      "type": "Washroom Building",
+      "location_details": "Located in the main building on the west side of the Ferry Terminal entrance, accessed after ferry ticket purchase.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/3789/index.html",
+      "address": "25 Queens Quay W ",
+      "x_coordinate": -79.37538738491,
+      "y_coordinate": 43.6402789231245
+    }
+  },
+  {
+    "name": "Toronto Islands - Ward's Island Baseball Diamond Washroom",
+    "properties": {
+      "id": 133,
+      "type": "Washroom Building",
+      "location_details": "Located on Ward's Island east of the baseball diamond in the washroom building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2039/index.html",
+      "address": "1 Centre Island Park  ",
+      "x_coordinate": -79.3538118735298,
+      "y_coordinate": 43.6312682623479
+    }
+  },
+  {
+    "name": "Toronto Islands - Hanlan's Point Ferry Dock Washroom",
+    "properties": {
+      "id": 134,
+      "type": "Washroom Building",
+      "location_details": "Located on Hanlan's Point south of the ferry dock in the snack/concession stand, washroom building. ",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2541/index.html",
+      "address": "9 Queens Quay  W ",
+      "x_coordinate": -79.3892878335029,
+      "y_coordinate": 43.6274459421141
+    }
+  },
+  {
+    "name": "Moorevale Park Tennis Club Washroom",
+    "properties": {
+      "id": 135,
+      "type": "Washroom Building",
+      "location_details": "Located in the Moore Park Tennis Club building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/168/index.html",
+      "address": "175 Moore Ave  ",
+      "x_coordinate": -79.3822536329186,
+      "y_coordinate": 43.6935940276598
+    }
+  },
+  {
+    "name": "Ashbridges Bay Park Portable Toilet",
+    "properties": {
+      "id": 136,
+      "type": "Portable Toilet",
+      "location_details": "Located by the southeast corner of the parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1/index.html",
+      "address": "1561 Lake Shore Blvd  E ",
+      "x_coordinate": -79.3107915147552,
+      "y_coordinate": 43.6599135566521
+    }
+  },
+  {
+    "name": "Brookbanks Park Portable Toilet",
+    "properties": {
+      "id": 137,
+      "type": "Portable Toilet",
+      "location_details": "Located on the west side of the pathway between Gailong Court and Vanity Court.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2178/index.html",
+      "address": "75 Brookbanks Dr  ",
+      "x_coordinate": -79.3218920438135,
+      "y_coordinate": 43.7585866414318
+    }
+  },
+  {
+    "name": "Centennial Park Etobicoke Picnic Site 1 Portable Toilet",
+    "properties": {
+      "id": 138,
+      "type": "Portable Toilet",
+      "location_details": "Located in Picnic Site #1 near the parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/798/index.html",
+      "address": "256 Centennial Park Rd  ",
+      "x_coordinate": -79.5871450759427,
+      "y_coordinate": 43.6486618402761
+    }
+  },
+  {
+    "name": "Centennial Park Etobicoke Picnic Site 6 Portable Toilet",
+    "properties": {
+      "id": 139,
+      "type": "Portable Toilet",
+      "location_details": "Located in Picnic Site #6 near the parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/798/index.html",
+      "address": "256 Centennial Park Rd  ",
+      "x_coordinate": -79.591915389462,
+      "y_coordinate": 43.6518165346733
+    }
+  },
+  {
+    "name": "Cherry Beach Clarke Beach Portable Toilet",
+    "properties": {
+      "id": 140,
+      "type": "Portable Toilet",
+      "location_details": "Located in front of the seasonal fieldhouse.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/209/index.html",
+      "address": "1 Cherry St  ",
+      "x_coordinate": -79.3443570919786,
+      "y_coordinate": 43.636964334568
+    }
+  },
+  {
+    "name": "Coronation Park York Portable Toilet",
+    "properties": {
+      "id": 141,
+      "type": "Portable Toilet",
+      "location_details": "Located along the pathway near the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2031/index.html",
+      "address": "2700 Eglinton Ave  W ",
+      "x_coordinate": -79.4799156222277,
+      "y_coordinate": 43.6916841206315
+    }
+  },
+  {
+    "name": "Cruickshank Park  Portable Toilet",
+    "properties": {
+      "id": 142,
+      "type": "Portable Toilet",
+      "location_details": "Located on the north side of the parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/611/index.html",
+      "address": "2196 Weston Rd",
+      "x_coordinate": -79.5206198653867,
+      "y_coordinate": 43.6996453832473
+    }
+  },
+  {
+    "name": "Downsview Dells Park Portable Toilet",
+    "properties": {
+      "id": 143,
+      "type": "Portable Toilet",
+      "location_details": "Located near entrance gate off Sheppard Avenue.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/468/index.html",
+      "address": "2515 Jane St  ",
+      "x_coordinate": -79.4961784961107,
+      "y_coordinate": 43.7418970717526
+    }
+  },
+  {
+    "name": "Dufferin Grove Park Outdoor Ice Rink Portable Toilet",
+    "properties": {
+      "id": 144,
+      "type": "Portable Toilet",
+      "location_details": "Located next to the outdoor ice rink.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/87/index.html",
+      "address": "875 Dufferin St  ",
+      "x_coordinate": -79.4334747570867,
+      "y_coordinate": 43.6568103245275
+    }
+  },
+  {
+    "name": "Eglinton Flats South Parking Lot Portable Toilet",
+    "properties": {
+      "id": 145,
+      "type": "Portable Toilet",
+      "location_details": "Located in the parking lot near the Southeast Sports Pavilion.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/9/index.html",
+      "address": "101 Emmett Ave  ",
+      "x_coordinate": -79.4948086404748,
+      "y_coordinate": 43.6844915626007
+    }
+  },
+  {
+    "name": "Esther Lorrie Park Portable Toilet",
+    "properties": {
+      "id": 146,
+      "type": "Portable Toilet",
+      "location_details": "Located near the northwest corner of the parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/841/index.html",
+      "address": "50 Westhumber Blvd  ",
+      "x_coordinate": -79.5794921712915,
+      "y_coordinate": 43.7272963964059
+    }
+  },
+  {
+    "name": "G. Ross Lord Park Portable Toilet",
+    "properties": {
+      "id": 147,
+      "type": "Portable Toilet",
+      "location_details": "Located beside the dog off-leash area.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/11/index.html",
+      "address": "4801 Dufferin St  ",
+      "x_coordinate": -79.4677542963862,
+      "y_coordinate": 43.7779096195315
+    }
+  },
+  {
+    "name": "Godstone Park Portable Toilet",
+    "properties": {
+      "id": 148,
+      "type": "Portable Toilet",
+      "location_details": "Located on the pathway off Godstone Road, near the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/641/index.html",
+      "address": "45 Godstone Rd  ",
+      "x_coordinate": -79.3481653115525,
+      "y_coordinate": 43.7840679969027
+    }
+  },
+  {
+    "name": "Harryetta Gardens Portable Toilet",
+    "properties": {
+      "id": 149,
+      "type": "Portable Toilet",
+      "location_details": "Located north of the playground along the pathway.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/653/index.html",
+      "address": "170 Torresdale Ave  ",
+      "x_coordinate": -79.4509560292037,
+      "y_coordinate": 43.7817549878019
+    }
+  },
+  {
+    "name": "High Park Portable Toilet",
+    "properties": {
+      "id": 150,
+      "type": "Portable Toilet",
+      "location_details": "Located in the northeast corner of Grenadier Cafe parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/77/index.html",
+      "address": "1873 Bloor St  W ",
+      "x_coordinate": -79.4647289567701,
+      "y_coordinate": 43.6460076020567
+    }
+  },
+  {
+    "name": "HTO Park Portable Toilet",
+    "properties": {
+      "id": 151,
+      "type": "Portable Toilet",
+      "location_details": "Located south of the Martin Goodman trail and east of the Fire Hall.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1663/index.html",
+      "address": "339 Queens Quay W ",
+      "x_coordinate": -79.3885300541723,
+      "y_coordinate": 43.6381835748891
+    }
+  },
+  {
+    "name": "Humber Bay Park East Portable Toilet",
+    "properties": {
+      "id": 152,
+      "type": "Portable Toilet",
+      "location_details": "Located near the washroom building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1073/index.html",
+      "address": "100 Humber Bay Park Rd  W ",
+      "x_coordinate": -79.4757373000766,
+      "y_coordinate": 43.6224265390134
+    }
+  },
+  {
+    "name": "Humber Bay Park West Washroom",
+    "properties": {
+      "id": 153,
+      "type": "Washroom Building",
+      "location_details": "Located on the west side of the parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1074/index.html",
+      "address": "2225 Lake Shore Blvd  W ",
+      "x_coordinate": -79.4805156490399,
+      "y_coordinate": 43.6195478078334
+    }
+  },
+  {
+    "name": "Humberline Park Portable Toilet",
+    "properties": {
+      "id": 154,
+      "type": "Portable Toilet",
+      "location_details": "Located near the washroom building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1508/index.html",
+      "address": "32 Humberline Dr  ",
+      "x_coordinate": -79.6157642078847,
+      "y_coordinate": 43.7315794451797
+    }
+  },
+  {
+    "name": "King's Mill Park Portable Toilet",
+    "properties": {
+      "id": 155,
+      "type": "Portable Toilet",
+      "location_details": "Located in the southwest corner of the parking lot near the dog off-leash area.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1080/index.html",
+      "address": "9 Catherine St  ",
+      "x_coordinate": -79.4910090046419,
+      "y_coordinate": 43.6418816684561
+    }
+  },
+  {
+    "name": "Magwood Park Portable Toilet",
+    "properties": {
+      "id": 156,
+      "type": "Portable Toilet",
+      "location_details": "Located at the entrance, along Pasadena Gardens.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/716/index.html",
+      "address": "2 Pasadena Gdns  ",
+      "x_coordinate": -79.4980819351203,
+      "y_coordinate": 43.6584528989833
+    }
+  },
+  {
+    "name": "Marie Curtis Park Portable Toilet",
+    "properties": {
+      "id": 157,
+      "type": "Portable Toilet",
+      "location_details": "Located on the south side of the washroom building near the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/6/index.html",
+      "address": "2 Forty Second St  ",
+      "x_coordinate": -79.543094183982,
+      "y_coordinate": 43.5876008464188
+    }
+  },
+  {
+    "name": "Masseygrove Park Portable Toilet",
+    "properties": {
+      "id": 158,
+      "type": "Portable Toilet",
+      "location_details": "Located in the southeast area of the parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/850/index.html",
+      "address": "80 Kendleton Dr  ",
+      "x_coordinate": -79.5887518923908,
+      "y_coordinate": 43.7340911868142
+    }
+  },
+  {
+    "name": "Milliken Park Portable Toilet",
+    "properties": {
+      "id": 159,
+      "type": "Portable Toilet",
+      "location_details": "Located at the northeast corner of the concession building driveway.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1088/index.html",
+      "address": "5555 Steeles Ave  E ",
+      "x_coordinate": -79.2713801104797,
+      "y_coordinate": 43.8302311657806
+    }
+  },
+  {
+    "name": "Pelmo Park Portable Toilet",
+    "properties": {
+      "id": 160,
+      "type": "Portable Toilet",
+      "location_details": "Located south side of parking lot beside tennis courts",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/723/index.html",
+      "address": "171 Pellatt Ave  ",
+      "x_coordinate": -79.5188675698289,
+      "y_coordinate": 43.7141754057463
+    }
+  },
+  {
+    "name": "Pine Point Park Portable Toilet",
+    "properties": {
+      "id": 161,
+      "type": "Portable Toilet",
+      "location_details": "Northwest corner of parking lot, where Humber Trail begins",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/859/index.html",
+      "address": "4 Conan Rd  ",
+      "x_coordinate": -79.5407500678966,
+      "y_coordinate": 43.7141941660181
+    }
+  },
+  {
+    "name": "Port Union Village Common Park Portable Toilet",
+    "properties": {
+      "id": 162,
+      "type": "Portable Toilet",
+      "location_details": "Located in the middle of the park, west of the washroom building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1094/index.html",
+      "address": "105 Bridgend St  ",
+      "x_coordinate": -79.1350789268062,
+      "y_coordinate": 43.7766669785423
+    }
+  },
+  {
+    "name": "Rennie Park Portable Toilet ",
+    "properties": {
+      "id": 163,
+      "type": "Portable Toilet",
+      "location_details": "Located on the south side of the parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/181/index.html",
+      "address": "1 Rennie Terr  ",
+      "x_coordinate": -79.4739279831887,
+      "y_coordinate": 43.643633397379
+    }
+  },
+  {
+    "name": "Rowntree Mills Park Portable Toilet",
+    "properties": {
+      "id": 164,
+      "type": "Portable Toilet",
+      "location_details": "Located at the entrance of Rowntree Mill Rd and close to washroom building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/22/index.html",
+      "address": "155 Rowntree Mill Rd  ",
+      "x_coordinate": -79.5788113585639,
+      "y_coordinate": 43.7524421857137
+    }
+  },
+  {
+    "name": "Scarlett Mills Park Portable Toilet",
+    "properties": {
+      "id": 165,
+      "type": "Portable Toilet",
+      "location_details": "Located in the parking lot off of Edenbridge Drive closest to Scarlett Road.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1471/index.html",
+      "address": "235 Edenbridge Dr  ",
+      "x_coordinate": -79.509877759411,
+      "y_coordinate": 43.6780919024586
+    }
+  },
+  {
+    "name": "Shawnee Park Portable Toilet",
+    "properties": {
+      "id": 166,
+      "type": "Portable Toilet",
+      "location_details": "Located south of the tennis courts.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2595/index.html",
+      "address": "81 Shawnee Cir  ",
+      "x_coordinate": -79.338588366185,
+      "y_coordinate": 43.7970252220951
+    }
+  },
+  {
+    "name": "Sir Casimir Gzowski Park Portable Toilet ",
+    "properties": {
+      "id": 167,
+      "type": "Portable Toilet",
+      "location_details": "Located on the south side of the Martin Goodman Trail next to the snack/concession stand.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/71/index.html",
+      "address": "2001 Lake Shore Blvd  W ",
+      "x_coordinate": -79.4662242215333,
+      "y_coordinate": 43.6353213563584
+    }
+  },
+  {
+    "name": "Smythe Park Portable Toilet ",
+    "properties": {
+      "id": 168,
+      "type": "Portable Toilet",
+      "location_details": "Located at the south end of the parking lot near the splash pad.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/504/index.html",
+      "address": "61 Black Creek Blvd  ",
+      "x_coordinate": -79.496949313009,
+      "y_coordinate": 43.6746858051092
+    }
+  },
+  {
+    "name": "Summerlea Park Portable Toilet ",
+    "properties": {
+      "id": 169,
+      "type": "Portable Toilet",
+      "location_details": "Located in the parking lot close to the tennis courts.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/870/index.html",
+      "address": "2 Arcot Blvd  ",
+      "x_coordinate": -79.5523121433378,
+      "y_coordinate": 43.7279546582152
+    }
+  },
+  {
+    "name": "Wallace C. Swanek Park Portable Toilet",
+    "properties": {
+      "id": 170,
+      "type": "Portable Toilet",
+      "location_details": "Located near the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/610/index.html",
+      "address": "241 Gary Dr  ",
+      "x_coordinate": -79.522228853449,
+      "y_coordinate": 43.7085348824001
+    }
+  },
+  {
+    "name": "Tom Riley Park Portable Toilet",
+    "properties": {
+      "id": 171,
+      "type": "Portable Toilet",
+      "location_details": "Located in the south parking lot off Bloor St W",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/837/index.html",
+      "address": "4725 Dundas St  W ",
+      "x_coordinate": -79.5176153230724,
+      "y_coordinate": 43.6462590032849
+    }
+  },
+  {
+    "name": "West Deane Park Portable Toilet",
+    "properties": {
+      "id": 172,
+      "type": "Portable Toilet",
+      "location_details": "Located in the parking lot near the washroom building,west side of Martin Grove Road.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/873/index.html",
+      "address": "19 Sedgebrook Cres  ",
+      "x_coordinate": -79.5583024360279,
+      "y_coordinate": 43.6612978870878
+    }
+  },
+  {
+    "name": "Withrow Park Outdoor Rink Washroom",
+    "properties": {
+      "id": 173,
+      "type": "Washroom Building",
+      "location_details": "Located in the rink building north of the ice rink.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/306/index.html",
+      "address": "725 Logan Ave  ",
+      "x_coordinate": -79.3464199216267,
+      "y_coordinate": 43.6747268710047
+    }
+  },
+  {
+    "name": "Woodbine Beach Portable Toilet ",
+    "properties": {
+      "id": 174,
+      "type": "Portable Toilet",
+      "location_details": "Located South of parking lot near TTC roundabout at access point to Martin Goodman Trail.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/311/index.html",
+      "address": "1675 Lake Shore Blvd  E ",
+      "x_coordinate": -79.309284337745,
+      "y_coordinate": 43.663024546426
+    }
+  },
+  {
+    "name": "Lambton-Kingways Park Portable Toilet",
+    "properties": {
+      "id": 175,
+      "type": "Portable Toilet",
+      "location_details": "Located beside the Tennis Court",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/847/index.html",
+      "address": "37 Marquis Ave  ",
+      "x_coordinate": -79.507694171606,
+      "y_coordinate": 43.6582483793387
+    }
+  },
+  {
+    "name": "Dufferin Grove Park Central Portable Toilet",
+    "properties": {
+      "id": 176,
+      "type": "Portable Toilet",
+      "location_details": "Located on the pathway south of the outdoor ice rink.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/87/index.html",
+      "address": "875 Dufferin St  ",
+      "x_coordinate": -79.4325386832481,
+      "y_coordinate": 43.6564522512325
+    }
+  },
+  {
+    "name": "Dufferin Grove Park South Portable Toilet",
+    "properties": {
+      "id": 177,
+      "type": "Portable Toilet",
+      "location_details": "Located on the pathway at the south end of the park.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/87/index.html",
+      "address": "875 Dufferin St  ",
+      "x_coordinate": -79.4325976923484,
+      "y_coordinate": 43.6553034324366
+    }
+  },
+  {
+    "name": "Balmy Beach Park Portable Toilet",
+    "properties": {
+      "id": 178,
+      "type": "Portable Toilet",
+      "location_details": "Located near the bottom of Silverbirch Avenue at the east end of Balmy Beach Park. 15 metres north of, and visible from, the Martin Goodman Trail.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/427/index.html",
+      "address": "1 Beech Ave  ",
+      "x_coordinate": -79.2842677578573,
+      "y_coordinate": 43.6704428212592
+    }
+  },
+  {
+    "name": "David A. Balfour Park Portable Toilet",
+    "properties": {
+      "id": 179,
+      "type": "Portable Toilet",
+      "location_details": "Located on the pathway close to the washroom building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/143/index.html",
+      "address": "75 Rosehill Ave  ",
+      "x_coordinate": -79.387967641239,
+      "y_coordinate": 43.6868968155646
+    }
+  },
+  {
+    "name": "East Point Park Ken Morrish Softball Complex Washroom",
+    "properties": {
+      "id": 180,
+      "type": "Washroom Building",
+      "location_details": "Entrance is located on the outside of the Softball Complex.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1079/index.html",
+      "address": "101 Copperfield Rd  ",
+      "x_coordinate": -79.1626148530545,
+      "y_coordinate": 43.7602739669491
+    }
+  },
+  {
+    "name": "Elie Wiesel Park Washroom ",
+    "properties": {
+      "id": 181,
+      "type": "Washroom Building",
+      "location_details": "Located north of the baseball diamond and west of the tennis courts.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/490/index.html",
+      "address": "30 Palm Dr  ",
+      "x_coordinate": -79.4377459009679,
+      "y_coordinate": 43.7460651061355
+    }
+  },
+  {
+    "name": "Etienne Brule Park Washroom",
+    "properties": {
+      "id": 182,
+      "type": "Washroom Building",
+      "location_details": "Located 250 metres northwest of the Catherine Street entrance next to the trail.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/10/index.html",
+      "address": "13 Crosby Ave  ",
+      "x_coordinate": -79.4928604032372,
+      "y_coordinate": 43.652829599993
+    }
+  },
+  {
+    "name": "Greenwood Park Outdoor Pool / Rink Washroom",
+    "properties": {
+      "id": 183,
+      "type": "Washroom Building",
+      "location_details": "Located in the outdoor pool and rink building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/70/index.html",
+      "address": "150 Greenwood Ave  ",
+      "x_coordinate": -79.3297171606569,
+      "y_coordinate": 43.669494485569
+    }
+  },
+  {
+    "name": "Harbour Square Park Lands Fieldhouse Washroom",
+    "properties": {
+      "id": 184,
+      "type": "Washroom Building",
+      "location_details": "Located in fieldhouse southwest of the entrance to the Jack Layton Ferry Terminal.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/74/index.html",
+      "address": "25 Queens Quay W ",
+      "x_coordinate": -79.3758171251939,
+      "y_coordinate": 43.6400928101899
+    }
+  },
+  {
+    "name": "Little Norway Park Washroom",
+    "properties": {
+      "id": 185,
+      "type": "Washroom Building",
+      "location_details": "Located north of the wading pool.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/128/index.html",
+      "address": "659 Queens Quay  W ",
+      "x_coordinate": -79.3983911607265,
+      "y_coordinate": 43.634054038894
+    }
+  },
+  {
+    "name": "Marie Curtis Park Beach Washroom",
+    "properties": {
+      "id": 186,
+      "type": "Washroom Building",
+      "location_details": "Located at the south end of the park close to the beach and creek mouth.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/6/index.html",
+      "address": "2 Forty Second St  ",
+      "x_coordinate": -79.5414270225846,
+      "y_coordinate": 43.5857465995337
+    }
+  },
+  {
+    "name": "Milliken Park Washroom Building",
+    "properties": {
+      "id": 187,
+      "type": "Washroom Building",
+      "location_details": "Located to the west of the parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1088/index.html",
+      "address": "5555 Steeles Ave  E ",
+      "x_coordinate": -79.2718654970464,
+      "y_coordinate": 43.83007497694
+    }
+  },
+  {
+    "name": "Riverdale Farm Meeting House Washroom",
+    "properties": {
+      "id": 188,
+      "type": "Washroom Building",
+      "location_details": "Entrance is located on the outside of the Meeting House through the archway tunnel.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/345/index.html",
+      "address": "201 Winchester St  ",
+      "x_coordinate": -79.360058068804,
+      "y_coordinate": 43.6673597324879
+    }
+  },
+  {
+    "name": "Riverdale Park East Fieldhouse Washroom ",
+    "properties": {
+      "id": 189,
+      "type": "Washroom Building",
+      "location_details": "Located in the fieldhouse at the south end of the park.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/343/index.html",
+      "address": "550 Broadview Ave  ",
+      "x_coordinate": -79.3555090454883,
+      "y_coordinate": 43.6677361257402
+    }
+  },
+  {
+    "name": "Silver Creek Park Portable Toilet",
+    "properties": {
+      "id": 190,
+      "type": "Portable Toilet",
+      "location_details": "Located in the parking lot between the tennis court and outdoor pool.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/877/index.html",
+      "address": "44 Strathdee Dr  ",
+      "x_coordinate": -79.5452038097877,
+      "y_coordinate": 43.681877145759
+    }
+  },
+  {
+    "name": "Kiwanis Outdoor Pool Washroom ",
+    "properties": {
+      "id": 191,
+      "type": "Washroom Building",
+      "location_details": "Located in the outdoor pool building beside Cedarvale Ave.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/353/index.html",
+      "address": "375 Cedarvale Ave  ",
+      "x_coordinate": -79.3160695217415,
+      "y_coordinate": 43.6985193301265
+    }
+  },
+  {
+    "name": "Tommy Thompson Park Washroom",
+    "properties": {
+      "id": 192,
+      "type": "Washroom Building",
+      "location_details": "Located in the entrance of the pavilion.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2441/index.html",
+      "address": "1 Leslie St  ",
+      "x_coordinate": -79.322486975331,
+      "y_coordinate": 43.6517010035399
+    }
+  },
+  {
+    "name": "Crawford - Jones Memorial Park Portable Toilet",
+    "properties": {
+      "id": 193,
+      "type": "Portable Toilet",
+      "location_details": "Located on the north side of parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1450/index.html",
+      "address": "80 Dee Ave  ",
+      "x_coordinate": -79.5386646056213,
+      "y_coordinate": 43.7107179890962
+    }
+  },
+  {
+    "name": "Earl Bales Ski and Snowboard Centre Washroom",
+    "properties": {
+      "id": 194,
+      "type": "Washroom Building",
+      "location_details": "Entrance is located on the outside of the Ski and Snowboard Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2766/index.html",
+      "address": "4169 Bathurst St   ",
+      "x_coordinate": -79.4318634241532,
+      "y_coordinate": 43.7525720461341
+    }
+  },
+  {
+    "name": "Etienne Brule Park Portable Toilet",
+    "properties": {
+      "id": 195,
+      "type": "Portable Toilet",
+      "location_details": "Located beside the washroom building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/10/index.html",
+      "address": "13 Crosby Ave  ",
+      "x_coordinate": -79.4927579517733,
+      "y_coordinate": 43.6527446567255
+    }
+  },
+  {
+    "name": "Glamorgan Park Washroom",
+    "properties": {
+      "id": 196,
+      "type": "Washroom Building",
+      "location_details": "Located next to the splash pad.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/668/index.html",
+      "address": "50 Antrim Cres  ",
+      "x_coordinate": -79.2880919719457,
+      "y_coordinate": 43.7726035003558
+    }
+  },
+  {
+    "name": "Guild Park and Gardens East Washroom",
+    "properties": {
+      "id": 197,
+      "type": "Washroom Building",
+      "location_details": "Located at the entrance next to the southeast parking lot in the lower level of the Banquet hall.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/406/index.html",
+      "address": "201 Guildwood Pkwy  ",
+      "x_coordinate": -79.1915107155386,
+      "y_coordinate": 43.7478000251592
+    }
+  },
+  {
+    "name": "High Park Outdoor Pool / Rink Building Washroom",
+    "properties": {
+      "id": 198,
+      "type": "Washroom Building",
+      "location_details": "Located in the outdoor pool and ice rink building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/77/index.html",
+      "address": "1873 Bloor St  W ",
+      "x_coordinate": -79.4657929537847,
+      "y_coordinate": 43.6495223884904
+    }
+  },
+  {
+    "name": "Maryvale Park Portable Toilet",
+    "properties": {
+      "id": 199,
+      "type": "Portable Toilet",
+      "location_details": "Located at the entrance of the tennis courts next to the drinking fountain.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/704/index.html",
+      "address": "5 Trestleside Grv  ",
+      "x_coordinate": -79.3062147915794,
+      "y_coordinate": 43.7538448913792
+    }
+  },
+  {
+    "name": "Norwood Park Portable Toilet",
+    "properties": {
+      "id": 200,
+      "type": "Portable Toilet",
+      "location_details": "Located along the pathway between the playground and the dog off-leash area.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/228/index.html",
+      "address": "16 Norwood Rd  ",
+      "x_coordinate": -79.3043999957187,
+      "y_coordinate": 43.6823085139769
+    }
+  },
+  {
+    "name": "Park Lawn Park Outdoor Pool / Rink Washroom",
+    "properties": {
+      "id": 201,
+      "type": "Washroom Building",
+      "location_details": "Located in the outdoor pool and rink building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/858/index.html",
+      "address": "330 Park Lawn Rd  ",
+      "x_coordinate": -79.4956801087859,
+      "y_coordinate": 43.6389323415567
+    }
+  },
+  {
+    "name": "Sorauren Avenue Park Portable Toilet ",
+    "properties": {
+      "id": 202,
+      "type": "Portable Toilet",
+      "location_details": "Located near the fieldhouse.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/348/index.html",
+      "address": "289 Sorauren Ave  ",
+      "x_coordinate": -79.4429593855465,
+      "y_coordinate": 43.6481360553189
+    }
+  },
+  {
+    "name": "Woodbine Park Washroom",
+    "properties": {
+      "id": 203,
+      "type": "Washroom Building",
+      "location_details": "Located in the fieldhouse.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/431/index.html",
+      "address": "1695 Queen St  E ",
+      "x_coordinate": -79.3122155587199,
+      "y_coordinate": 43.6648655850139
+    }
+  },
+  {
+    "name": "Central Arena Washroom",
+    "properties": {
+      "id": 204,
+      "type": "Washroom Building",
+      "location_details": "Located inside Central Arena.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/824/index.html",
+      "address": "50 Montgomery Rd  ",
+      "x_coordinate": -79.5198848039247,
+      "y_coordinate": 43.6486249897206
+    }
+  },
+  {
+    "name": "Humber Bay Park West Portable Toilet",
+    "properties": {
+      "id": 205,
+      "type": "Portable Toilet",
+      "location_details": "Located near the washroom building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1074/index.html",
+      "address": "2225 Lake Shore Blvd  W ",
+      "x_coordinate": -79.4803942356868,
+      "y_coordinate": 43.6195528188668
+    }
+  },
+  {
+    "name": "Halbert Park Outdoor Pool Washroom",
+    "properties": {
+      "id": 206,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway at the north end of the outdoor pool.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/768/index.html",
+      "address": "24 Rockwood Dr  ",
+      "x_coordinate": -79.2309117268967,
+      "y_coordinate": 43.7288952426225
+    }
+  },
+  {
+    "name": "Sunnyside Park Outdoor Pool Washroom ",
+    "properties": {
+      "id": 207,
+      "type": "Washroom Building",
+      "location_details": "Located in the outdoor pool building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/395/index.html",
+      "address": "1755 Lake Shore Blvd  W ",
+      "x_coordinate": -79.4559041617442,
+      "y_coordinate": 43.6377286770607
+    }
+  },
+  {
+    "name": "Westmount Park Outdoor Pool Washroom ",
+    "properties": {
+      "id": 208,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway south of the tennis courts.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/888/index.html",
+      "address": "22 Arcade Dr  ",
+      "x_coordinate": -79.5188525237388,
+      "y_coordinate": 43.6871798554738
+    }
+  },
+  {
+    "name": "Wishing Well Park Fieldhouse Washroom ",
+    "properties": {
+      "id": 209,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway next to the tennis courts.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/586/index.html",
+      "address": "1700 Pharmacy Ave  ",
+      "x_coordinate": -79.3169677889023,
+      "y_coordinate": 43.7698479363297
+    }
+  },
+  {
+    "name": "Eglinton Park Washroom",
+    "properties": {
+      "id": 210,
+      "type": "Washroom Building",
+      "location_details": "Located in the centre of the park south of the sports fields. ",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/117/index.html",
+      "address": "200 Eglinton Ave  W ",
+      "x_coordinate": -79.4055022913115,
+      "y_coordinate": 43.7082702442736
+    }
+  },
+  {
+    "name": "Marie Curtis Park Playground Washroom",
+    "properties": {
+      "id": 211,
+      "type": "Washroom Building",
+      "location_details": "Located on a pathway near the spash pad and playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/6/index.html",
+      "address": "2 Forty Second St  ",
+      "x_coordinate": -79.5430533669158,
+      "y_coordinate": 43.5877043606072
+    }
+  },
+  {
+    "name": "Sorauren Avenue Park Fieldhouse Washroom ",
+    "properties": {
+      "id": 212,
+      "type": "Washroom Building",
+      "location_details": "Located south of the baseball diamond and Wabash Avenue.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/348/index.html",
+      "address": "289 Sorauren Ave",
+      "x_coordinate": -79.4430680893915,
+      "y_coordinate": 43.6480546291379
+    }
+  },
+  {
+    "name": "Toronto Islands - Ferry Dock Washroom",
+    "properties": {
+      "id": 213,
+      "type": "Washroom Building",
+      "location_details": "Located at the west side of the ferry dock plaza.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2024/index.html",
+      "address": "9 Queens Quay  W ",
+      "x_coordinate": -79.3790774765709,
+      "y_coordinate": 43.6223211904126
+    }
+  },
+  {
+    "name": "Gihon Spring Park Outdoor Pool Washroom",
+    "properties": {
+      "id": 214,
+      "type": "Washroom Building",
+      "location_details": "Located west of the outdoor pool next to the parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/894/index.html",
+      "address": "75 Gihon Spring Dr  ",
+      "x_coordinate": -79.5948805924789,
+      "y_coordinate": 43.755437968411
+    }
+  },
+  {
+    "name": "Hinder Area Washroom ",
+    "properties": {
+      "id": 215,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway 350 metres south of the parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2264/index.html",
+      "address": "44 Don River Blvd  ",
+      "x_coordinate": -79.4360220792603,
+      "y_coordinate": 43.760186124701
+    }
+  },
+  {
+    "name": "Toronto Islands - Ward's Island Chippewa House Washroom ",
+    "properties": {
+      "id": 216,
+      "type": "Washroom Building",
+      "location_details": "Located at the south west corner of Chippawa and Cibola Avenues.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2039/index.html",
+      "address": "1 Centre Island Park  ",
+      "x_coordinate": -79.3652939100108,
+      "y_coordinate": 43.6207496600121
+    }
+  },
+  {
+    "name": "Felstead Avenue Playground Washroom",
+    "properties": {
+      "id": 217,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway north of the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/129/index.html",
+      "address": "60 Felstead Ave  ",
+      "x_coordinate": -79.3300021099471,
+      "y_coordinate": 43.680254450354
+    }
+  },
+  {
+    "name": "June Rowlands Park Washroom",
+    "properties": {
+      "id": 218,
+      "type": "Washroom Building",
+      "location_details": "Located along Davisville Avenue southwest of the sports field.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/78/index.html",
+      "address": "220 Davisville Ave  ",
+      "x_coordinate": -79.3881918071276,
+      "y_coordinate": 43.7002952556134
+    }
+  },
+  {
+    "name": "Pam McConnell Aquatic Centre Washroom",
+    "properties": {
+      "id": 219,
+      "type": "Washroom Building",
+      "location_details": "Located in the Aquatic Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2012/index.html",
+      "address": "640 Dundas St  E ",
+      "x_coordinate": -79.3611050600464,
+      "y_coordinate": 43.6612374502638
+    }
+  },
+  {
+    "name": "Colonel Danforth Park Washroom",
+    "properties": {
+      "id": 220,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway west of the parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/4/index.html",
+      "address": "73 Colonel Danforth Trl  ",
+      "x_coordinate": -79.1649328529314,
+      "y_coordinate": 43.7771664305403
+    }
+  },
+  {
+    "name": "Wexford Park Fieldhouse Washroom ",
+    "properties": {
+      "id": 221,
+      "type": "Washroom Building",
+      "location_details": "Located bewteen the parking lot and the playground",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/571/index.html",
+      "address": "55 Elm Bank Rd  ",
+      "x_coordinate": -79.2971863999284,
+      "y_coordinate": 43.7336807089523
+    }
+  },
+  {
+    "name": "Christie Pits Park Washroom",
+    "properties": {
+      "id": 222,
+      "type": "Washroom Building",
+      "location_details": "Located north of the wading pool.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/196/index.html",
+      "address": "750 Bloor St  W ",
+      "x_coordinate": -79.4207083657256,
+      "y_coordinate": 43.6648326747953
+    }
+  },
+  {
+    "name": "Lee Lifeson Art Park Washroom ",
+    "properties": {
+      "id": 223,
+      "type": "Washroom Building",
+      "location_details": "Located in the building at the top of the amphitheatre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/3555/index.html",
+      "address": "45 Princess Ave   ",
+      "x_coordinate": -79.4099315960403,
+      "y_coordinate": 43.7687360176373
+    }
+  },
+  {
+    "name": "Humberline Park Washroom ",
+    "properties": {
+      "id": 224,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway next to the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1508/index.html",
+      "address": "32 Humberline Dr  ",
+      "x_coordinate": -79.615799046778,
+      "y_coordinate": 43.7315252044596
+    }
+  },
+  {
+    "name": "Dufferin Grove Sports Field Washroom",
+    "properties": {
+      "id": 225,
+      "type": "Washroom Building",
+      "location_details": "Located in the grassy area west of the sports field.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/87/index.html",
+      "address": "875 Dufferin St  ",
+      "x_coordinate": -79.4321989167074,
+      "y_coordinate": 43.6570614696945
+    }
+  },
+  {
+    "name": "Morse Street Playground Washroom",
+    "properties": {
+      "id": 226,
+      "type": "Washroom Building",
+      "location_details": "Located next to the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/174/index.html",
+      "address": "76 Morse St  ",
+      "x_coordinate": -79.3398759182464,
+      "y_coordinate": 43.6565751180623
+    }
+  },
+  {
+    "name": "Harry R. Gairey Outdoor Rink Washroom",
+    "properties": {
+      "id": 227,
+      "type": "Washroom Building",
+      "location_details": "Located in the rink building at the west end of the outdoor ice rinks.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/31/index.html",
+      "address": "275 Bathurst St  ",
+      "x_coordinate": -79.4045559223611,
+      "y_coordinate": 43.6513411996811
+    }
+  },
+  {
+    "name": "Jack Goodlad Community Centre Washroom",
+    "properties": {
+      "id": 228,
+      "type": "Washroom Building",
+      "location_details": "Entrance is located on the outside of the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/630/index.html",
+      "address": "929 Kennedy Rd  ",
+      "x_coordinate": -79.2710156567741,
+      "y_coordinate": 43.7423072167928
+    }
+  },
+  {
+    "name": "David A. Balfour Park Washroom",
+    "properties": {
+      "id": 229,
+      "type": "Washroom Building",
+      "location_details": "Located near the corner of Rosehill and Avoca Avenues.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/143/index.html",
+      "address": "75 Rosehill Ave  ",
+      "x_coordinate": -79.3876009253875,
+      "y_coordinate": 43.6869237745291
+    }
+  },
+  {
+    "name": "West Mall Outdoor Pool Washroom ",
+    "properties": {
+      "id": 230,
+      "type": "Washroom Building",
+      "location_details": "Located on the west side of the pool, north fo the parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/905/index.html",
+      "address": "380 The West Mall  ",
+      "x_coordinate": -79.5669501571183,
+      "y_coordinate": 43.642375463808
+    }
+  },
+  {
+    "name": "Dunlop Park Washroom",
+    "properties": {
+      "id": 231,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway between the playground and the splash pad.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/605/index.html",
+      "address": "19 Dunlop Ave  ",
+      "x_coordinate": -79.2668974286899,
+      "y_coordinate": 43.7128246427226
+    }
+  },
+  {
+    "name": "Trinity Bellwoods Park North Baseball Diamond Washroom ",
+    "properties": {
+      "id": 232,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway north of the outdoor ice rink.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/241/index.html",
+      "address": "790 Queen St  W ",
+      "x_coordinate": -79.4136903762387,
+      "y_coordinate": 43.6495433072206
+    }
+  },
+  {
+    "name": "Toronto Islands - Olympic Island Park Washroom",
+    "properties": {
+      "id": 233,
+      "type": "Washroom Building",
+      "location_details": "Located along the pathway, in the pavillion on the north side of the island.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2543/index.html",
+      "address": "9 Queens Quay  W ",
+      "x_coordinate": -79.3736858644003,
+      "y_coordinate": 43.6233044185949
+    }
+  },
+  {
+    "name": "Stanley Greene Park Pavilion Washroom",
+    "properties": {
+      "id": 234,
+      "type": "Washroom Building",
+      "location_details": "Located next to the splash pad and playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/3693/index.html",
+      "address": "55 Stanley Greene Blvd.   ",
+      "x_coordinate": -79.4774547871273,
+      "y_coordinate": 43.73417677308
+    }
+  },
+  {
+    "name": "High Park Children's Garden Washroom",
+    "properties": {
+      "id": 235,
+      "type": "Washroom Building",
+      "location_details": "Located east of the Children's Garden.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/77/index.html",
+      "address": "1873 Bloor St  W ",
+      "x_coordinate": -79.4613738157864,
+      "y_coordinate": 43.6417585374845
+    }
+  },
+  {
+    "name": "Knob Hill Park Outdoor Pool Washroom",
+    "properties": {
+      "id": 236,
+      "type": "Washroom Building",
+      "location_details": "Located on the south side of the outdoor pool.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/690/index.html",
+      "address": "625 Brimley Rd  ",
+      "x_coordinate": -79.2485607375889,
+      "y_coordinate": 43.7436359260073
+    }
+  },
+  {
+    "name": "Derrydowns Park Washroom",
+    "properties": {
+      "id": 237,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway south of the parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/5/index.html",
+      "address": "271 Derrydown Rd  ",
+      "x_coordinate": -79.5054660782108,
+      "y_coordinate": 43.758145025719
+    }
+  },
+  {
+    "name": "Earl Bales Park South Washroom",
+    "properties": {
+      "id": 238,
+      "type": "Washroom Building",
+      "location_details": "Located south of the base of the ski hill at the end of a pathway.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/337/index.html",
+      "address": "4169 Bathurst St  ",
+      "x_coordinate": -79.4279731954461,
+      "y_coordinate": 43.7521611044862
+    }
+  },
+  {
+    "name": "Morningside Park Central Picnic Site Washroom",
+    "properties": {
+      "id": 239,
+      "type": "Washroom Building",
+      "location_details": "Located in the grassy area near the forested area west of Picnic Site #1.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1470/index.html",
+      "address": "390 Morningside Ave  ",
+      "x_coordinate": -79.1972054673291,
+      "y_coordinate": 43.7778238742401
+    }
+  },
+  {
+    "name": "Kew Beach Lawn Bowling Club Washroom",
+    "properties": {
+      "id": 240,
+      "type": "Washroom Building",
+      "location_details": "Located on a pathway between the bowling greens and Martin Goodman Trail.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/107/index.html",
+      "address": "2075 Queen St  E ",
+      "x_coordinate": -79.2973069274593,
+      "y_coordinate": 43.6665815053896
+    }
+  },
+  {
+    "name": "Fred Hamilton Playground Washroom",
+    "properties": {
+      "id": 241,
+      "type": "Washroom Building",
+      "location_details": "Located at the top of the hill on the pathway next to the bocce courts.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/72/index.html",
+      "address": "155 Roxton Rd  ",
+      "x_coordinate": -79.42039887978,
+      "y_coordinate": 43.6527304409324
+    }
+  },
+  {
+    "name": "Highview Park Washroom",
+    "properties": {
+      "id": 242,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway between the baseball diamond and the wading pool.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/676/index.html",
+      "address": "150 Highview Ave  ",
+      "x_coordinate": -79.2586561877195,
+      "y_coordinate": 43.7022480616864
+    }
+  },
+  {
+    "name": "Topham Park Community Centre and Clubhouse Washroom ",
+    "properties": {
+      "id": 243,
+      "type": "Washroom Building",
+      "location_details": "Entrance is located on the outside of the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/276/index.html",
+      "address": "181 Westview Blvd  ",
+      "x_coordinate": -79.3069114442879,
+      "y_coordinate": 43.7107919681382
+    }
+  },
+  {
+    "name": "High Park Upper Hillside Washroom",
+    "properties": {
+      "id": 244,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway from the last West Road parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/77/index.html",
+      "address": "1873 Bloor St  W ",
+      "x_coordinate": -79.4669002642805,
+      "y_coordinate": 43.6451146384811
+    }
+  },
+  {
+    "name": "Scarborough Village Park Fieldhouse Washroom",
+    "properties": {
+      "id": 245,
+      "type": "Washroom Building",
+      "location_details": "Located at the east end of the parking lot next to the baseball diamond.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/746/index.html",
+      "address": "23 Gatesview Ave  ",
+      "x_coordinate": -79.2129720067802,
+      "y_coordinate": 43.7473004127239
+    }
+  },
+  {
+    "name": "Wells Hill Park Washroom ",
+    "properties": {
+      "id": 246,
+      "type": "Washroom Building",
+      "location_details": "Located in the southwest area of the park next to the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/393/index.html",
+      "address": "145 Hilton Ave  ",
+      "x_coordinate": -79.4163465207697,
+      "y_coordinate": 43.6823456887943
+    }
+  },
+  {
+    "name": "Fairhaven Park Outdoor Pool Washroom",
+    "properties": {
+      "id": 247,
+      "type": "Washroom Building",
+      "location_details": "Located at the east end of the pool.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/887/index.html",
+      "address": "100 Golfwood Hts  ",
+      "x_coordinate": -79.5471407863093,
+      "y_coordinate": 43.7032609125586
+    }
+  },
+  {
+    "name": "Lambton - Kingsway Park Outdoor Pool  Washroom",
+    "properties": {
+      "id": 248,
+      "type": "Washroom Building",
+      "location_details": "Located at the west end of the outdoor pool.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/902/index.html",
+      "address": "37 Marquis Ave  ",
+      "x_coordinate": -79.5078926568259,
+      "y_coordinate": 43.6583556979058
+    }
+  },
+  {
+    "name": "Richmond Gardens Outdoor Pool Washroom ",
+    "properties": {
+      "id": 249,
+      "type": "Washroom Building",
+      "location_details": "Located at the south end of the outdoor pool.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/889/index.html",
+      "address": "44 Strathdee Dr  ",
+      "x_coordinate": -79.5454436523017,
+      "y_coordinate": 43.6818509288476
+    }
+  },
+  {
+    "name": "Smithfield Park Outdoor Pool Washroom ",
+    "properties": {
+      "id": 250,
+      "type": "Washroom Building",
+      "location_details": "Located on the east side of the outdoor pool near Mount Olive Drive.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/895/index.html",
+      "address": "175 Mount Olive Dr  ",
+      "x_coordinate": -79.5953584660785,
+      "y_coordinate": 43.7486384212487
+    }
+  },
+  {
+    "name": "Toronto Islands - Gibraltar Point Washroom",
+    "properties": {
+      "id": 251,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway near the water's edge at Gibraltar Point.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2541/index.html",
+      "address": "9 Queens Quay  W ",
+      "x_coordinate": -79.3888867399223,
+      "y_coordinate": 43.6121293398704
+    }
+  },
+  {
+    "name": "Willowdale Park North York Tennis Club Washroom ",
+    "properties": {
+      "id": 252,
+      "type": "Washroom Building",
+      "location_details": "Located on the east side of the tennis courts. ",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/865/index.html",
+      "address": "75 Hollywood Ave  ",
+      "x_coordinate": -79.4080557450899,
+      "y_coordinate": 43.7662110034944
+    }
+  },
+  {
+    "name": "Rosedale Park Tennis Clubhouse Washroom",
+    "properties": {
+      "id": 253,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway between the tennis courts and the splash pad.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/210/index.html",
+      "address": "20 Scholfield Ave  ",
+      "x_coordinate": -79.3790546661771,
+      "y_coordinate": 43.6833680650992
+    }
+  },
+  {
+    "name": "Serena Gundy Park Washroom ",
+    "properties": {
+      "id": 254,
+      "type": "Washroom Building",
+      "location_details": "Located on the park pathway across from Picnic Site #1.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/26/index.html",
+      "address": "58 Rykert Cres  ",
+      "x_coordinate": -79.3570418393452,
+      "y_coordinate": 43.7186340447905
+    }
+  },
+  {
+    "name": "Leaside Park Washroom",
+    "properties": {
+      "id": 255,
+      "type": "Washroom Building",
+      "location_details": "Entrance is located on the outside of the outdoor pool building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/321/index.html",
+      "address": "5 Leaside Park Dr  ",
+      "x_coordinate": -79.3498334820129,
+      "y_coordinate": 43.7024612111128
+    }
+  },
+  {
+    "name": "Pine Point Park Outdoor Pool Washroom",
+    "properties": {
+      "id": 256,
+      "type": "Washroom Building",
+      "location_details": "Located in the pool building on the south end of the outdoor pool.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/899/index.html",
+      "address": "15 Grierson Rd  ",
+      "x_coordinate": -79.544603516948,
+      "y_coordinate": 43.7124749729566
+    }
+  },
+  {
+    "name": "Maryvale Park Outdoor Pool Washroom",
+    "properties": {
+      "id": 257,
+      "type": "Washroom Building",
+      "location_details": "Entrance is located on the outside of the outdoor pool building on the east side of the building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/790/index.html",
+      "address": "5 Trestleside Grove  ",
+      "x_coordinate": -79.3065499800017,
+      "y_coordinate": 43.7530993661075
+    }
+  },
+  {
+    "name": "Amos Waites Park Outdoor Pool Washroom",
+    "properties": {
+      "id": 258,
+      "type": "Washroom Building",
+      "location_details": "Located in the outdoor pool changing rooms.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/906/index.html",
+      "address": "2441 Lake Shore Blvd  W ",
+      "x_coordinate": -79.4879144917384,
+      "y_coordinate": 43.6130486254058
+    }
+  },
+  {
+    "name": "Smythe Park Outdoor Pool Washroom ",
+    "properties": {
+      "id": 259,
+      "type": "Washroom Building",
+      "location_details": "Located at the east end of the park between the parking lot and the outdoor pool.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/504/index.html",
+      "address": "61 Black Creek Blvd  ",
+      "x_coordinate": -79.4976299453474,
+      "y_coordinate": 43.6748357292924
+    }
+  },
+  {
+    "name": "McCleary Park Washroom",
+    "properties": {
+      "id": 260,
+      "type": "Washroom Building",
+      "location_details": "Located between the baseball diamonds, next to Lake Shore Boulevard.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/379/index.html",
+      "address": "755 Lake Shore Blvd  E ",
+      "x_coordinate": -79.3406971956956,
+      "y_coordinate": 43.6533926612285
+    }
+  },
+  {
+    "name": "Rosetta McClain Gardens Washroom ",
+    "properties": {
+      "id": 261,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway next to the parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/19/index.html",
+      "address": "5 Glen Everest Rd  ",
+      "x_coordinate": -79.2562738217461,
+      "y_coordinate": 43.6968453344385
+    }
+  },
+  {
+    "name": "Flagstaff Park Outdoor Pool Washroom",
+    "properties": {
+      "id": 262,
+      "type": "Washroom Building",
+      "location_details": "Located at the west end of the pool, between the playground and the parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/898/index.html",
+      "address": "42 Mercury Rd  ",
+      "x_coordinate": -79.5914492844324,
+      "y_coordinate": 43.7212364929401
+    }
+  },
+  {
+    "name": "Memorial Park Washroom",
+    "properties": {
+      "id": 263,
+      "type": "Washroom Building",
+      "location_details": "Entrance is located on the outside of the Larry Grossman Forest Hill Memorial Arena.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/131/index.html",
+      "address": "340 Chaplin Cres  ",
+      "x_coordinate": -79.4206659605394,
+      "y_coordinate": 43.7045498154351
+    }
+  },
+  {
+    "name": "Kidstown Waterpark  Washroom",
+    "properties": {
+      "id": 264,
+      "type": "Washroom Building",
+      "location_details": "Located in Kidstown Waterpark.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/352/index.html",
+      "address": "100 Silver Springs Blvd  ",
+      "x_coordinate": -79.3094379147517,
+      "y_coordinate": 43.8070318323458
+    }
+  },
+  {
+    "name": "Norwood Park Washroom",
+    "properties": {
+      "id": 265,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway in the southeast corner of the park near Norwood Road.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/228/index.html",
+      "address": "16 Norwood Rd  ",
+      "x_coordinate": -79.302779024106,
+      "y_coordinate": 43.6820602180629
+    }
+  },
+  {
+    "name": "Eglinton Flats Southeast Sports Pavilion Washroom",
+    "properties": {
+      "id": 266,
+      "type": "Washroom Building",
+      "location_details": "Located in the sports pavillion south of the parking lot between the sports fields and the tennis courts.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/9/index.html",
+      "address": "101 Emmett Ave  ",
+      "x_coordinate": -79.4947915225419,
+      "y_coordinate": 43.6842163008866
+    }
+  },
+  {
+    "name": "Lithuania Park Washroom",
+    "properties": {
+      "id": 267,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway in the northwest corner of the park near Oakmount Road.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/125/index.html",
+      "address": "155 Oakmount Rd  ",
+      "x_coordinate": -79.4640414930473,
+      "y_coordinate": 43.6590166053575
+    }
+  },
+  {
+    "name": "Wanless Park Fieldhouse Washroom ",
+    "properties": {
+      "id": 268,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway west of the baseball diamond.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/265/index.html",
+      "address": "250 Wanless Ave  ",
+      "x_coordinate": -79.3918810216422,
+      "y_coordinate": 43.7288339846635
+    }
+  },
+  {
+    "name": "Stanley Park South Outdoor Pool Washroom ",
+    "properties": {
+      "id": 269,
+      "type": "Washroom Building",
+      "location_details": "Located in the outdoor pool building at the east side of the park.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2750/index.html",
+      "address": "700 Wellington St  W ",
+      "x_coordinate": -79.4080742385967,
+      "y_coordinate": 43.6419819156228
+    }
+  },
+  {
+    "name": "Pantry Park Fieldhouse Washroom",
+    "properties": {
+      "id": 270,
+      "type": "Washroom Building",
+      "location_details": "Located at the south end of the park next to Kewbeach Avenue.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/254/index.html",
+      "address": "70 Kewbeach Ave  ",
+      "x_coordinate": -79.3019007376667,
+      "y_coordinate": 43.6664480845597
+    }
+  },
+  {
+    "name": "Riverdale Park West Washroom ",
+    "properties": {
+      "id": 271,
+      "type": "Washroom Building",
+      "location_details": "Located near the end of the pathway close to the southern ball diamond.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/344/index.html",
+      "address": "375 Sumach St  ",
+      "x_coordinate": -79.3594355692465,
+      "y_coordinate": 43.66529416658
+    }
+  },
+  {
+    "name": "Sherwood Park Washroom ",
+    "properties": {
+      "id": 272,
+      "type": "Washroom Building",
+      "location_details": "Located on the east side of the splash pad. ",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/149/index.html",
+      "address": "190 Sherwood Ave  ",
+      "x_coordinate": -79.3870547668764,
+      "y_coordinate": 43.7171908390515
+    }
+  },
+  {
+    "name": "Perth Square Park Washroom ",
+    "properties": {
+      "id": 273,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway west of the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/284/index.html",
+      "address": "350 Perth Ave  ",
+      "x_coordinate": -79.4529536780257,
+      "y_coordinate": 43.663981312684
+    }
+  },
+  {
+    "name": "L'Amoreaux Sports Centre Washroom",
+    "properties": {
+      "id": 274,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway between the soccer fields and the baseball diamonds.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/698/index.html",
+      "address": "100 Silver Springs Blvd  ",
+      "x_coordinate": -79.3043437343811,
+      "y_coordinate": 43.8033155420888
+    }
+  },
+  {
+    "name": "Bluffer's Park East Washroom",
+    "properties": {
+      "id": 275,
+      "type": "Washroom Building",
+      "location_details": "Located on a pathway between the east parking lot and the beach.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2/index.html",
+      "address": "1 Brimley Rd  S ",
+      "x_coordinate": -79.2274365623839,
+      "y_coordinate": 43.7130393877531
+    }
+  },
+  {
+    "name": "Rowntree Mills Park Washroom",
+    "properties": {
+      "id": 276,
+      "type": "Washroom Building",
+      "location_details": "Located on a pathway between Rowntree Mill Road and the second parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/22/index.html",
+      "address": "155 Rowntree Mill Rd  ",
+      "x_coordinate": -79.5778950075804,
+      "y_coordinate": 43.7521986329102
+    }
+  },
+  {
+    "name": "Downsview Dells Park North Washroom",
+    "properties": {
+      "id": 277,
+      "type": "Washroom Building",
+      "location_details": "Located across from Picnic Site #3, east of the last parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/468/index.html",
+      "address": "2515 Jane St  ",
+      "x_coordinate": -79.5009399579082,
+      "y_coordinate": 43.7366320196761
+    }
+  },
+  {
+    "name": "Lawrence Park Ravine Tennis Clubhouse Washroom",
+    "properties": {
+      "id": 278,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway at the north side of the tennis courts.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/119/index.html",
+      "address": "51 Alexander Muir Rd  ",
+      "x_coordinate": -79.3990239361547,
+      "y_coordinate": 43.720799485565
+    }
+  },
+  {
+    "name": "Eglinton Flats Northwest Service Building Washroom",
+    "properties": {
+      "id": 279,
+      "type": "Washroom Building",
+      "location_details": "Located in the service building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/9/index.html",
+      "address": "101 Emmett Ave  ",
+      "x_coordinate": -79.5057225179364,
+      "y_coordinate": 43.6859625604974
+    }
+  },
+  {
+    "name": "Ramsden Park Washroom ",
+    "properties": {
+      "id": 280,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway south of the western most tennis courts.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/167/index.html",
+      "address": "1020 Yonge St  ",
+      "x_coordinate": -79.3949684776235,
+      "y_coordinate": 43.6762144492983
+    }
+  },
+  {
+    "name": "Seven Oaks Park Washroom",
+    "properties": {
+      "id": 281,
+      "type": "Washroom Building",
+      "location_details": "Located south of the tennis courts, next to the parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/590/index.html",
+      "address": "372 Military Trl  ",
+      "x_coordinate": -79.2100687761565,
+      "y_coordinate": 43.787949404289
+    }
+  },
+  {
+    "name": "Sir Casimir Gzowski Park Fieldhouse Washroom ",
+    "properties": {
+      "id": 282,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway from the east end of the parking lot to the boardwalk, across from the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/71/index.html",
+      "address": "2001 Lake Shore Blvd  W ",
+      "x_coordinate": -79.4657722944741,
+      "y_coordinate": 43.6351460999687
+    }
+  },
+  {
+    "name": "Kew Gardens Playground Washroom",
+    "properties": {
+      "id": 283,
+      "type": "Washroom Building",
+      "location_details": "Located on a pathway between the wading pool and the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/107/index.html",
+      "address": "2075 Queen St  E ",
+      "x_coordinate": -79.2999590986923,
+      "y_coordinate": 43.6692870586114
+    }
+  },
+  {
+    "name": "E.T. Seton Park Washroom",
+    "properties": {
+      "id": 284,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway between the north parking lot and archery range.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1061/index.html",
+      "address": "73 Thorncliffe Park Dr  ",
+      "x_coordinate": -79.3374075978128,
+      "y_coordinate": 43.7094352154839
+    }
+  },
+  {
+    "name": "Bickford Park Washroom",
+    "properties": {
+      "id": 285,
+      "type": "Washroom Building",
+      "location_details": "Located at the south end of the park next to dog off-leash area and the baseball diamond.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/295/index.html",
+      "address": "400 Grace St  ",
+      "x_coordinate": -79.4180442284062,
+      "y_coordinate": 43.6603728284459
+    }
+  },
+  {
+    "name": "Neilson Park Scarborough Washroom",
+    "properties": {
+      "id": 286,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway between the baseball diamonds, east of the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/792/index.html",
+      "address": "1555 Neilson Rd  ",
+      "x_coordinate": -79.2243595634828,
+      "y_coordinate": 43.8136037675646
+    }
+  },
+  {
+    "name": "Ourland Park Outdoor Pool Washroom",
+    "properties": {
+      "id": 287,
+      "type": "Washroom Building",
+      "location_details": "Located on the east side of the outdoor pool.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/907/index.html",
+      "address": "36 Ourland Ave  ",
+      "x_coordinate": -79.508652871874,
+      "y_coordinate": 43.6165182697016
+    }
+  },
+  {
+    "name": "Home Smith Park Washroom ",
+    "properties": {
+      "id": 288,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway next to Picnic Site #2.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/15/index.html",
+      "address": "4101 Dundas St  W ",
+      "x_coordinate": -79.5013036801886,
+      "y_coordinate": 43.6585672157335
+    }
+  },
+  {
+    "name": "Ashbridges Bay Park Washroom ",
+    "properties": {
+      "id": 289,
+      "type": "Washroom Building",
+      "location_details": "Located on the boardwalk near the southern most beach volleyball courts.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1/index.html",
+      "address": "1561 Lake Shore Blvd  E ",
+      "x_coordinate": -79.3088776674308,
+      "y_coordinate": 43.6587314341775
+    }
+  },
+  {
+    "name": "Oriole Park Toronto Washroom ",
+    "properties": {
+      "id": 290,
+      "type": "Washroom Building",
+      "location_details": "Located on the north side of the tennis courts near the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/245/index.html",
+      "address": "201 Oriole Pkwy  ",
+      "x_coordinate": -79.3994822355626,
+      "y_coordinate": 43.6971751275658
+    }
+  },
+  {
+    "name": "Cherry Beach Sports Fields Washroom",
+    "properties": {
+      "id": 291,
+      "type": "Washroom Building",
+      "location_details": "Located in the building next to the east sports field.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/459/index.html",
+      "address": "275 Unwin Ave  ",
+      "x_coordinate": -79.3416726314824,
+      "y_coordinate": 43.6412964936637
+    }
+  },
+  {
+    "name": "High Park Colborne Lodge Coach House  Washroom",
+    "properties": {
+      "id": 292,
+      "type": "Washroom Building",
+      "location_details": "Located in the coach house building north of Colborne Lodge.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/77/index.html",
+      "address": "1873 Bloor St  W ",
+      "x_coordinate": -79.4600764186954,
+      "y_coordinate": 43.6406666099619
+    }
+  },
+  {
+    "name": "Dieppe Park Washroom",
+    "properties": {
+      "id": 293,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway between the parking lot and the splash pad.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/327/index.html",
+      "address": "455 Cosburn Ave  ",
+      "x_coordinate": -79.334717267577,
+      "y_coordinate": 43.6918995319441
+    }
+  },
+  {
+    "name": "Woburn Avenue Playground Washroom ",
+    "properties": {
+      "id": 294,
+      "type": "Washroom Building",
+      "location_details": "Located south of the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/445/index.html",
+      "address": "75 Woburn Ave  ",
+      "x_coordinate": -79.4058713754765,
+      "y_coordinate": 43.7273497500048
+    }
+  },
+  {
+    "name": "Major Abbas Ali Park Washroom",
+    "properties": {
+      "id": 295,
+      "type": "Washroom Building",
+      "location_details": "Located inside the Scott Westney House.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/708/index.html",
+      "address": "180 Mclevin Ave  ",
+      "x_coordinate": -79.2308484479381,
+      "y_coordinate": 43.8037588511657
+    }
+  },
+  {
+    "name": "Stanley Park North Toronto Playground Washroom ",
+    "properties": {
+      "id": 296,
+      "type": "Washroom Building",
+      "location_details": "Located near the King Street entrance, next to the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/212/index.html",
+      "address": "890 King St  W ",
+      "x_coordinate": -79.4093157251772,
+      "y_coordinate": 43.642777217315
+    }
+  },
+  {
+    "name": "Jonathan Ashbridge Park Fieldhouse Washroom",
+    "properties": {
+      "id": 297,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway between the wading pool and the tennis courts.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/67/index.html",
+      "address": "1515 Queen St  E ",
+      "x_coordinate": -79.319732965816,
+      "y_coordinate": 43.664652149238
+    }
+  },
+  {
+    "name": "Silverbirch Boat House Washroom",
+    "properties": {
+      "id": 298,
+      "type": "Washroom Building",
+      "location_details": "Located at the east end of the boardwalk.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1101/index.html",
+      "address": "2 Silver Birch Ave  ",
+      "x_coordinate": -79.2847263876237,
+      "y_coordinate": 43.6703347328952
+    }
+  },
+  {
+    "name": "Bellbury Park Tennis Club Washroom",
+    "properties": {
+      "id": 299,
+      "type": "Washroom Building",
+      "location_details": "Located on the north side of the tennis courts next to the parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/519/index.html",
+      "address": "55 Van Horne Ave  ",
+      "x_coordinate": -79.3609418641674,
+      "y_coordinate": 43.784479137147
+    }
+  },
+  {
+    "name": "West Deane Park Washroom ",
+    "properties": {
+      "id": 300,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway south of the parking lot, near the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/873/index.html",
+      "address": "19 Sedgebrook Cres  ",
+      "x_coordinate": -79.5575552985009,
+      "y_coordinate": 43.6608466501935
+    }
+  },
+  {
+    "name": "Woodbine Bathing Station Washroom ",
+    "properties": {
+      "id": 301,
+      "type": "Washroom Building",
+      "location_details": "Located at the eastern end of the lot south of the boardwalk.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/311/index.html",
+      "address": "1675 Lake Shore Blvd  E ",
+      "x_coordinate": -79.3079214174895,
+      "y_coordinate": 43.6627548607461
+    }
+  },
+  {
+    "name": "Withrow Park South Washroom",
+    "properties": {
+      "id": 302,
+      "type": "Washroom Building",
+      "location_details": "Located south of the sports field. ",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/306/index.html",
+      "address": "725 Logan Ave  ",
+      "x_coordinate": -79.345618721696,
+      "y_coordinate": 43.6729014276691
+    }
+  },
+  {
+    "name": "Toronto Islands - Centre Island West Pier Washroom",
+    "properties": {
+      "id": 303,
+      "type": "Washroom Building",
+      "location_details": "Located in the building on the west side of the entrance to the pier.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2725/index.html",
+      "address": "9 Queens Quay  W ",
+      "x_coordinate": -79.3725983242684,
+      "y_coordinate": 43.6166996317222
+    }
+  },
+  {
+    "name": "Toronto Islands - Hanlan's Point Picnic Area Washroom",
+    "properties": {
+      "id": 304,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway east of the picnic areas, south of the Hanlan's Point ferry docks.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2541/index.html",
+      "address": "9 Queens Quay  W ",
+      "x_coordinate": -79.3894737550774,
+      "y_coordinate": 43.6244602709882
+    }
+  },
+  {
+    "name": "Port Union Village Common Park Washroom",
+    "properties": {
+      "id": 305,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway between parking lot and the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1094/index.html",
+      "address": "105 Bridgend St  ",
+      "x_coordinate": -79.1347767617852,
+      "y_coordinate": 43.7767339540969
+    }
+  },
+  {
+    "name": "Eringate Park Outdoor Pool Washroom",
+    "properties": {
+      "id": 306,
+      "type": "Washroom Building",
+      "location_details": "Located at the north end of the outdoor pool near the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/901/index.html",
+      "address": "121 Wellesworth Dr  ",
+      "x_coordinate": -79.5817095651506,
+      "y_coordinate": 43.6627296387393
+    }
+  },
+  {
+    "name": "High Park Lower Hillside Washroom",
+    "properties": {
+      "id": 307,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway north of Maple Leaf Garden.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/77/index.html",
+      "address": "1873 Bloor St  W ",
+      "x_coordinate": -79.4670031795092,
+      "y_coordinate": 43.6436731497638
+    }
+  },
+  {
+    "name": "Morningside Park West Parking Lot Washroom",
+    "properties": {
+      "id": 308,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway between Picnic Site #8 and #9.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1470/index.html",
+      "address": "390 Morningside Ave  ",
+      "x_coordinate": -79.2017151599002,
+      "y_coordinate": 43.7776076073142
+    }
+  },
+  {
+    "name": "Trace Manes Park Community Centre Washroom ",
+    "properties": {
+      "id": 309,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/705/index.html",
+      "address": "110 Rumsey Rd  ",
+      "x_coordinate": -79.3673015036155,
+      "y_coordinate": 43.7055891423772
+    }
+  },
+  {
+    "name": "Taylor Creek Park Washroom",
+    "properties": {
+      "id": 310,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway east of the parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/29/index.html",
+      "address": "260 Dawes Rd  ",
+      "x_coordinate": -79.2983925804113,
+      "y_coordinate": 43.6966528577885
+    }
+  },
+  {
+    "name": "West Deane Park Outdoor Pool Washroom ",
+    "properties": {
+      "id": 311,
+      "type": "Washroom Building",
+      "location_details": "Located on the west side of the pool on the pathway from Sedgebrook Crescent.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/904/index.html",
+      "address": "19 Sedgebrook Cres  ",
+      "x_coordinate": -79.5618770984528,
+      "y_coordinate": 43.6606794598954
+    }
+  },
+  {
+    "name": "Bridlewood Park Washroom",
+    "properties": {
+      "id": 312,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway between the playground and the baseball diamond.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/578/index.html",
+      "address": "445 Huntingwood Dr  ",
+      "x_coordinate": -79.3157145828496,
+      "y_coordinate": 43.7833030863392
+    }
+  },
+  {
+    "name": "Blantyre Park Fieldhouse Washroom",
+    "properties": {
+      "id": 313,
+      "type": "Washroom Building",
+      "location_details": "Located next to the parking lot, west of the baseball diamond.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/557/index.html",
+      "address": "180 Fallingbrook Rd  ",
+      "x_coordinate": -79.2811366036474,
+      "y_coordinate": 43.682287628248
+    }
+  },
+  {
+    "name": "Hillcrest Park Washroom",
+    "properties": {
+      "id": 314,
+      "type": "Washroom Building",
+      "location_details": "Located on the north side of the park next to the dog off-leash area and the community garden.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/79/index.html",
+      "address": "950 Davenport Rd  ",
+      "x_coordinate": -79.4240906909167,
+      "y_coordinate": 43.6765898720809
+    }
+  },
+  {
+    "name": "Fergy Brown Park Washroom ",
+    "properties": {
+      "id": 315,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway south of the parking lot between the cricket pitches.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2288/index.html",
+      "address": "3700 Eglinton Ave  W ",
+      "x_coordinate": -79.4970522502437,
+      "y_coordinate": 43.6873223238806
+    }
+  },
+  {
+    "name": "Ashtonbee Reservoir Park Washroom",
+    "properties": {
+      "id": 316,
+      "type": "Washroom Building",
+      "location_details": "Located next to Ashtonbee Road, between the sports fields and cricket pitch.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/202/index.html",
+      "address": "21 Ashtonbee Rd  ",
+      "x_coordinate": -79.2945351256208,
+      "y_coordinate": 43.7296493565619
+    }
+  },
+  {
+    "name": "Prairie Drive Park Washroom ",
+    "properties": {
+      "id": 317,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway between parking lot and the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/733/index.html",
+      "address": "101 Pharmacy Ave  ",
+      "x_coordinate": -79.2839504882317,
+      "y_coordinate": 43.6972280215161
+    }
+  },
+  {
+    "name": "Esther Lorrie Fieldhouse Washroom",
+    "properties": {
+      "id": 318,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway west of the sports fields, next to the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/841/index.html",
+      "address": "50 Westhumber Blvd  ",
+      "x_coordinate": -79.5814915994806,
+      "y_coordinate": 43.7279728726859
+    }
+  },
+  {
+    "name": "L'Amoreaux Tennis Centre Washroom",
+    "properties": {
+      "id": 319,
+      "type": "Washroom Building",
+      "location_details": "Located in the tennis centre building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/699/index.html",
+      "address": "300 Silver Springs Blvd  ",
+      "x_coordinate": -79.3050142225378,
+      "y_coordinate": 43.8067119053552
+    }
+  },
+  {
+    "name": "Sunnyside Park Pavillion East Washroom",
+    "properties": {
+      "id": 320,
+      "type": "Washroom Building",
+      "location_details": "Located at the east end of the Sunnyside Pavilion on Martin Goodman Trail.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/394/index.html",
+      "address": "1755 Lake Shore Blvd  W ",
+      "x_coordinate": -79.4557298036927,
+      "y_coordinate": 43.637878861655
+    }
+  },
+  {
+    "name": "Baird Park Washroom",
+    "properties": {
+      "id": 321,
+      "type": "Washroom Building",
+      "location_details": "Located north of the bowling greens.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/137/index.html",
+      "address": "275 Keele St  ",
+      "x_coordinate": -79.4625446328684,
+      "y_coordinate": 43.6622398364069
+    }
+  },
+  {
+    "name": "G. Ross Lord Park Hidden Trail Washroom",
+    "properties": {
+      "id": 322,
+      "type": "Washroom Building",
+      "location_details": "Located at the entrance of the park from Hidden Trail.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/11/index.html",
+      "address": "4801 Dufferin St  ",
+      "x_coordinate": -79.4554125116511,
+      "y_coordinate": 43.7804781602159
+    }
+  },
+  {
+    "name": "Cherry Beach Clarke Beach Park Washroom",
+    "properties": {
+      "id": 323,
+      "type": "Washroom Building",
+      "location_details": "Located between the parking lot and the beach.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/209/index.html",
+      "address": "1 Cherry St  ",
+      "x_coordinate": -79.3442960261023,
+      "y_coordinate": 43.6368881807278
+    }
+  },
+  {
+    "name": "Centennial Park Conservatory Washroom",
+    "properties": {
+      "id": 324,
+      "type": "Washroom Building",
+      "location_details": "Located in the Conservatory.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/798/index.html",
+      "address": "256 Centennial Park Rd  ",
+      "x_coordinate": -79.5881941620389,
+      "y_coordinate": 43.6494629870716
+    }
+  },
+  {
+    "name": "Weston Lions Park Outdoor Pool Washroom ",
+    "properties": {
+      "id": 325,
+      "type": "Washroom Building",
+      "location_details": "Located at the south end of the parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/508/index.html",
+      "address": "2125 Lawrence Ave  W ",
+      "x_coordinate": -79.5184591369223,
+      "y_coordinate": 43.6980915788503
+    }
+  },
+  {
+    "name": "Downsview Dells Park South Washroom ",
+    "properties": {
+      "id": 326,
+      "type": "Washroom Building",
+      "location_details": "Located east of the second parking lot on the south side of the park road.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/468/index.html",
+      "address": "2515 Jane St  ",
+      "x_coordinate": -79.496002515187,
+      "y_coordinate": 43.7354345006209
+    }
+  },
+  {
+    "name": "Iroquois Park Fieldhouse Washroom",
+    "properties": {
+      "id": 327,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway between the tennis courts and the baseball diamond.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/686/index.html",
+      "address": "295 Chartland Blvd  S ",
+      "x_coordinate": -79.267979105879,
+      "y_coordinate": 43.8033130589054
+    }
+  },
+  {
+    "name": "L'Amoreaux North Park Fieldhouse Washroom",
+    "properties": {
+      "id": 328,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway from the parking lot to the cricket pitch at the north end of the park.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2472/index.html",
+      "address": "1900 Mcnicoll Ave  ",
+      "x_coordinate": -79.3044140681021,
+      "y_coordinate": 43.8101178876245
+    }
+  },
+  {
+    "name": "Rotary Peace Park Outdoor Pool  Washroom",
+    "properties": {
+      "id": 329,
+      "type": "Washroom Building",
+      "location_details": "Located on the west side of the outdoor pool near Eleventh Street.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/909/index.html",
+      "address": "25 Eleventh St  ",
+      "x_coordinate": -79.5076396153206,
+      "y_coordinate": 43.5953150168297
+    }
+  },
+  {
+    "name": "Hendon Park Tennis Clubhouse Washroom",
+    "properties": {
+      "id": 330,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway between the tennis courts, baseball diamond and playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/659/index.html",
+      "address": "50 Hendon Ave  ",
+      "x_coordinate": -79.4213261559979,
+      "y_coordinate": 43.7812691661652
+    }
+  },
+  {
+    "name": "Eglinton Flats Northwest Sports Pavilion Washroom",
+    "properties": {
+      "id": 331,
+      "type": "Washroom Building",
+      "location_details": "Located in the sports pavillion west of the sports fields.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/9/index.html",
+      "address": "101 Emmett Ave  ",
+      "x_coordinate": -79.5038472249809,
+      "y_coordinate": 43.6856273484435
+    }
+  },
+  {
+    "name": "Donald D. Summerville Olympic Outdoor Pool Washroom",
+    "properties": {
+      "id": 332,
+      "type": "Washroom Building",
+      "location_details": "Entrance is located on the outside of the outdoor pool building on the south side of the building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/437/index.html",
+      "address": "1867 Lake Shore Blvd  E ",
+      "x_coordinate": -79.3047149311288,
+      "y_coordinate": 43.6649737705099
+    }
+  },
+  {
+    "name": "Toronto Islands - Hanlan's Point Tennis Court Washroom",
+    "properties": {
+      "id": 333,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway south of the tennis courts.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2541/index.html",
+      "address": "9 Queens Quay  W ",
+      "x_coordinate": -79.391118600407,
+      "y_coordinate": 43.6191420905938
+    }
+  },
+  {
+    "name": "Alex Duff Memorial Outdoor Pool Washroom",
+    "properties": {
+      "id": 334,
+      "type": "Washroom Building",
+      "location_details": "Located in the outdoor pool building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/414/index.html",
+      "address": "779 Crawford St   ",
+      "x_coordinate": -79.4219664382819,
+      "y_coordinate": 43.6649269834036
+    }
+  },
+  {
+    "name": "Blantyre Park Outdoor Pool Washroom",
+    "properties": {
+      "id": 335,
+      "type": "Washroom Building",
+      "location_details": "Located in the pool building south of the outdoor pool.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/557/index.html",
+      "address": "180 Fallingbrook Rd  ",
+      "x_coordinate": -79.2806464847714,
+      "y_coordinate": 43.683600585463
+    }
+  },
+  {
+    "name": "Sunnyside Park Pavillion West Washroom",
+    "properties": {
+      "id": 336,
+      "type": "Washroom Building",
+      "location_details": "Located at the west end of the Sunnyside Pavillion on the Martin Goodman Trail.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/394/index.html",
+      "address": "1755 Lake Shore Blvd  W ",
+      "x_coordinate": -79.4570473172435,
+      "y_coordinate": 43.6378181998616
+    }
+  },
+  {
+    "name": "Toronto Islands - Toronto Island Park Avenue of the Islands Washroom",
+    "properties": {
+      "id": 337,
+      "type": "Washroom Building",
+      "location_details": "Located on the south side of the pathway between the Centre Island ferry docks and Centreville. Near the east side of picnic area 13.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2024/index.html",
+      "address": "9 Queens Quay  W ",
+      "x_coordinate": -79.3763099347587,
+      "y_coordinate": 43.6202871312166
+    }
+  },
+  {
+    "name": "Summerlea Park North Parking Lot Washroom",
+    "properties": {
+      "id": 338,
+      "type": "Washroom Building",
+      "location_details": "Located at the east end of the north parking lot near the park pathway.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/870/index.html",
+      "address": "2 Arcot Blvd  ",
+      "x_coordinate": -79.5498102763695,
+      "y_coordinate": 43.7298981657662
+    }
+  },
+  {
+    "name": "George Webster Park Washroom",
+    "properties": {
+      "id": 339,
+      "type": "Washroom Building",
+      "location_details": "Located at the south end of the park next to the splash pad.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/426/index.html",
+      "address": "30 Chapman Ave  ",
+      "x_coordinate": -79.3004381010408,
+      "y_coordinate": 43.7007069511891
+    }
+  },
+  {
+    "name": "Adams Park West Fieldhouse Washroom",
+    "properties": {
+      "id": 340,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway west of the splash pad.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/522/index.html",
+      "address": "2 Rozell Rd  ",
+      "x_coordinate": -79.146872072719,
+      "y_coordinate": 43.7921879337012
+    }
+  },
+  {
+    "name": "Corvette Park Washroom",
+    "properties": {
+      "id": 341,
+      "type": "Washroom Building",
+      "location_details": "Located on the grassy area behind the baseball diamond besdie Corvette Avenue.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/576/index.html",
+      "address": "40 Corvette Ave  ",
+      "x_coordinate": -79.2602019856236,
+      "y_coordinate": 43.72658151193
+    }
+  },
+  {
+    "name": "Westgrove Park Outdoor Pool Washroom ",
+    "properties": {
+      "id": 342,
+      "type": "Washroom Building",
+      "location_details": "Located at the north end of the pool near Redgrave Drive.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/900/index.html",
+      "address": "15 Redgrave Dr  ",
+      "x_coordinate": -79.568293728383,
+      "y_coordinate": 43.6828218486637
+    }
+  },
+  {
+    "name": "Northwood Park Washroom ",
+    "properties": {
+      "id": 343,
+      "type": "Washroom Building",
+      "location_details": "Located on the pathway 100 metres north of the parking lot, near Picnic Site #2.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/481/index.html",
+      "address": "140 Stilecroft Dr  ",
+      "x_coordinate": -79.4968696375471,
+      "y_coordinate": 43.7476454658463
+    }
+  },
+  {
+    "name": "Dufferin Grove Park Outdoor Rink Washroom",
+    "properties": {
+      "id": 344,
+      "type": "Washroom Building",
+      "location_details": "Located on the west side of the outdoor ice rinks.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/87/index.html",
+      "address": "875 Dufferin St",
+      "x_coordinate": -79.4335870980524,
+      "y_coordinate": 43.6570318420164
+    }
+  },
+  {
+    "name": "East Don Parkland Washroom ",
+    "properties": {
+      "id": 345,
+      "type": "Washroom Building",
+      "location_details": "Located next to the entrance to the parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1460/index.html",
+      "address": "1240 Sheppard Ave E",
+      "x_coordinate": -79.3658310866884,
+      "y_coordinate": 43.7720475450824
+    }
+  },
+  {
+    "name": "Earlscourt Park Washroom",
+    "properties": {
+      "id": 346,
+      "type": "Washroom Building",
+      "location_details": "Located in the building next to the splash pad.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/514/index.html",
+      "address": "1200 Lansdowne Ave  ",
+      "x_coordinate": -79.4515685373609,
+      "y_coordinate": 43.6741532480424
+    }
+  },
+  {
+    "name": "Lytton Park Tennis Clubhouse Washroom",
+    "properties": {
+      "id": 347,
+      "type": "Washroom Building",
+      "location_details": "Located on a pathway at the south end of the tennis courts and next to the bowling greens.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/138/index.html",
+      "address": "200 Lytton Blvd  ",
+      "x_coordinate": -79.410750056488,
+      "y_coordinate": 43.7153022567254
+    }
+  },
+  {
+    "name": "Earl Bales Park Barry Zukerman Amphitheatre Washroom",
+    "properties": {
+      "id": 348,
+      "type": "Washroom Building",
+      "location_details": "Located in the amphitheatre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/337/index.html",
+      "address": "4169 Bathurst St  ",
+      "x_coordinate": -79.4327572670661,
+      "y_coordinate": 43.7541282105335
+    }
+  },
+  {
+    "name": "Amos Waites Park Washroom",
+    "properties": {
+      "id": 349,
+      "type": "Washroom Building",
+      "location_details": "Located at the east end of the outdoor pool building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/939/index.html",
+      "address": "2441 Lake Shore Blvd  W ",
+      "x_coordinate": -79.4877435052305,
+      "y_coordinate": 43.6130248164467
+    }
+  },
+  {
+    "name": "Corktown Common Pavilion Washroom",
+    "properties": {
+      "id": 350,
+      "type": "Washroom Building",
+      "location_details": "Located in the pavillion between the splash pad and the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/3499/index.html",
+      "address": "155 Bayview Ave  ",
+      "x_coordinate": -79.3523281802742,
+      "y_coordinate": 43.6534823768205
+    }
+  },
+  {
+    "name": "Adam Beck Community Centre Washroom",
+    "properties": {
+      "id": 351,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/13/index.html",
+      "address": "79 Lawlor Ave",
+      "x_coordinate": -79.2888295379025,
+      "y_coordinate": 43.6828461296087
+    }
+  },
+  {
+    "name": "Grange Park North Washroom",
+    "properties": {
+      "id": 352,
+      "type": "Washroom Building",
+      "location_details": "Located at the south-end of the park on Grange Road, opposite University Settlement.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1431/index.html",
+      "address": "26 Grange Rd  W",
+      "x_coordinate": -79.3913722274797,
+      "y_coordinate": 43.652668846347
+    }
+  },
+  {
+    "name": "Toronto Islands - Centre Island Washroom",
+    "properties": {
+      "id": 353,
+      "type": "Washroom Building",
+      "location_details": "Located east of the maze.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2725/index.html",
+      "address": "1 Centre Island Park",
+      "x_coordinate": -79.3758766815117,
+      "y_coordinate": 43.6178166968591
+    }
+  },
+  {
+    "name": "Agincourt Recreation Centre Washroom",
+    "properties": {
+      "id": 354,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/523/index.html",
+      "address": "31 Glen Watford Dr",
+      "x_coordinate": -79.275981326026,
+      "y_coordinate": 43.7881689004069
+    }
+  },
+  {
+    "name": "Albion Pool and Health Club Washroom",
+    "properties": {
+      "id": 355,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/893/index.html",
+      "address": "1485 Albion Rd",
+      "x_coordinate": -79.5809522702735,
+      "y_coordinate": 43.7392963912281
+    }
+  },
+  {
+    "name": "Ancaster Community Centre Washroom",
+    "properties": {
+      "id": 356,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/487/index.html",
+      "address": "41 Ancaster Rd",
+      "x_coordinate": -79.4656450249342,
+      "y_coordinate": 43.7325492347744
+    }
+  },
+  {
+    "name": "Armour Heights Community Centre Washroom",
+    "properties": {
+      "id": 357,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/503/index.html",
+      "address": "2140 Avenue Rd",
+      "x_coordinate": -79.4218516929441,
+      "y_coordinate": 43.7393946673658
+    }
+  },
+  {
+    "name": "Banbury Community Centre Washroom",
+    "properties": {
+      "id": 358,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/511/index.html",
+      "address": "120 Banbury Rd",
+      "x_coordinate": -79.3695142897733,
+      "y_coordinate": 43.7428484904167
+    }
+  },
+  {
+    "name": "Barbara Frum Community Centre Washroom",
+    "properties": {
+      "id": 359,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1045/index.html",
+      "address": "20 Covington Rd",
+      "x_coordinate": -79.4321611302045,
+      "y_coordinate": 43.720709351278
+    }
+  },
+  {
+    "name": "Birkdale Community Centre Washroom",
+    "properties": {
+      "id": 360,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/289/index.html",
+      "address": "1299 Ellesmere Rd",
+      "x_coordinate": -79.2637642589749,
+      "y_coordinate": 43.7682146974894
+    }
+  },
+  {
+    "name": "Burrows Hall Community Centre Washroom",
+    "properties": {
+      "id": 361,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/591/index.html",
+      "address": "1081 Progress Ave",
+      "x_coordinate": -79.2343053128214,
+      "y_coordinate": 43.7941068400552
+    }
+  },
+  {
+    "name": "Carmine Stefano Community Centre Washroom",
+    "properties": {
+      "id": 362,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/350/index.html",
+      "address": "3100 Weston Rd",
+      "x_coordinate": -79.5389650144579,
+      "y_coordinate": 43.7338479307486
+    }
+  },
+  {
+    "name": "Chalkfarm Community Centre Washroom",
+    "properties": {
+      "id": 363,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/486/index.html",
+      "address": "180 Chalkfarm Dr",
+      "x_coordinate": -79.5115783819432,
+      "y_coordinate": 43.7239709069814
+    }
+  },
+  {
+    "name": "Curran Hall Community Centre Washroom",
+    "properties": {
+      "id": 364,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/782/index.html",
+      "address": "277 Orton Park Rd",
+      "x_coordinate": -79.2108136476812,
+      "y_coordinate": 43.7774369245624
+    }
+  },
+  {
+    "name": "Domenico Di Luca Community Recreation Centre Washroom",
+    "properties": {
+      "id": 365,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/760/index.html",
+      "address": "25 Stanley Rd",
+      "x_coordinate": -79.51583035806,
+      "y_coordinate": 43.7424469415127
+    }
+  },
+  {
+    "name": "Douglas Snow Aquatic Centre Washroom",
+    "properties": {
+      "id": 366,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/567/index.html",
+      "address": "5100 Yonge St",
+      "x_coordinate": -79.4146712229825,
+      "y_coordinate": 43.7671972909494
+    }
+  },
+  {
+    "name": "Earl Beatty Community Centre Washroom",
+    "properties": {
+      "id": 367,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/36/index.html",
+      "address": "455 Glebeholme Blvd",
+      "x_coordinate": -79.3212902185213,
+      "y_coordinate": 43.6862956867497
+    }
+  },
+  {
+    "name": "Edenbridge Centre Washroom",
+    "properties": {
+      "id": 368,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/436/index.html",
+      "address": "235 Edenbridge Dr",
+      "x_coordinate": -79.5107976716868,
+      "y_coordinate": 43.6775234480307
+    }
+  },
+  {
+    "name": "Edgehill House Washroom",
+    "properties": {
+      "id": 369,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/428/index.html",
+      "address": "61 Edgehill Rd",
+      "x_coordinate": -79.516671707869,
+      "y_coordinate": 43.6706791766758
+    }
+  },
+  {
+    "name": "Edithvale Community Centre Washroom",
+    "properties": {
+      "id": 370,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1463/index.html",
+      "address": "131 Finch Ave W",
+      "x_coordinate": -79.4264217869361,
+      "y_coordinate": 43.7769345342527
+    }
+  },
+  {
+    "name": "Elmbank Community Centre Washroom",
+    "properties": {
+      "id": 371,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/750/index.html",
+      "address": "10 Rampart Rd",
+      "x_coordinate": -79.5886723186875,
+      "y_coordinate": 43.73476340819
+    }
+  },
+  {
+    "name": "Fairmount Park Community Centre Washroom",
+    "properties": {
+      "id": 372,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/308/index.html",
+      "address": "1725 Gerrard St E",
+      "x_coordinate": -79.3149268247021,
+      "y_coordinate": 43.6767168368032
+    }
+  },
+  {
+    "name": "Gord and Irene Risk Community Centre Washroom",
+    "properties": {
+      "id": 373,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/642/index.html",
+      "address": "2650 Finch Ave W",
+      "x_coordinate": -79.5664572538547,
+      "y_coordinate": 43.7473904817197
+    }
+  },
+  {
+    "name": "Goulding Community Centre Washroom",
+    "properties": {
+      "id": 374,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/643/index.html",
+      "address": "45 Goulding Ave",
+      "x_coordinate": -79.4221906806317,
+      "y_coordinate": 43.790940039578
+    }
+  },
+  {
+    "name": "Grandravine Community Recreation Centre Washroom",
+    "properties": {
+      "id": 375,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/647/index.html",
+      "address": "23 Grandravine Dr",
+      "x_coordinate": -79.4902411841396,
+      "y_coordinate": 43.7519115989417
+    }
+  },
+  {
+    "name": "Keele Community Centre Washroom",
+    "properties": {
+      "id": 376,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/84/index.html",
+      "address": "181 Glenlake Ave",
+      "x_coordinate": -79.461585882834,
+      "y_coordinate": 43.6576819397045
+    }
+  },
+  {
+    "name": "Lawrence Heights Community Centre Washroom",
+    "properties": {
+      "id": 377,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/675/index.html",
+      "address": "5 Replin Rd",
+      "x_coordinate": -79.4420946696769,
+      "y_coordinate": 43.7180585225694
+    }
+  },
+  {
+    "name": "Mary McCormick Recreation Centre Washroom",
+    "properties": {
+      "id": 378,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/100/index.html",
+      "address": "66 Sheridan Ave",
+      "x_coordinate": -79.4330814850738,
+      "y_coordinate": 43.6474182768243
+    }
+  },
+  {
+    "name": "New Toronto Seniors Centre Washroom",
+    "properties": {
+      "id": 379,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1091/index.html",
+      "address": "105 Fourth St",
+      "x_coordinate": -79.5013746379129,
+      "y_coordinate": 43.6011217821832
+    }
+  },
+  {
+    "name": "Northwood Community Centre Washroom",
+    "properties": {
+      "id": 380,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/703/index.html",
+      "address": "15 Clubhouse Crt",
+      "x_coordinate": -79.5000902961682,
+      "y_coordinate": 43.7455036218999
+    }
+  },
+  {
+    "name": "Oakdale Community Centre Washroom",
+    "properties": {
+      "id": 381,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/780/index.html",
+      "address": "350 Grandravine Dr",
+      "x_coordinate": -79.5133387992257,
+      "y_coordinate": 43.7477876243155
+    }
+  },
+  {
+    "name": "Ourland Community Centre Washroom",
+    "properties": {
+      "id": 382,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/793/index.html",
+      "address": "18 Ourland Ave",
+      "x_coordinate": -79.5083548523712,
+      "y_coordinate": 43.6150942019044
+    }
+  },
+  {
+    "name": "Roding Community Centre Washroom",
+    "properties": {
+      "id": 383,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/744/index.html",
+      "address": "600 Roding St.",
+      "x_coordinate": -79.4925660190235,
+      "y_coordinate": 43.729197255408
+    }
+  },
+  {
+    "name": "S.H. Armstrong Community Centre Washroom",
+    "properties": {
+      "id": 384,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/267/index.html",
+      "address": "56 Woodfield Rd",
+      "x_coordinate": -79.3226332915121,
+      "y_coordinate": 43.6658964961013
+    }
+  },
+  {
+    "name": "Secord Community Centre Washroom",
+    "properties": {
+      "id": 385,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/325/index.html",
+      "address": "91 Barrington Ave",
+      "x_coordinate": -79.30169512212,
+      "y_coordinate": 43.6920819033131
+    }
+  },
+  {
+    "name": "Seneca Village Community Centre Washroom",
+    "properties": {
+      "id": 386,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/751/index.html",
+      "address": "1700 Finch Ave E.",
+      "x_coordinate": -79.3513210490913,
+      "y_coordinate": 43.7940328888969
+    }
+  },
+  {
+    "name": "Stephen Leacock Seniors Community Centre Washroom",
+    "properties": {
+      "id": 387,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1873/index.html",
+      "address": "2520 Birchmount Rd",
+      "x_coordinate": -79.3025517112855,
+      "y_coordinate": 43.7866782244303
+    }
+  },
+  {
+    "name": "Victoria Village Recreation Centre Washroom",
+    "properties": {
+      "id": 388,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/771/index.html",
+      "address": "190 Bermondsey Rd",
+      "x_coordinate": -79.3155561391748,
+      "y_coordinate": 43.7233048678808
+    }
+  },
+  {
+    "name": "West Acres Seniors Centre Washroom",
+    "properties": {
+      "id": 389,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/396/index.html",
+      "address": "65 Hinton Rd",
+      "x_coordinate": -79.5719253886914,
+      "y_coordinate": 43.7257233619441
+    }
+  },
+  {
+    "name": "Centennial Park Etobicoke Picnic Site 8 Washroom",
+    "properties": {
+      "id": 390,
+      "type": "Washroom Building",
+      "location_details": "Located next to Picnic Site #8.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/798/index.html",
+      "address": "256 Centennial Park Rd",
+      "x_coordinate": -79.592096241913,
+      "y_coordinate": 43.6487870930883
+    }
+  },
+  {
+    "name": "Centennial Park Etobicoke Picnic Site 1 Washroom",
+    "properties": {
+      "id": 391,
+      "type": "Washroom Building",
+      "location_details": "Located east of the parking lot off Elmcrest road, northeast of Picnic Site #1 and the playground.",
+      "url": "\"https://www.toronto.ca/data/parks/prd/facilities/complex/798/index.html \"",
+      "address": "256 Centennial Park Rd",
+      "x_coordinate": -79.5870201625807,
+      "y_coordinate": 43.6489559389141
+    }
+  },
+  {
+    "name": "Centennial Park Etobicoke Picnic Site 6 Washroom",
+    "properties": {
+      "id": 392,
+      "type": "Washroom Building",
+      "location_details": "Located next to Picnic Site #6.",
+      "url": "\"https://www.toronto.ca/data/parks/prd/facilities/complex/798/index.html \"",
+      "address": "256 Centennial Park Rd",
+      "x_coordinate": -79.5901550101065,
+      "y_coordinate": 43.6520569866
+    }
+  },
+  {
+    "name": "Stan Wadlow Park Washroom",
+    "properties": {
+      "id": 393,
+      "type": "Washroom Building",
+      "location_details": "Located on the north side of the Clubhouse, entrance from the outside.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/421/index.html",
+      "address": "888 Cosburn Ave",
+      "x_coordinate": -79.315043486276,
+      "y_coordinate": 43.698371984257
+    }
+  },
+  {
+    "name": "Centennial Park Etobicoke Stadium Women's North Washroom",
+    "properties": {
+      "id": 394,
+      "type": "Washroom Building",
+      "location_details": "Located on the west side of Centennial Park Stadium at the north end.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/798/index.html",
+      "address": "256 Centennial Park Rd",
+      "x_coordinate": -79.5853640076692,
+      "y_coordinate": 43.6538022412428
+    }
+  },
+  {
+    "name": "Centennial Park Etobicoke Stadium Men's South Washroom",
+    "properties": {
+      "id": 395,
+      "type": "Washroom Building",
+      "location_details": "Located on the west side of Centennial Park Stadium at the south end.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/798/index.html",
+      "address": "256 Centennial Park Rd",
+      "x_coordinate": -79.5851616115085,
+      "y_coordinate": 43.6534163716965
+    }
+  },
+  {
+    "name": "High Park Sport Field Washroom",
+    "properties": {
+      "id": 396,
+      "type": "Washroom Building",
+      "location_details": "Entrance is located on the outside of the outdoor pool and ice rink building, east of the baseball diamond.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/77/index.html",
+      "address": "1873 Bloor St  W",
+      "x_coordinate": -79.4659165444676,
+      "y_coordinate": 43.6495880588507
+    }
+  },
+  {
+    "name": "Horner Avenue Seniors Centre Washroom",
+    "properties": {
+      "id": 397,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/823/index.html",
+      "address": "320 Horner Ave",
+      "x_coordinate": -79.5268163206711,
+      "y_coordinate": 43.6062988970517
+    }
+  },
+  {
+    "name": "Alderwood Centre Washroom",
+    "properties": {
+      "id": 398,
+      "type": "Washroom Building",
+      "location_details": "Located in the Community Centre.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/897/index.html",
+      "address": "2 Orianna Dr",
+      "x_coordinate": -79.5471323498343,
+      "y_coordinate": 43.6017032823988
+    }
+  },
+  {
+    "name": "Centennial Park Etobicoke Picnic Site 8 Portable Toilet",
+    "properties": {
+      "id": 399,
+      "type": "Portable Toilet",
+      "location_details": "Located near Picnic Site #8.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/798/index.html",
+      "address": "256 Centennial Park Rd.",
+      "x_coordinate": -79.591889717508,
+      "y_coordinate": 43.6489329067701
+    }
+  },
+  {
+    "name": "Allan Gardens Portable Toilet",
+    "properties": {
+      "id": 400,
+      "type": "Portable Toilet",
+      "location_details": "Located in the parking lot beside the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/41/index.html",
+      "address": "160 Gerrard St  E",
+      "x_coordinate": -79.3749962988973,
+      "y_coordinate": 43.6614637458795
+    }
+  },
+  {
+    "name": "Weston Lions Park Portable Toilet",
+    "properties": {
+      "id": 401,
+      "type": "Portable Toilet",
+      "location_details": "Located near the parking lot between the outdoor pool and the arena building.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/508/index.html",
+      "address": "2125 Lawrence Ave  W",
+      "x_coordinate": -79.5185912286203,
+      "y_coordinate": 43.6981911692876
+    }
+  },
+  {
+    "name": "Amesbury Park Portable Toilet",
+    "properties": {
+      "id": 402,
+      "type": "Portable Toilet",
+      "location_details": "Located by the southeast corner of the parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/484/index.html",
+      "address": "151 Culford Rd",
+      "x_coordinate": -79.4809709233239,
+      "y_coordinate": 43.7073797809409
+    }
+  },
+  {
+    "name": "Campbell Avenue Park Portable Toilet",
+    "properties": {
+      "id": 403,
+      "type": "Portable Toilet",
+      "location_details": "In front of the building on the west side against the wall.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1053/index.html",
+      "address": "225 Campbell Ave.",
+      "x_coordinate": -79.4485983358912,
+      "y_coordinate": 43.6629606474189
+    }
+  },
+  {
+    "name": "Christie Pits Skate Park Portable Toilet",
+    "properties": {
+      "id": 404,
+      "type": "Portable Toilet",
+      "location_details": "Beside the skate park near the gazebo.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/196/index.html",
+      "address": "750 Bloor St W",
+      "x_coordinate": -79.4204094994157,
+      "y_coordinate": 43.6646857407659
+    }
+  },
+  {
+    "name": "Dovercourt Park Portable Toilet",
+    "properties": {
+      "id": 405,
+      "type": "Portable Toilet",
+      "location_details": "Along the path that runs through the centre of the park off of Southview Ave.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/86/index.html",
+      "address": "155 Bartlett Ave",
+      "x_coordinate": -79.4332930822816,
+      "y_coordinate": 43.6647067891508
+    }
+  },
+  {
+    "name": "Earlscourt Park Dog Off Leash Area Portable Toilet",
+    "properties": {
+      "id": 406,
+      "type": "Portable Toilet",
+      "location_details": "On the North West side of the dog off-leash.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/514/index.html",
+      "address": "1200 Lansdowne Ave",
+      "x_coordinate": -79.4498318797585,
+      "y_coordinate": 43.6721020031484
+    }
+  },
+  {
+    "name": "Eglinton Park Playground Portable Toilet",
+    "properties": {
+      "id": 407,
+      "type": "Portable Toilet",
+      "location_details": "On the west side pathway north of the playground.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/117/index.html",
+      "address": "200 Eglinton Ave W",
+      "x_coordinate": -79.4050747897221,
+      "y_coordinate": 43.707911578262
+    }
+  },
+  {
+    "name": "Fergy Brown Park Portable Toilet",
+    "properties": {
+      "id": 408,
+      "type": "Portable Toilet",
+      "location_details": "Located in the parking lot",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2288/index.html",
+      "address": "3700 Eglinton Ave W",
+      "x_coordinate": -79.4968261205757,
+      "y_coordinate": 43.687404984009
+    }
+  },
+  {
+    "name": "Greenwood Park Portable Toilet",
+    "properties": {
+      "id": 409,
+      "type": "Portable Toilet",
+      "location_details": "Located on the pathway from Alton Ave., west of the ice rink",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/70/index.html",
+      "address": "150 Greenwood Ave",
+      "x_coordinate": -79.3299497123404,
+      "y_coordinate": 43.6689839305892
+    }
+  },
+  {
+    "name": "Lee Lifeson Art Park Portable Toilet",
+    "properties": {
+      "id": 410,
+      "type": "Portable Toilet",
+      "location_details": "Located at the north entrance off of Princess Ave.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/3555/index.html",
+      "address": "45 Princess Ave",
+      "x_coordinate": -79.4096707399318,
+      "y_coordinate": 43.7689701672768
+    }
+  },
+  {
+    "name": "Little Norway Park Portable Toilet",
+    "properties": {
+      "id": 411,
+      "type": "Portable Toilet",
+      "location_details": "Located by the park building",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/128/index.html",
+      "address": "659 Queens Quay W",
+      "x_coordinate": -79.3985431004423,
+      "y_coordinate": 43.6339683546041
+    }
+  },
+  {
+    "name": "Marilyn Bell Park Fitness Area Portable Toilet",
+    "properties": {
+      "id": 412,
+      "type": "Portable Toilet",
+      "location_details": "Located by the fitness area off of Net Drive.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/471/index.html",
+      "address": "1095 Lake Shore Blvd W",
+      "x_coordinate": -79.4385643420642,
+      "y_coordinate": 43.6336577488365
+    }
+  },
+  {
+    "name": "McCleary Park Portable Toilet",
+    "properties": {
+      "id": 413,
+      "type": "Portable Toilet",
+      "location_details": "Located at the baseball diamonds.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/379/index.html",
+      "address": "755 Lake Shore Blvd E",
+      "x_coordinate": -79.3397949110897,
+      "y_coordinate": 43.6537853410575
+    }
+  },
+  {
+    "name": "Monarch Park Portable Toilet",
+    "properties": {
+      "id": 414,
+      "type": "Portable Toilet",
+      "location_details": "Located on the eastside of the park beside Parkmount Rd.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/145/index.html",
+      "address": "115 Felstead Ave",
+      "x_coordinate": -79.3243983200199,
+      "y_coordinate": 43.678351839774
+    }
+  },
+  {
+    "name": "Morningside Park Portable Toilet",
+    "properties": {
+      "id": 415,
+      "type": "Portable Toilet",
+      "location_details": "South side of parking lot.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1470/index.html",
+      "address": "390 Morningside Ave",
+      "x_coordinate": -79.1954086851013,
+      "y_coordinate": 43.7791445236084
+    }
+  },
+  {
+    "name": "Toronto Music Garden Portable Toilet",
+    "properties": {
+      "id": 416,
+      "type": "Portable Toilet",
+      "location_details": "Located off the driveway at the west end of the park..",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/1707/index.html",
+      "address": "479 Queens Quay W",
+      "x_coordinate": -79.396072833327,
+      "y_coordinate": 43.6366951082959
+    }
+  },
+  {
+    "name": "Neilson Park Scarborough Portable Toilet",
+    "properties": {
+      "id": 417,
+      "type": "Portable Toilet",
+      "location_details": "Located in the north parking lot near the ball diamonds.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/792/index.html",
+      "address": "1555 Neilson Rd",
+      "x_coordinate": -79.2251066900802,
+      "y_coordinate": 43.8144628668739
+    }
+  },
+  {
+    "name": "Queen's Park Portable Toilet",
+    "properties": {
+      "id": 418,
+      "type": "Portable Toilet",
+      "location_details": "Near the Wellesley entrance.",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/2674/index.html",
+      "address": "110 Wellesley St W",
+      "x_coordinate": -79.3908497731623,
+      "y_coordinate": 43.6637372823951
+    }
+  },
+  {
+    "name": "Roundhouse Park Portable Toilet",
+    "properties": {
+      "id": 419,
+      "type": "Portable Toilet",
+      "location_details": "Located beside Bremmer Drive",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/386/index.html",
+      "address": "255 Bremner Blvd",
+      "x_coordinate": -79.385381052751,
+      "y_coordinate": 43.6419337900421
+    }
+  },
+  {
+    "name": "Skymark Park Portable Toilet",
+    "properties": {
+      "id": 420,
+      "type": "Portable Toilet",
+      "location_details": "Located north west of the parking lot, south of the soccer field",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/759/index.html",
+      "address": "3500 Don Mills Rd",
+      "x_coordinate": -79.3559097595342,
+      "y_coordinate": 43.7947312646822
+    }
+  },
+  {
+    "name": "Withrow Park Portable Toilet",
+    "properties": {
+      "id": 421,
+      "type": "Portable Toilet",
+      "location_details": "Located on the path between the clubhouse and the ice rink",
+      "url": "https://www.toronto.ca/data/parks/prd/facilities/complex/306/index.html",
+      "address": "725 Logan Ave",
+      "x_coordinate": -79.3467039606168,
+      "y_coordinate": 43.6754547904379
+    }
+  }
+]

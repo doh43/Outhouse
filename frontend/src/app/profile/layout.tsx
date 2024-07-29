@@ -55,11 +55,11 @@ const ProfileLayout: React.FC<ProfileMenuProps> = ({ initialUser }) => {
         body: JSON.stringify(updatedUser),
         credentials: "include",
       });
+      const data = await response.json();
+      console.log('Response data:', data);
 
       if (response.ok) {
-        const data = await response.json();
         setUser(data);
-        console.log("Updated User:", data);
         setIsEditModalOpen(false);
 
         // clone the session object
@@ -77,6 +77,7 @@ const ProfileLayout: React.FC<ProfileMenuProps> = ({ initialUser }) => {
 
         // log the updated session
         console.log('Session after update:', updatedSession);
+        await fetch("/api/auth/session?update");
       } else {
         console.error("Failed to update profile");
       }
@@ -94,7 +95,7 @@ const ProfileLayout: React.FC<ProfileMenuProps> = ({ initialUser }) => {
         <div className="flex flex-col items-center justify-center">
           <div className="flex items-center">
             <div className="flex flex-col items-center mr-8">
-              <Avatar src={user.image} onSelect={isEditModalOpen ? setSelectedImage : undefined} selectedImage={selectedImage} />
+              <Avatar src={user.image} size={100} onSelect={isEditModalOpen ? setSelectedImage : undefined} selectedImage={selectedImage} />
               <h2 className="mt-4 font-semibold text-lg">{user?.name}</h2>
               <button
                 className="mt-2 px-4 py-2 text-sm text-white bg-blue-500 rounded hover:bg-blue-600 shadow-xl"

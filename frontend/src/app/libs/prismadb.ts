@@ -1,4 +1,5 @@
 import { PrismaClient } from "@prisma/client";
+require('dotenv').config({ path: './frontend/.env.local' });
 
 declare global {
   var prisma: PrismaClient | undefined;
