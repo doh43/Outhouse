@@ -1,3 +1,4 @@
+// retrieves relevant data from the database related to the washrooms
 import { getServerSession } from "next-auth/next";
 require('dotenv').config({ path: './.env.local' });
 import { authOptions } from "../../../pages/api/auth/[...nextauth]";

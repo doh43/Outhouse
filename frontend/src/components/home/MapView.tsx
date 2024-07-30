@@ -1,6 +1,9 @@
+// this loads a Google map focused on Toronto and calls other functions to load public washrooms
 'use client';
 import React, { useEffect, useRef, useState } from 'react';
 import { Loader } from '@googlemaps/js-api-loader';
+import ReactDOMServer from 'react-dom/server';
+import InfoWindowContent from '@/components/home/InfoWindowContent';
 
 interface Washroom {
   name: string;
@@ -13,6 +16,7 @@ interface Washroom {
 export function MapView() {
   const mapRef = useRef<HTMLDivElement>(null);
   const [washrooms, setWashrooms] = useState<Washroom[]>([]);
+  const currentInfoWindowRef = useRef<google.maps.InfoWindow | null>(null);
 
   useEffect(() => {
     const fetchWashrooms = async () => {
@@ -62,6 +66,7 @@ export function MapView() {
 
       const map = new google.maps.Map(mapRef.current, mapOptions);
 
+      // creating the marker for the washrooms
       washrooms.forEach((washroom) => {
         const image = document.createElement('img');
         image.src = '/toilet.png';
@@ -83,24 +88,29 @@ export function MapView() {
         ? (washroom.ratings.reduce((acc, rating) => acc + rating.averageRating, 0) / washroom.ratings.length).toFixed(1) 
         : 'N/A';
 
-        const infoWindowContent = `
-            <div>
-              <h3 className="text-lg font-bold mb-2">${washroom.name}</h3>
-              <p className="text-base mb-2">${washroom.description}</p>
-              <p className="text-base mb-2>${washroom.address}</p>
-              <p className="text-base">Average Rating: ${averageRating}</p>
-            </div>
-          `;
+        const infoWindowContent = ReactDOMServer.renderToString(
+          <InfoWindowContent
+            name={washroom.name}
+            description={washroom.description}
+            averageRating={parseFloat(averageRating)}
+            coordinates={washroom.coordinates}
+          />
+        );
 
           const infoWindow = new google.maps.InfoWindow({
             content: infoWindowContent,
           });
 
-        marker.addListener('click', () => {
-          infoWindow.open(map, marker);
+          // won't allow for more than 2 info windows to be open at a time
+          marker.addListener('click', () => {
+            if (currentInfoWindowRef.current) {
+              currentInfoWindowRef.current.close();
+            }
+            infoWindow.open(map, marker);
+            currentInfoWindowRef.current = infoWindow;
+          });
         });
-      });
-    };
+      };
 
     initMap();
   }, [washrooms]); 

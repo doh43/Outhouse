@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.stars {
+    display: flex;
+    align-items: center;
+  }
+  
+  .star {
+    font-size: 20px;
+    color: gold;
+    margin-right: 2px;
+  }
+  
+  .star.half {
+    position: relative;
+    color: transparent;
+  }
+  
+  .star.half::before {
+    content: '\2605'; /* Unicode star character */
+    position: absolute;
+    color: gold;
+    width: 50%;
+    overflow: hidden;
+  }
+  
+  .star.empty {
+    color: #ddd;
+  }
+  
