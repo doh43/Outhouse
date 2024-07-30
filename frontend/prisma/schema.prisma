@@ -64,7 +64,6 @@ model Washroom {
   id         String    @id @default(auto()) @map("_id") @db.ObjectId
   name       String
   descripton String
-  imageSrc String
   locationId String    @db.ObjectId @unique
   ratings    Rating[]
 
@@ -73,7 +72,7 @@ model Washroom {
 
 model Location {
   id        String   @id @default(auto()) @map("_id") @db.ObjectId
-  address   String?  @unique // Optionally index address if important for queries
+  address   String?  // Optionally index address if important for queries
   geometry  Geometry?
 
   washroom Washroom?
