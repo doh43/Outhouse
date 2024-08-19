@@ -6,6 +6,7 @@ import ReactDOMServer from 'react-dom/server';
 import InfoWindowContent from '@/components/home/InfoWindowContent';
 
 interface Washroom {
+  id: string;
   name: string;
   description: string;
   ratings: any[];
@@ -90,6 +91,7 @@ export function MapView() {
 
         const infoWindowContent = ReactDOMServer.renderToString(
           <InfoWindowContent
+            id={washroom.id}
             name={washroom.name}
             description={washroom.description}
             averageRating={parseFloat(averageRating)}

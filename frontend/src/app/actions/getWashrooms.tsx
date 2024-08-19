@@ -51,6 +51,7 @@ export default async function getWashrooms() {
     // console.log('Fetched washrooms from DB:', washrooms); 
 
     const formattedWashrooms = washrooms.map(washroom => ({
+      id: washroom.id,
       name: washroom.name,
       description: washroom.descripton,
       ratings: washroom.ratings,
